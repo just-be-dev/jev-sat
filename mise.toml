@@ -1,0 +1,16 @@
+[tools]
+bun = "1.4.2"
+
+[settings]
+experimental = true
+pin = true
+
+[hooks]
+postinstall = "bun install"
+
+[env]
+_.path = "node_modules/.bin"
+
+[tasks.typecheck]
+description = "Type-check the project"
+run = "bun run typecheck"
