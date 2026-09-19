@@ -37,4 +37,6 @@ The extractor validates all 120 answer explanations and emits the 106 questions 
 bun run deploy
 ```
 
-This creates a Cloudflare Worker, uploads `public/` as static assets, and binds Workers AI as `env.AI`. No TypeSafe API key is needed. Destroy the Alchemy-managed stack with `bun run destroy`.
+This creates a Cloudflare Worker, uploads `public/` as static assets, binds Workers AI as `env.AI`, and protects the Worker and its preview URLs with Cloudflare Access. The Access policy allows members of the Cloudflare account and issues 24-hour sessions. No TypeSafe API key is needed.
+
+Destroy the Alchemy-managed stack with `bun run destroy`.
