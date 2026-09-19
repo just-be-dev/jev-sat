@@ -271,10 +271,9 @@ async function startRun() {
   setConnection("Replaying", "live")
 
   try {
-    const response = await fetch("/api/run", {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({ practiceTest: Number(elements.practiceTest.value) }),
+    const practiceTest = Number(elements.practiceTest.value)
+    const run = Math.floor(Math.random() * 5) + 1
+    const response = await fetch(`/api/run?practiceTest=${practiceTest}&run=${run}`, {
       signal: controller.signal,
     })
     if (!response.ok) throw new Error(`Run request failed (${response.status})`)

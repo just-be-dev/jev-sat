@@ -46,6 +46,6 @@ Existing files are skipped to prevent accidental repeat charges. Delete the run 
 bun run deploy
 ```
 
-This creates a Cloudflare Worker, uploads `public/` as static assets, and protects the Worker and its preview URLs with Cloudflare Access. The production Worker has no Workers AI binding.
+This creates a public Cloudflare Worker, uploads `public/` as static assets, and enables Workers Cache for the stable test and prerecorded-run API responses. The production Worker has no Workers AI binding.
 
 Destroy the Alchemy-managed stack with `bun run destroy`.

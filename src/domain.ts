@@ -9,6 +9,9 @@ export type Subject = typeof Subject.Type
 export const PracticeTest = Schema.Literals([4, 5, 6, 7, 8, 9, 10, 11])
 export type PracticeTest = typeof PracticeTest.Type
 
+export const RunNumber = Schema.Literals([1, 2, 3, 4, 5])
+export type RunNumber = typeof RunNumber.Type
+
 export class SatQuestion extends Schema.Class<SatQuestion>("SatQuestion")({
   id: Schema.String,
   subject: Subject,
@@ -27,6 +30,7 @@ export class SatQuestion extends Schema.Class<SatQuestion>("SatQuestion")({
 
 export const RunRequest = Schema.Struct({
   practiceTest: PracticeTest,
+  run: RunNumber,
 })
 
 export class StartedEvent extends Schema.TaggedClass<StartedEvent>()("started", {

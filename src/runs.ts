@@ -39,7 +39,7 @@ import test11Run2 from "../resources/runs/sat-practice-test-11-run-2.json" with 
 import test11Run3 from "../resources/runs/sat-practice-test-11-run-3.json" with { type: "json" }
 import test11Run4 from "../resources/runs/sat-practice-test-11-run-4.json" with { type: "json" }
 import test11Run5 from "../resources/runs/sat-practice-test-11-run-5.json" with { type: "json" }
-import { RunEvent, type PracticeTest, type RunEvent as RunEventType } from "./domain.ts"
+import { RunEvent, type PracticeTest, type RunEvent as RunEventType, type RunNumber } from "./domain.ts"
 
 const decodeRun = Schema.decodeUnknownSync(Schema.Array(RunEvent))
 
@@ -57,7 +57,7 @@ const runsByPracticeTest: Readonly<Record<PracticeTest, ReadonlyArray<ReadonlyAr
 export const runsForPracticeTest = (practiceTest: PracticeTest): ReadonlyArray<ReadonlyArray<RunEventType>> =>
   runsByPracticeTest[practiceTest]
 
-export const randomRunForPracticeTest = (practiceTest: PracticeTest): ReadonlyArray<RunEventType> => {
-  const runs = runsForPracticeTest(practiceTest)
-  return runs[Math.floor(Math.random() * runs.length)]!
-}
+export const runForPracticeTest = (
+  practiceTest: PracticeTest,
+  run: RunNumber,
+): ReadonlyArray<RunEventType> => runsForPracticeTest(practiceTest)[run - 1]!

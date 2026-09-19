@@ -5,16 +5,8 @@ import { Effect } from "effect"
 export const Worker = Cloudflare.Worker("JevSatWorker", {
   name: "jev-sat",
   main: "./src/worker.ts",
-  access: {
-    name: "Jev SAT",
-    sessionDuration: "24h",
-    policies: [
-      {
-        name: "Cloudflare account members",
-        decision: "allow",
-        include: [{ cloudflareAccountMember: {} }],
-      },
-    ],
+  cache: {
+    enabled: true,
   },
   assets: {
     directory: "./public",

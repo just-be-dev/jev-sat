@@ -10,27 +10,23 @@ describe("SAT replay API", () => {
     }
 
     expect(response.status).toBe(200)
+    expect(response.headers.get("cache-control")).toBe("public, max-age=3600, stale-while-revalidate=86400")
     expect(body.practiceTest).toBe(11)
     expect(body.questions).toHaveLength(106)
     expect(body.questions.every((question) => !("answer" in question))).toBe(true)
   })
 
-  it("returns one prerecorded complete run and rejects unknown tests", async() => {
-    const response = await worker.fetch(new Request("https://example.com/api/run", {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({ practiceTest: 8 }),
-    }))
-    const run = await response.json() as ReadonlyArray<{ readonly _tag: string }>
+  it("returns one stable, cacheable prerecorded run and rejects unknown runs", async() => {
+    const response = await worker.fetch(new Request("https://example.com/api/run?practiceTest=8&run=4"))
+    const events = await response.json() as ReadonlyArray<{ readonly _tag: string; readonly correct?: number }>
 
     expect(response.status).toBe(200)
-    expect(run[0]?._tag).toBe("started")
-    expect(run.at(-1)?._tag).toBe("completed")
+    expect(response.headers.get("cache-control")).toBe("public, max-age=3600, stale-while-revalidate=86400")
+    expect(events[0]?._tag).toBe("started")
+    expect(events.at(-1)).toMatchObject({ _tag: "completed", correct: 86 })
 
-    const invalid = await worker.fetch(new Request("https://example.com/api/run", {
-      method: "POST",
-      body: JSON.stringify({ practiceTest: 12 }),
-    }))
+    const invalid = await worker.fetch(new Request("https://example.com/api/run?practiceTest=8&run=6"))
     expect(invalid.status).toBe(400)
+    expect(invalid.headers.get("cache-control")).toBe("no-store")
   })
 })
