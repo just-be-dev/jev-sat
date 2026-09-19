@@ -2,3 +2,4 @@ node_modules/
 .alchemy/
 .env
 dist/
+.amp/portals/*

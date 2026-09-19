@@ -1,0 +1,69 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+repo_root="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
+cd "$repo_root"
+
+# Keep user-level mise tools and hooks from affecting repository setup.
+export MISE_CONFIG_DIR="${XDG_CACHE_HOME:-$HOME/.cache}/amp/jev-sat-mise-config"
+
+run_step() {
+  local description="$1"
+  shift
+  local started=$SECONDS
+
+  printf '\n==> %s\n' "$description"
+  "$@"
+  printf '<== %s (%ss)\n' "$description" "$((SECONDS - started))"
+}
+
+install_poppler() {
+  if command -v pdftotext >/dev/null 2>&1; then
+    printf 'pdftotext is already installed\n'
+    return
+  fi
+
+  local -a elevate=()
+  if ((EUID != 0)); then
+    elevate=(sudo)
+  fi
+
+  "${elevate[@]}" apt-get update
+  "${elevate[@]}" env DEBIAN_FRONTEND=noninteractive \
+    apt-get install -y --no-install-recommends poppler-utils
+}
+
+install_project_dependencies() {
+  local marker="node_modules/.amp-orb-setup"
+  local fingerprint
+  fingerprint="$(
+    sha256sum package.json bun.lock mise.toml mise.lock .agents/setup |
+      sha256sum |
+      awk '{ print $1 }'
+  )"
+
+  if [[ -r "$marker" ]] &&
+    [[ "$(<"$marker")" == "$fingerprint" ]] &&
+    [[ -x node_modules/.bin/effect-tsgo ]] &&
+    [[ -x node_modules/.bin/tsc ]] &&
+    [[ -x node_modules/.bin/vitest ]]; then
+    printf 'Project dependencies are already installed\n'
+    return
+  fi
+
+  mise exec bun -- bun install --frozen-lockfile
+  printf '%s\n' "$fingerprint" >"$marker"
+}
+
+if ! command -v mise >/dev/null 2>&1; then
+  printf 'mise is required by this repository but is not installed\n' >&2
+  exit 1
+fi
+
+run_step "Install system dependencies" install_poppler
+run_step "Trust the repository tool configuration" \
+  mise trust --yes "$repo_root/mise.toml"
+run_step "Install the pinned Bun toolchain" mise --no-hooks install --locked bun
+run_step "Install project dependencies" install_project_dependencies
+
+printf '\nOrb setup complete.\n'
