@@ -1,0 +1,1456 @@
+■
+
+WX5P0113
+
+# 10
+
+*tJ*
+
+**Make time to take the practice test.** It is one of the best ways to get ready
+
+#### for the SAT.
+
+After you have taken the practice test, score it
+
+##### right away at sat.org/digital-practice.
+
+This version of the SAT Practice Test is for students who will be taking the digital SAT in nondigital format.
+
+6WSL04
+
+~
+
+##### Test begins on the next page.
+
+1 ---------~ The general store was essential to daily life in the rural United States during the 1800s because it provided the supplies that the people living in nearby communities needed. Also, the store was a _______ of information. People socializing at the general store would share news and help spread it throughout their communities.
+
+Which choice completes the text with the most logical and precise word or phrase?
+
+A) source
+B) rival
+C) condition
+D) waste
+......................................................................................................................................................................................................
+2 ---------~ For painter Jacob Lawrence, being _______ was an important part of the artistic process. Because he paid close attention to all the details of his Harlem neighborhood, Lawrence’s artwork captured nuances in the beauty and vitality of the Black experience during the Harlem Renaissance and the Great Migration.
+
+Which choice completes the text with the most logical and precise word or phrase?
+
+A) skeptical
+B) observant
+C) critical
+D) confident
+Unauthorized copying or reuse of any part of this page is illegal.
+
+Former astronaut Ellen Ochoa says that although she doesn’t have a definite idea of when it might happen, she _______ that humans will someday need to be able to live in other environments than those found on Earth. This conjecture informs her interest in future research missions to the moon.
+
+Which choice completes the text with the most logical and precise word or phrase?
+
+A) demands
+B) speculates
+C) doubts
+D) establishes
+4
+
+The parasitic dodder plant increases its reproductive success by flowering at the same time as the host plant it has latched onto. In 2020, Jianqiang Wu and his colleagues determined that the tiny dodder achieves this _______ with its host by absorbing and utilizing a protein the host produces when it is about to flower.
+
+Which choice completes the text with the most logical and precise word or phrase?
+
+A) synchronization
+B) hibernation
+C) prediction
+D) moderation
+...............................................................................................................................................................................................................................................................................................................
+5
+
+Barring major archaeological discoveries, we are unlikely to ever have _______ account of ancient Egypt under the female pharaoh Hatshepsut, as much of the evidence of her reign was deliberately destroyed by her successors.
+
+Which choice completes the text with the most logical and precise word or phrase?
+
+A) an imaginative
+B) a superficial
+C) an exhaustive
+D) a questionable
+6
+
+Jazz tap is a dance form that was first developed in African American communities. Jazz tap was heavily influenced by jazz music, which became widely popular in the United States in the 1920s. Tap dancers were inspired by jazz music’s quick rhythms and by the way jazz musicians would make up melodies as they played. As jazz music continued to develop in the 1930s and 1940s, jazz tap evolved with it. Because of jazz music’s influence, jazz tap quickly developed into a dance form that was very different from earlier kinds of tap dance.
+
+Which choice best states the main purpose of the text?
+
+A) It explains why audiences prefer some kinds of music over others.
+B) It discusses the development of a dance form.
+C) It describes how to play a musical instrument.
+D) It emphasizes the popularity of a famous dancer.
+
+- 7-----~ The north celestial pole (NCP)—the fixed point around which stars in the Northern Hemisphere (including the Sun) appear to rotate—is discernible only at night. Inspired by the navigational strategies of some insects and birds, researchers devised a method for locating the NCP in daytime using skylight polarization, which occurs as atmospheric particles scatter sunlight. A polarimetric camera captures images of polarization patterns, which rotate as the Sun’s position in the sky changes; temporal variances across images can then be used to determine an observer’s latitude and bearing relative to the NCP. Which choice best describes the overall structure of the text?
+A) It illustrates how most navigational tools utilize the NCP, recounts how researchers discovered that certain animals are able to navigate without using the NCP, and then proposes that this discovery could be used to avoid problems in navigation associated with reliance on the NCP.
+B) It presents a celestial-based method of navigation, enumerates the comparative benefits of an alternative method used by certain animals that is based on an unrelated natural occurrence, and then indicates how researchers assessed the relative accuracy of the two methods.
+C) It explains how the NCP is typically located, emphasizes a key difference between how humans and certain animals use the NCP for navigation, and then suggests an alternative way of using the NCP to improve existing navigational instruments.
+D) It notes an obstacle to observing an astronomical phenomenon, mentions a navigational ability of certain animals that inspired a solution to that obstacle, and then explains how researchers used an optical device to mimic that ability.
+...............................................................................................................................................................................................................................................................................................................
+
+- 8-----~ The following text is adapted from Zora Neale Hurston’s 1921 short story “John Redding Goes to Sea.” John is a child who lives in a town in the woods. Perhaps ten-year-old John was puzzling to the folk there in the Florida woods for he was an imaginative child and fond of day-dreams. The St. John River flowed a scarce three hundred feet from his back door. On its banks at this point grow numerous palms, luxuriant magnolias and bay trees. On the bosom of the stream float millions of delicately colored hyacinths. <u>[John Redding] loved to wander down to the</u> <u>water’s edge, and, casting in dry twigs, watch</u> <u>them sail away down stream to Jacksonville, the</u> <u>sea, the wide world and [he] wanted to follow</u> <u>them.</u> Which choice best describes the function of the underlined sentence in the text as a whole?
+A) It provides an extended description of a location that John likes to visit.
+B) It reveals that some residents of John’s town are confused by his behavior.
+C) It illustrates the uniqueness of John’s imagination compared to the imaginations of other children.
+D) It suggests that John longs to experience a larger life outside the Florida woods.
+
+Astronomers are confident that the star Betelgeuse will eventually consume all the helium in its core and explode in a supernova. <u>They are much less</u> <u>confident, however, about when this will happen,</u> <u>since that depends on internal characteristics of</u> <u>Betelgeuse that are largely unknown.</u> Astrophysicist Sarafina El-Badry Nance and colleagues recently investigated whether acoustic waves in the star could be used to determine internal stellar states but concluded that this method could not sufficiently reveal Betelgeuse’s internal characteristics to allow its evolutionary state to be firmly fixed.
+
+Which choice best describes the function of the second sentence in the overall structure of the text?
+
+A) It describes a serious limitation of the method used by Nance and colleagues.
+B) It presents the central finding reported by Nance and colleagues.
+C) It identifies the problem that Nance and colleagues attempted to solve but did not.
+D) It explains how the work of Nance and colleagues was received by others in the field.
+...............................................................................................................................................................................................................................................................................................................
+10
+
+##### Text 1
+
+Astronomer Mark Holland and colleagues examined four white dwarfs—small, dense remnants of past stars—in order to determine the composition of exoplanets that used to orbit those stars. Studying wavelengths of light in the white dwarf atmospheres, the team reported that traces of elements such as lithium and sodium support the presence of exoplanets with continental crusts similar to Earth’s.
+
+##### Text 2
+
+Past studies of white dwarf atmospheres have concluded that certain exoplanets had continental crusts. Geologist Keith Putirka and astronomer Siyi Xu argue that those studies unduly emphasize atmospheric traces of lithium and other individual elements as signifiers of the types of rock found on Earth. The studies don’t adequately account for different minerals made up of various ratios of those elements, and the possibility of rock types not found on Earth that contain those minerals.
+
+Based on the texts, how would Putirka and Xu (Text 2) most likely characterize the conclusion presented in Text 1?
+
+A) As unexpected, because it was widely believed at the time that white dwarf exoplanets lack continental crusts
+B) As premature, because researchers have only just begun trying to determine what kinds of crusts white dwarf exoplanets had
+C) As questionable, because it rests on an incomplete consideration of potential sources of the elements detected in white dwarf atmospheres
+D) As puzzling, because it’s unusual to successfully detect lithium and sodium when analyzing wavelengths of light in white dwarf atmospheres
+
+The following text is from David Barclay Moore’s 2022 novel *Holler of the Fireflies*. The narrator has just arrived at summer camp, which is far away from his home.
+
+This place was different than I thought it would be. I’d never been somewhere like this before. I did feel scared, but also excited. ©2022 by David Barclay Moore
+
+According to the text, how does the narrator feel about being at summer camp?
+
+A) He feels overjoyed.
+B) He feels peaceful.
+C) He feels both scared and excited.
+D) He feels both angry and jealous.
+...............................................................................................................................................................................................................................................................................................................
+12
+
+The following text is adapted from Oscar Wilde’s 1891 novel *The Picture of Dorian Gray*. Dorian Gray is taking his first look at a portrait that Hallward has painted of him.
+
+Dorian passed listlessly in front of his picture and turned towards it. When he saw it he drew back, and his cheeks flushed for a moment with pleasure. A look of joy came into his eyes, as if he had recognized himself for the first time. He stood there motionless and in wonder, dimly conscious that Hallward was speaking to him, but not catching the meaning of his words. The sense of his own beauty came on him like a revelation. He had never felt it before.
+
+According to the text, what is true about Dorian?
+
+A) He wants to know Hallward’s opinion of the portrait.
+B) He is delighted by what he sees in the portrait.
+C) He prefers portraits to other types of paintings.
+D) He is uncertain of Hallward’s talent as an artist.
+
+Choctaw/Cherokee artist Jeffrey Gibson turns punching bags used by boxers into art by decorating them with beadwork and elements of Native dressmaking. These elements include leather fringe and jingles, the metal cones that cover the dresses worn in the jingle dance, a women’s dance of the Ojibwe people. Thus, Gibson combines an object commonly associated with masculinity (a punching bag) with art forms traditionally practiced by women in most Native communities (beadwork and dressmaking). In this way, he rejects the division of male and female gender roles.
+
+Which choice best describes Gibson’s approach to art, as presented in the text?
+
+A) He draws from traditional Native art forms to create his original works.
+B) He has been influenced by Native and non-Native artists equally.
+C) He finds inspiration from boxing in designing the dresses he makes.
+D) He rejects expectations about color and pattern when incorporating beadwork.
+...............................................................................................................................................................................................................................................................................................................
+14
+
+*O Pioneers!* is a 1913 novel by Willa Cather. In the novel, Cather portrays Alexandra Bergson as having a deep emotional connection to her natural surroundings: _______
+
+Which quotation from *O Pioneers!* most effectively illustrates the claim?
+
+A) “She had never known before how much the country meant to her. The chirping of the insects down in the long grass had been like the sweetest music. She had felt as if her heart were hiding down there, somewhere, with the quail and the plover and all the little wild things that crooned or buzzed in the sun. Under the long shaggy ridges, she felt the future stirring.”
+B) “Alexandra talked to the men about their crops and to the women about their poultry. She spent a whole day with one young farmer who had been away at school, and who was experimenting with a new kind of clover hay. She learned a great deal.”
+C) “Alexandra drove off alone. The rattle of her wagon was lost in the howling of the wind, but her lantern, held firmly between her feet, made a moving point of light along the highway, going deeper and deeper into the dark country.”
+D) “It was Alexandra who read the papers and followed the markets, and who learned by the mistakes of their neighbors. It was Alexandra who could always tell about what it had cost to fatten each steer, and who could guess the weight of a hog before it went on the scales closer than John Bergson [her father] himself.”
+
+The novelist Toni Morrison was the first Black woman to work as an editor at the publishing company Random House, from 1967 to 1983. A scholar asserts that one of Morrison’s likely aims during her time as an editor was to strengthen the presence of Black writers on the list of Random House’s published authors.
+
+Which finding, if true, would most strongly support the scholar’s claim?
+
+A) The percentage of authors published by Random House who were Black rose in the early 1970s and stabilized throughout the decade.
+B) Black authors who were interviewed in the 1980s and 1990s were highly likely to cite Toni Morrison’s novels as a principal influence on their work.
+C) The novels written by Toni Morrison that were published after 1983 sold significantly more copies and received wider critical acclaim than the novels she wrote that were published before 1983.
+D) Works that were edited by Toni Morrison during her time at Random House displayed stylistic characteristics that distinguished them from works that were not edited by Morrison.
+...............................................................................................................................................................................................................................................................................................................
+16
+
+Archaeologist Petra Vaiglova, anthropologist Xinyi Liu, and their colleagues investigated the domestication of farm animals in China during the Bronze Age (approximately 2000 to 1000 BCE). By analyzing the chemical composition of the bones of sheep, goats, and cattle from this era, the team determined that wild plants made up the bulk of sheep’s and goats’ diets, while the cattle’s diet consisted largely of millet, a crop cultivated by humans. The team concluded that cattle were likely raised closer to human settlements, whereas sheep and goats were allowed to roam farther away.
+
+Which finding, if true, would most strongly support the team’s conclusion?
+
+A) Analysis of the animal bones showed that the cattle’s diet also consisted of wheat, which humans widely cultivated in China during the Bronze Age.
+B) Further investigation of sheep and goat bones revealed that their diets consisted of small portions of millet as well.
+C) Cattle’s diets generally require larger amounts of food and a greater variety of nutrients than do sheep’s and goats’ diets.
+D) The diets of sheep, goats, and cattle were found to vary based on what the farmers in each Bronze Age settlement could grow.
+
+##### Module
+
+...............................................................................................................................................................................................................................................................................................................
+17 Which completion of the text is best supported by data in the graph? Average Survival of Fruit Flies following Infection A) *DptA* confers defense against *A. sicerae* regardless of the presence of *DptB*.
+
+##### -• ..,.., J---:i
+
+~
+
+B) *DptB* protects against only one bacteria species,
+##### 90-~whereas DptA protects against multiple species.
+
+#### 180\
+
+~ ")"\ C) *DptB* may have developed as a specific defense ~ 70 ')
+
+Q)60.
+against *A. sicerae*.
+.....
+Cl$
+....,
+'"' 50 D) defense against *A. sicerae* is strongest when both ~ 40 \~ *DptA* and *DptB* are present. >.· ., .E 30 ._, ;:I._, en 20•\ 10 •• **r"I**
+0-:::-. ....
+0 0 2 6 10
+
+Days after infection
+
+#### .............type A flies
+
+-**-tJ-**-type AB flies
+
+##### ···O·· type B flies
+
+In a study of the evolution of *DptA* and *DptB*—*Diptericin* genes encoding antimicrobial peptides that combat pathogens and foster beneficial microbes in fruit flies (*Drosophila*)—researchers assessed *Drosophila melanogaster* resistance to pathogenic infections by *Providencia rettgeri* and *Acetobacter sicerae*, bacteria common in the flies’ environments. Subjects included flies identified by mutations silencing *DptA*, *DptB*, or both *DptA* and *DptB* (termed types A, B, and AB, respectively). In conjunction with the observation that resistance to
+
+*P. rettgeri* correlates with *DptA* activity but is not significantly affected by *DptB* activity, data in the graph of survival rates post–*A. sicerae* infection suggest that _______
+
+*Euphorbia esula* (leafy spurge) is a Eurasian plant that has become invasive in North America, where it displaces native vegetation and sickens cattle. *E. esula* can be controlled with chemical herbicides, but that approach can also kill harmless plants nearby. Recent research on introducing engineered DNA into plant species to inhibit their reproduction may offer a path toward exclusively targeting *E. esula*, consequently _______
+
+Which choice most logically completes the text?
+
+A) making individual *E. esula* plants more susceptible to existing chemical herbicides.
+B) enhancing the ecological benefits of *E. esula* in North America.
+C) enabling cattle to consume *E. esula* without becoming sick.
+D) reducing invasive *E. esula* numbers without harming other organisms.
+...............................................................................................................................................................................................................................................................................................................
+19
+
+A team of biologists led by Jae-Hoon Jung, Antonio
+
+D. Barbosa, and Stephanie Hutin investigated the mechanism that allows *Arabidopsis thaliana* (thale cress) plants to accelerate flowering at high temperatures. They replaced the protein ELF3 in the plants with a similar protein found in another species (stiff brome) that, unlike *A. thaliana*, displays no acceleration in flowering with increased temperature. A comparison of unmodified *A. thaliana* plants with the altered plants showed no difference in flowering at 22° Celsius, but at 27° Celsius, the unmodified plants exhibited accelerated flowering while the altered ones did not, which suggests that _______ Which choice most logically completes the text?
+A) temperature-sensitive accelerated flowering is unique to *A. thaliana*.
+B) *A. thaliana* increases ELF3 production as temperatures rise.
+C) ELF3 enables *A. thaliana* to respond to increased temperatures.
+D) temperatures of at least 22° Celsius are required for *A. thaliana* to flower.
+20
+
+The Alvarez theory, developed in 1980 by physicist Luis Walter Alvarez and his geologist son Walter Alvarez, maintained that the secondary effects of an asteroid impact caused many dinosaurs and other animals to die _______ it left unexplored the question of whether unrelated volcanic activity might have also contributed to the mass extinctions.
+
+Which choice completes the text so that it conforms to the conventions of Standard English?
+
+A) out but
+B) out, but
+C) out
+D) out,
+
+Typically, underlines, scribbles, and notes left in the margins by a former owner lower a book’s _______ when the former owner is a famous poet like Walt Whitman, such markings, known as marginalia, can be a gold mine to literary scholars.
+
+Which choice completes the text so that it conforms to the conventions of Standard English?
+
+A) value, but
+B) value
+C) value,
+D) value but
+22
+
+In winter, the diets of Japanese macaques, also known as snow monkeys, are influenced more by food availability than by food preference. Although the monkeys prefer to eat vegetation and land-dwelling invertebrates, those food sources may become unavailable because of extensive snow and ice cover, _______ the monkeys to hunt for marine animals in any streams that have not frozen over.
+
+Which choice completes the text so that it conforms to the conventions of Standard English?
+
+A) forces
+B) to force
+C) forcing
+D) forced
+...............................................................................................................................................................................................................................................................................................................
+23
+
+While many video game creators strive to make their graphics ever more ______ others look to the past, developing titles with visuals inspired by the “8-bit” games of the 1980s and 1990s. (The term “8-bit” refers to a console whose processor could only handle eight bits of data at once.)
+
+Which choice completes the text so that it conforms to the conventions of Standard English?
+
+A) lifelike but
+B) lifelike
+C) lifelike,
+D) lifelike, but
+24
+
+Food and the sensation of taste are central to Monique Truong’s novels. In *The Book of Salt*, for example, the exiled character of Bình connects to his native Saigon through the food he prepares, while in *Bitter in the Mouth*, the character of Linda ______ a form of synesthesia whereby the words she hears evoke tastes.
+
+Which choice completes the text so that it conforms to the conventions of Standard English?
+
+A) experienced
+B) had experienced
+C) experiences
+D) will be experiencing
+
+Along with carbon dioxide concentration and temperature, light intensity affects the chemical reaction rate of _______ as light intensity increases, so does the rate at which the reactants (water and carbon dioxide) are converted into their products (glucose and oxygen).
+
+Which choice completes the text so that it conforms to the conventions of Standard English?
+
+A) photosynthesis and
+B) photosynthesis,
+C) photosynthesis:
+D) photosynthesis
+26
+
+In Marisol’s 1968 sculpture *Mi Mama y Yo*, gone are the types of pop culture references that made the Parisian-born Venezuelan American artist a star at the height of the pop art movement. In _______ place is a far more personal subject: a sculptural depiction of the artist as a young girl with her mother.
+
+Which choice completes the text so that it conforms to the conventions of Standard English?
+
+A) its
+B) they’re
+C) their
+D) it’s
+...............................................................................................................................................................................................................................................................................................................
+27
+
+The ghazal, a poetic form originating in seventh‑century Arabic poetry, has an intricate structure. The twentieth‑century Kashmiri American poet Agha Shahid Ali explains that each one of a ghazal’s couplets, while adhering to the patterns of rhyme (*qafia*) and refrain (*radif*) established in the poem’s opening lines (*matla*), _______ thematically and logically autonomous, resulting in a poem with “a stringently formal disunity.”
+
+Which choice completes the text so that it conforms to the conventions of Standard English?
+
+A) is
+B) were
+C) have been
+D) are
+28
+
+Organisms have evolved a number of surprising adaptations to ensure their survival in adverse conditions. Tadpole shrimp (*Triops longicaudatus*) embryos, ______ can pause development for over ten years during extended periods of drought.
+
+Which choice completes the text with the most logical transition?
+
+A) in contrast,
+B) for example,
+C) meanwhile,
+D) consequently,
+
+When Chinese director Chloé Zhao accepted the Oscar in 2021 for her film *Nomadland*, she made Academy Award history. _______ only one other woman, Kathryn Bigelow of the United States, had been named best director at the Oscars, making Zhao the second woman and the first Asian woman to win the award.
+
+Which choice completes the text with the most logical transition?
+
+A) As a result,
+B) Previously,
+C) However,
+D) Likewise,
+30
+
+If the formation of Earth’s mantle had been purely a product of core differentiation—whereby heavier elements sink toward the core and lighter elements rise—the upper mantle would be depleted of heavy siderophile elements. Siderophiles are much more abundant in the mantle than predicted in that model, however. _______ extraterrestrial material containing siderophiles, likely from asteroid or comet impacts, almost certainly accreted to Earth following core differentiation.
+
+Which choice completes the text with the most logical transition?
+
+A) That said,
+B) Hence,
+C) For example,
+D) Likewise,
+...............................................................................................................................................................................................................................................................................................................
+31
+
+While researching a topic, a student has taken the following notes:
+
+- In 2013, archaeologists studied cat bone fragments they had found in the ruins of Quanhucun, a Chinese farming village.
+- The fragments were estimated to be 5,300 years old.
+- A chemical analysis of the fragments revealed that the cats had consumed large amounts of grain.
+- The grain consumption is evidence that the Quanhucun cats may have been domesticated. The student wants to present the Quanhucun study and its conclusions. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) As part of a 2013 study of cat domestication, a chemical analysis was conducted on cat bone fragments found in Quanhucun, China.
+B) A 2013 analysis of cat bone fragments found in Quanhucun, China, suggests that cats there may have been domesticated 5,300 years ago.
+C) In 2013, archaeologists studied what cats in Quanhucun, China, had eaten more than 5,000 years ago.
+D) Cat bone fragments estimated to be 5,300 years old were found in Quanhucun, China, in 2013.
+
+While researching a topic, a student has taken the following notes:
+
+- Gaspar Enriquez is an artist.
+- He specializes in portraits of Mexican Americans.
+- A portrait is an artistic representation of a person.
+- Enriquez completed a painting of the sculptor Luis Jimenez in 2003.
+- He completed a drawing of the writer Rudolfo Anaya in 2016. The student wants to emphasize a difference between the two portraits. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) The portraits, or artistic representations, of Luis Jimenez and Rudolfo Anaya were both completed by Enriquez in the early 2000s.
+B) Enriquez has completed portraits of numerous Mexican Americans, including sculptor Luis Jimenez and writer Rudolfo Anaya.
+C) While both are by Enriquez, the 2003 portrait of Luis Jimenez is a painting, and the 2016 portrait of Rudolfo Anaya is a drawing.
+D) Luis Jimenez was a Mexican American sculptor, and Rudolfo Anaya was a Mexican American writer.
+...............................................................................................................................................................................................................................................
+33
+
+While researching a topic, a student has taken the following notes:
+
+- The Gullah are a group of African Americans who have lived in parts of the southeastern United States since the 18th century.
+- Gullah culture is influenced by West African and Central African traditions.
+- Louise Miller Cohen is a Gullah historian, storyteller, and preservationist.
+- She founded the Gullah Museum of Hilton Head Island, South Carolina, in 2003.
+- Vermelle Rodrigues is a Gullah historian, artist, and preservationist.
+- She founded the Gullah Museum of Georgetown, South Carolina, in 2003. The student wants to emphasize the duration and purpose of Cohen’s and Rodrigues’s work. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) At the Gullah Museums in Hilton Head Island and Georgetown, South Carolina, visitors can learn more about the Gullah people who have lived in the region for centuries.
+B) Louise Miller Cohen and Vermelle Rodrigues have worked to preserve the culture of the Gullah people, who have lived in the United States since the 18th century.
+C) Since 2003, Louise Miller Cohen and Vermelle Rodrigues have worked to preserve Gullah culture through their museums.
+D) Influenced by the traditions of West and Central Africa, Gullah culture developed in parts of the southeastern United States in the 18th century.
+#### STOP
+
+**If you finish before time is called, you may check your work on this module only.**
+
+##### Do not turn to any other module in the test.
+
+#### No Test Material On This Page
+
+1 ---------~ In the early 1800s, the Cherokee scholar Sequoyah created the first script, or writing system, for an Indigenous language in the United States. Because it represented the sounds of spoken Cherokee so accurately, his script was easy to learn and thus quickly achieved _______ use: by 1830, over 90 percent of the Cherokee people could read and write it.
+
+Which choice completes the text with the most logical and precise word or phrase?
+
+A) widespread
+B) careful
+C) unintended
+D) infrequent
+......................................................................................................................................................................................................
+2 ---------~ Researchers have struggled to pinpoint specific causes for hiccups, which happen when a person’s diaphragm contracts _______. However, neuroscientist Kimberley Whitehead has found that these uncontrollable contractions may play an important role in helping infants regulate their breathing.
+
+Which choice completes the text with the most logical and precise word or phrase?
+
+A) involuntarily
+B) beneficially
+C) strenuously
+D) smoothly
+
+The province of Xoconochco was situated on the Pacific coast, hundreds of kilometers southeast of Tenochtitlan, the capital of the Aztec Empire. Because Xoconochco’s location within the empire was so _______, cacao and other trade goods produced there could reach the capital only after a long overland journey.
+
+Which choice completes the text with the most logical and precise word or phrase?
+
+A) unobtrusive
+B) concealed
+C) approximate
+D) peripheral
+4
+
+Proposals to raise the age at which retirees begin receiving government transfers of funds are generally discussed in terms of the effects on transfer recipients, but Andria Smythe has argued that delaying such transfers could _______ wealth creation among working adults by lengthening the period in which they are providing financial support to their nonworking parents.
+
+Which choice completes the text with the most logical and precise word or phrase?
+
+A) stymie
+B) compound
+C) disparage
+D) outstrip
+...............................................................................................................................................................................................................................................................................................................
+5
+
+Political blogs with conspicuous ideological alignments became an integral component of US media in the early 2000s. While some commentators lauded this development, asserting that such blogs had a welcome transparency missing from traditional news, less _______ observers countered that such blogs tended to ideological extremes that exacerbated political polarization to problematic levels.
+
+Which choice completes the text with the most logical and precise word or phrase?
+
+A) sanguine
+B) recalcitrant
+C) misanthropic
+D) earnest
+
+The following text is adapted from Pam Muñoz Ryan’s 2020 novel *Mañanaland*. In the village where Max lives, there is an old fortress called La Reina. Children in the village say that the fortress is haunted.
+
+For as long as he could remember, Max had begged Papá [his father] to take him to see La Reina and the ruins up close. He’d be a hero among his friends if he was the first boy to cross the haunted gates! Just because Papá didn’t believe in ghosts didn’t mean they weren’t there. Maybe this summer Papá would finally take him. He *was* almost twelve. ©2020 by Pam Muñoz Ryan
+
+Which choice best describes the overall purpose of the text?
+
+A) To portray how proud Max’s father is of Max
+B) To explain why Max doesn’t want to grow up yet
+C) To criticize Max for disliking summer
+D) To show how much Max wants to visit La Reina
+...............................................................................................................................................................................................................................................................................................................
+7
+
+The following text is adapted from George Bernard Shaw’s 1912 play *Pygmalion*. Henry Higgins has just arrived at the house of his mother (Mrs. Higgins). She is expecting her friends to visit soon.
+
+MRS. HIGGINS: I’m serious, Henry. You offend all my friends: they stop coming whenever they meet you.
+
+HIGGINS: Nonsense! I know I have no small talk; but people don’t mind.
+
+MRS. HIGGINS: Oh! don’t they? Small talk indeed! What about your large talk? Really, dear, you mustn’t stay.
+
+Which choice best states the main purpose of the text?
+
+A) To describe what Henry’s mother does when she goes out with her friends
+B) To show that Henry’s mother wants him to leave
+C) To present a detailed account of what Henry’s home looks like
+D) To explain why Henry often visits his mother
+
+The following text is from Charlotte Forten Grimké’s 1888 poem “At Newport.”
+
+Oh, deep delight to watch the gladsome waves Exultant leap upon the rugged rocks; <u>Ever repulsed, yet ever rushing on—</u> <u>Filled with a life that will not know defeat;</u> To see the glorious hues of sky and sea. The distant snowy sails, glide spirit like, Into an unknown world, to feel the sweet Enchantment of the sea thrill all the soul, Clearing the clouded brain, making the heart Leap joyous as it own bright, singing waves!
+
+Which choice best describes the function of the underlined portion in the text as a whole?
+
+A) It portrays the surroundings as an imposing and intimidating scene.
+B) It characterizes the sea’s waves as a relentless and enduring force.
+C) It conveys the speaker’s ambivalence about the natural world.
+D) It draws a contrast between the sea’s waves and the speaker’s thoughts.
+...............................................................................................................................................................................................................................................................................................................
+9
+
+Believing that living in an impractical space can heighten awareness and even improve health, conceptual artists Madeline Gins and Shusaku Arakawa designed an apartment building in Japan to be more fanciful than functional. A kitchen counter is chest-high on one side and knee-high on the other; a ceiling has a door to nowhere. The effect is disorienting but invigorating: after four years there, filmmaker Nobu Yamaoka reported significant health benefits.
+
+Which choice best states the main idea of the text?
+
+A) Although inhabiting a home surrounded by fanciful features such as those designed by Gins and Arakawa can be rejuvenating, it is unsustainable.
+B) Designing disorienting spaces like those in the Gins and Arakawa building is the most effective way to create a physically stimulating environment.
+C) As a filmmaker, Yamaoka has long supported the designs of conceptual artists such as Gins and Arakawa.
+D) Although impractical, the design of the apartment building by Gins and Arakawa may improve the well-being of the building’s residents.
+
+...............................................................................................................................................................................................................................................................................................................
+10 11 ---
+
+#### ---------~
+
+|The following text is adapted from Lewis Carroll’s|Top Four Species of Wild Land|
+|---|---|
+|1889 satirical novel Sylvie and Bruno. A crowd has gathered outside a room belonging to the Warden,|Mammals by Global Biomass|
+|an official who reports to the Lord Chancellor.|3.0|
+
+One man, who was more excited than the rest, flung his hat high into the air, and shouted (as well as I could make out) “Who roar for the Sub-Warden?” Everybody roared, but whether it was for the Sub-Warden, or not, did not clearly appear: some were shouting “Bread!” and some “Taxes!”, but no one seemed to know what it was they really wanted.
+
+All this I saw from the open window of the Warden’s breakfast-saloon, looking across the shoulder of the Lord Chancellor.
+
+“What can it all mean?” he kept repeating to himself. “I never heard such shouting before—and at this time of the morning, too! And with such unanimity!”
+
+Based on the text, how does the Lord Chancellor respond to the crowd?
+
+A) He asks about the meaning of the crowd’s shouting, even though he claims to know what the crowd wants.
+B) He indicates a desire to speak to the crowd, even though the crowd has asked to speak to the Sub-Warden.
+C) He expresses sympathy for the crowd’s demands, even though the crowd’s shouting annoys him.
+D) He describes the crowd as being united, even though the crowd clearly appears otherwise.
+VJ-,------------- *Q* j 2.5-+-----------, 1:;:l"v,
+
+#### E § 2.0 +-----------,
+
+VJ .., ~ -~ 1 5-+---------; S b 0 QJ • ·-S 10
+
+..0 <.+-. • ,;l 0 -8 0.5 G
+##### I □ species
+
+Global biomass is the total mass of living material, such as animals and plants, on Earth. A team of scientists estimated the global biomass, by species, of various wild land mammals. The team found that the species with the highest global biomass is the _______
+
+Which choice most effectively uses data from the graph to complete the sentence?
+
+A) wild boar.
+B) eastern gray kangaroo.
+C) African bush elephant.
+D) white-tailed deer.
+
+Number and Origin of Clamshell Tools Found at Different Levels Below the Surface in Neanderthal Cave Depth of tools found below Clamshells that Neanderthals Clamshells that Neanderthals surface in cave (meters) collected from the beach harvested from the seafloor
+
+|surface in cave (meters)||collected from the beach||harvested from the seafloor||
+|---|---|---|---|---|---|
+||3–4||99||33|
+||6–7||1||0|
+||4–5||2||0|
+||2–3||7||0|
+||5–6||18||7|
+
+Studying tools unearthed at a cave site on the western coast of Italy, archaeologist Paola Villa and colleagues have determined that prehistoric Neanderthal groups fashioned them from shells of clams that they harvested from the seafloor while wading or diving or that washed up on the beach. Clamshells become thin and eroded as they wash up on the beach, while those on the seafloor are smooth and sturdy, so the research team suspects that Neanderthals prized the tools made with seafloor shells. However, the team also concluded that those tools were likely more challenging to obtain, noting that ______
+
+Which choice most effectively uses data from the table to support the research team’s conclusion?
+
+A) at each depth below the surface in the cave, the difference in the numbers of tools of each type suggests that shells were easier to collect from the beach than to harvest from the seafloor.
+B) the highest number of tools were at a depth of 3–4 meters below the surface, which suggests that the Neanderthal population at the site was highest during the related period of time.
+C) at each depth below the surface in the cave, the difference in the numbers of tools of each type suggests that Neanderthals preferred to use clamshells from the beach because of their durability.
+D) the higher number of tools at depths of 5–6 meters below the surface in the cave than at depths of 4–5 meters below the surface suggests that the size of clam populations changed over time.
+
+##### Module
+
+...............................................................................................................................................................................................................................................................................................................
+13 Which choice best describes data from the graph that support Taylor and colleagues’ conclusion?
+
+A) Both the ETL applied through spin coating and the ETL applied through spray coating showed a power conversion efficiency greater than 10% at their lowest performing thickness.
+#### 18~------------- 16--i---------, B) The lowest performing ETL applied through
+
+|14|spray coating had a higher power conversion|
+|---|---|
+|12|efficiency than the highest performing ETL|
+|10|applied through spin coating.|
+|8 6|C) The highest performing ETL applied through|
+|4|spray coating showed a power conversion|
+|2|efficiency of approximately 13%, while the|
+
+#### o~-~-highest performing ETL applied through spin
+
+coating showed a power conversion efficiency of approximately 11%.
+
+D) There was a substantial difference in power conversion efficiency between the lowest and highest performing ETLs applied through spray
+##### Thickness coating.
+
+##### I □ spray coating ■ spin coating
+
+Perovskite solar cells convert light into electricity more efficiently than earlier kinds of solar cells, and manufacturing advances have recently made them commercially attractive. One limitation of the cells, however, has to do with their electron transport layer (ETL), through which absorbed electrons must pass. Often the ETL is applied through a process called spin coating, but such ETLs are fairly inefficient at converting input power to output power. André Taylor and colleagues tested a novel spray coating method for applying the ETL. The team produced ETLs of various thicknesses and concluded that spray coating holds promise for improving the power conversion efficiency of ETLs in perovskite solar cells.
+
+Employment by Sector in France and the United States, 1800–2012 (% of total employment)
+
+|Year|Agriculture in France|Manufacturing in France|Services in France|Agriculture in US|Manufacturing in US|Services in US|
+|---|---|---|---|---|---|---|
+|1800|64|22|14|68|18|13|
+|1900|43|29|28|41|28|31|
+|1950|32|33|35|14|33|53|
+|2012|3|21|76|2|18|80|
+
+Rows in table may not add up to 100 due to rounding.
+
+Over the past two hundred years, the percentage of the population employed in the agricultural sector has declined in both France and the United States, while employment in the service sector (which includes jobs in retail, consulting, real estate, etc.) has risen. However, this transition happened at very different rates in the two countries. This can be seen most clearly by comparing the employment by sector in both countries in _______
+
+Which choice most effectively uses data from the table to complete the statement?
+
+A) 1900 with the employment by sector in 1950.
+B) 1800 with the employment by sector in 2012.
+C) 1900 with the employment by sector in 2012.
+D) 1800 with the employment by sector in 1900.
+
+The linguistic niche hypothesis (LNH) posits that the exotericity of languages (how prevalent non-native speakers are) and grammatical complexity are inversely related, which the LNH ascribes to attrition of complex grammatical rules as more non-native speakers adopt the language but fail to acquire those rules. Focusing on two characteristics that are positive indices of grammatical complexity, fusion (when new phonemes arise from the merger of previously distinct ones) and informativity (languages’ capacity for meaningful variation), Olena Shcherbakova and colleagues conducted a quantitative analysis for more than 1,300 languages and claim the outcome is inconsistent with the LNH.
+
+Which finding, if true, would most directly support Shcherbakova and colleagues’ claim?
+
+A) Shcherbakova and colleagues’ analysis showed a slightly negative correlation between grammatical complexity and fusion and between grammatical complexity and informativity.
+B) Shcherbakova and colleagues’ analysis showed a slightly negative correlation between grammatical complexity and exotericity.
+C) Shcherbakova and colleagues’ analysis showed a slightly positive correlation between grammatical complexity and fusion.
+D) Shcherbakova and colleagues’ analysis showed a slightly positive correlation between fusion and exotericity and between informativity and exotericity.
+...............................................................................................................................................................................................................................................................................................................
+16
+
+Archaeologist Christiana Kohler and her team excavated the Egyptian tomb of Queen Merneith, the wife of a First Dynasty pharaoh. Some scholars claim that she also ruled Egypt on her own and was actually the first female pharaoh. The team found a tablet in Merneith’s tomb with writing suggesting that she was in charge of the country’s treasury and other central offices. Whether Merneith was a pharaoh or not, this discovery supports the idea that Merneith likely _______
+
+Which choice most logically completes the text?
+
+A) had an important role in Egypt’s government.
+B) lived after rather than before the First Dynasty of Egypt.
+C) traveled beyond Egypt’s borders often.
+D) created a new form of writing in Egypt.
+17
+
+In a study of the cognitive abilities of white-faced capuchin monkeys (*Cebus imitator*), researchers neglected to control for the physical difficulty of the tasks they used to evaluate the monkeys. The cognitive abilities of monkeys given problems requiring little dexterity, such as sliding a panel to retrieve food, were judged by the same criteria as were those of monkeys given physically demanding problems, such as unscrewing a bottle and inserting a straw. The results of the study, therefore, ______
+
+Which choice most logically completes the text?
+
+A) could suggest that there are differences in cognitive ability among the monkeys even though such differences may not actually exist.
+B) are useful for identifying tasks that the monkeys lack the cognitive capacity to perform but not for identifying tasks that the monkeys can perform.
+C) should not be taken as indicative of the cognitive abilities of any monkey species other than
+*C. imitator*.
+D) reveal more about the monkeys’ cognitive abilities when solving artificial problems than when solving problems encountered in the wild.
+
+Public-awareness campaigns about the need to reduce single-use plastics can be successful, says researcher Kim Borg of Monash University in Australia, when these campaigns give consumers a choice: for example, Japan achieved a 40 percent reduction in plastic-bag use after cashiers were instructed to ask customers whether _______ wanted a bag.
+
+Which choice completes the text so that it conforms to the conventions of Standard English?
+
+A) they
+B) one
+C) you
+D) it
+- 19
+
+#### ~------
+
+Lucía Michel of the University of Chile observed that alkaline soils contain an insoluble form of iron that blueberry plants cannot absorb, thus inhibiting blueberry growth. If these plants were grown in alkaline soil alongside grasses that aid in iron solubilization, _______ Michel was determined to find out.
+
+Which choice completes the text so that it conforms to the conventions of Standard English?
+
+A) could the blueberries thrive.
+B) the blueberries could thrive.
+C) the blueberries could thrive?
+D) could the blueberries thrive?
+...............................................................................................................................................................................................................................................................................................................
+20
+
+Atoms in a synchrotron, a type of circular particle accelerator, travel faster and faster until they ______ a desired energy level, at which point they are diverted to collide with a target, smashing the atoms.
+
+Which choice completes the text so that it conforms to the conventions of Standard English?
+
+A) will reach
+B) reach
+C) had reached
+D) are reaching
+21
+
+In his 1963 exhibition *Exposition of Music—* *Electronic Television*, Korean American artist Nam June Paik showed how television images could be manipulated to express an artist’s perspective. Today, Paik _______ considered the first video artist.
+
+Which choice completes the text so that it conforms to the conventions of Standard English?
+
+A) will be
+B) had been
+C) was
+D) is
+22 -------- Former First Lady of the United States Eleanor Roosevelt and Indian activist and educator Hansa Mehta were instrumental in drafting the United Nations’ Universal Declaration of Human Rights, a document that ______ the basic freedoms to which all people are entitled.
+
+Which choice completes the text so that it conforms to the conventions of Standard English?
+
+A) have outlined
+B) were outlining
+C) outlines
+D) outline
+
+In February 1919, following the end of the First World War, women from ten countries around the world convened the Inter-Allied Women’s Conference in Paris. The conference’s goals were _______ ensure women’s participation in the proceedings of the Paris Peace Conference, to secure the right of women to serve in the League of Nations, and to advocate for human rights.
+
+Which choice completes the text so that it conforms to the conventions of Standard English?
+
+A) threefold: to
+B) threefold. To
+C) threefold to
+D) threefold; to
+24
+
+Mathematician Grigori Perelman, sometimes in conjunction with mathematicians Richard S. Hamilton and Shing-Tung Yau, _______ credited with proving the Poincaré conjecture. Having built on Hamilton’s previous work to solve the proof, Perelman has insisted that Hamilton receive credit. Yau later found and closed gaps in Perelman’s proof, persuading some mathematicians that he deserves credit as well.
+
+Which choice completes the text so that it conforms to the conventions of Standard English?
+
+A) are
+B) have been
+C) are being
+D) is
+...............................................................................................................................................................................................................................................................................................................
+25
+
+Researchers studying magnetosensation have determined why some soil-dwelling roundworms in the Southern Hemisphere move in the opposite direction of Earth’s magnetic field when searching for _______ in the Northern Hemisphere, the magnetic field points down, into the ground, but in the Southern Hemisphere, it points up, toward the surface and away from worms’ food sources.
+
+Which choice completes the text so that it conforms to the conventions of Standard English?
+
+A) food:
+B) food,
+C) food while
+D) food
+26
+
+Most conifers (trees belonging to the phylum Coniferophyta) are evergreen. That is, they keep their green leaves or needles year-round. However, not all conifer species are evergreen. Larch trees, _______ lose their needles every fall.
+
+Which choice completes the text with the most logical transition?
+
+A) for instance,
+B) nevertheless,
+C) meanwhile,
+D) in addition,
+
+Neuroscientist Karen Konkoly wanted to determine whether individuals can understand and respond to questions during REM sleep. She first taught volunteers eye movements they would use to respond to basic math problems while asleep (a single left-right eye movement indicated the number one). _______ she attached electrodes to the volunteers’ faces to record their eye movements during sleep.
+
+Which choice completes the text with the most logical transition?
+
+A) Specifically,
+B) Next,
+C) For instance,
+D) In sum,
+28
+
+In his 1925 book *The Morphology of Landscape*, US geographer Carl Sauer challenged prevailing views about how natural landscapes influence human cultures. _______ Sauer argued that instead of being shaped entirely by their natural surroundings, cultures play an active role in their own development by virtue of their interactions with the environment.
+
+Which choice completes the text with the most logical transition?
+
+A) Similarly,
+B) Finally,
+C) Therefore,
+D) Specifically,
+...............................................................................................................................................................................................................................................................................................................
+29
+
+In her 2012 analysis of tree rings from Japan’s Yaku Island, cosmic ray physicist Fusa Miyake noted an anomalous carbon-14 spike dating to 774–775 CE, indicating that a massive burst of radiation reached Earth during that time. _______ this unprecedented radiocarbon surge was dubbed a “Miyake event” in honor of its discoverer.
+
+Which choice completes the text with the most logical transition?
+
+A) Fittingly,
+B) Similarly,
+C) However,
+D) In other words,
+
+Researchers Helena Mihaljević-Brandt, Lucía Santamaría, and Marco Tullney report that while mathematicians may have traditionally worked alone, evidence points to a shift in the opposite direction. _______ mathematicians are choosing to collaborate with their peers—a trend illustrated by a rise in the number of mathematics publications credited to multiple authors.
+
+Which choice completes the text with the most logical transition?
+
+A) Similarly,
+B) For this reason,
+C) Furthermore,
+D) Increasingly,
+...............................................................................................................................................................................................................................................................................................................
+31
+
+While researching a topic, a student has taken the following notes:
+
+- Shaun Tan is an Australian author.
+- In 2008, he published *Tales from Outer Suburbia*, a book of fifteen short stories.
+- The stories describe surreal events occurring in otherwise ordinary suburban neighborhoods.
+- In 2018, he published *Tales from the Inner City*, a book of twenty-five short stories.
+- The stories describe surreal events occurring in otherwise ordinary urban settings. The student wants to emphasize a similarity between the two books by Shaun Tan. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Shaun Tan’s book *Tales from Outer Suburbia*, which describes surreal events occurring in otherwise ordinary places, contains fewer short stories than *Tales from the Inner City* does.
+B) *Tales from Outer Suburbia* was published in 2008, and *Tales from the Inner City* was published in 2018.
+C) Unlike *Tales from the Inner City*, Shaun Tan’s book *Tales from Outer Suburbia* is set in suburban neighborhoods.
+D) Shaun Tan’s books *Tales from Outer Suburbia* and *Tales from the Inner City* both describe surreal events occurring in otherwise ordinary places.
+
+While researching a topic, a student has taken the following notes:
+
+- Started in 1925, the Scripps National Spelling Bee is a US-based spelling competition.
+- The words used in the competition have diverse linguistic origins.
+- In 2008, Sameer Mishra won by correctly spelling the word “guerdon.”
+- “Guerdon” derives from the Anglo-French word “guerdun.”
+- In 2009, Kavya Shivashankar won by correctly spelling the word “Laodicean.”
+- “Laodicean” derives from the ancient Greek word “Laodíkeia.” The student wants to emphasize a difference in the origins of the two words. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) “Guerdon,” the final word of the 2008 Scripps National Spelling Bee, is of Anglo-French origin, while the following year’s final word, “Laodicean,” derives from ancient Greek.
+B) In 2008, Sameer Mishra won the Scripps National Spelling Bee by correctly spelling the word “guerdon”; however, the following year, Kavya Shivashankar won based on spelling the word “Laodicean.”
+C) Kavya Shivashankar won the 2009 Scripps National Spelling Bee by correctly spelling “Laodicean,” which derives from the ancient Greek word “Laodíkeia.”
+D) The Scripps National Spelling Bee uses words from diverse linguistic origins, such as “guerdon” and “Laodicean.”
+..........................................................................................................................................................................................................................................................
+33
+
+While researching a topic, a student has taken the following notes:
+
+- In 1851, German American artist Emanuel Leutze painted *Washington Crossing the Delaware*.
+- His huge painting (149 × 255 inches) depicts the first US president crossing a river with soldiers in the Revolutionary War.
+- In 2019, Cree artist Kent Monkman painted *mistikôsiwak (Wooden Boat People): Resurgence of* *the People*.
+- Monkman’s huge painting (132 × 264 inches) was inspired by Leutze’s.
+- It portrays Indigenous people in a boat rescuing refugees. The student wants to emphasize a similarity between the two paintings. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Monkman, a Cree artist, finished his painting in 2019; Leutze, a German American artist, completed his in 1851.
+B) Although Monkman’s painting was inspired by Leutze’s, the people and actions the two paintings portray are very different.
+C) Leutze’s and Monkman’s paintings are both huge, measuring 149 × 255 inches and 132 × 264 inches, respectively.
+D) Leutze’s painting depicts Revolutionary War soldiers, while Monkman’s depicts Indigenous people and refugees.
+#### STOP
+
+**If you finish before time is called, you may check your work on this module only.**
+
+##### Do not turn to any other module in the test.
+
+#### DIRECTIONS
+
+**,a-nH**
+
+#### NOTES
+
+##### Eli04ii1Ut31
+
+#### REFERENCE
+
+£ *x*
+
+#### CJw b~ ~ 0 '~45°
+
+G ~ *b a* *x--../3* *s*
+
+*A* =nr2 *A= Rw A =_!bh* c2 = a2 + b2 Special Right Triangles *C=2nr* 2
+
+***62h*** @ £4 £ *2 V* = i,.r3 *2* 1 *V= Rwh V= nr h V=½nr h V =* *3* *£wh* 3
+
+(7/2) or its decimal equivalent (3.5).
+
+- Don't include **symbols** such as a percent sign, comma, or dollar sign in your circled answer.
+
+#### ---------~
+
+The line graph shows the percent of cars for sale at a used car lot on a given day by model year.
+
+15%
+
+- ' - "' '"' '
+.....
+~ *I I* ' \. ' *I* ~ 5%' r:::
+
+Q) I:!
+Q)
+11..
+...............................................................................................................................................................................................................................................................................................................
+2 ----- *y*
+
+.. 6 ' ~ ~
+#### i ...\
+
+2
+r,.....
+1
+
+##### 6-5-4-3 ~,.._1 u 3 4 5 6
+
+*X* I" ' \
+
+·1 1 ' \ -~ 13 r-..
+..... \
+14'' 15 ~ !6 ~ ~ ~
+
+The graph of a system of linear equations is shown. What is the solution (*x y*,) to the system?
+
+A) (4, −5)
+B) (0, 3)
+C) (0, −2)
+D) (−2, 3)
+Model year
+
+For what model year is the percent of cars for sale the smallest?
+
+A) 2012
+B) 2013
+C) 2014
+D) 2015
+
+...............................................................................................................................................................................................................................................................................................................
+3
+
+The total cost, in dollars, to rent a surfboard consists of a $25 service fee and a $10 per hour rental fee. A person rents a surfboard for *t* hours and intends to spend a maximum of $75 to rent the surfboard. Which inequality represents this situation?
+
+A) 10*t* ≤ 75
+B) 10 + 25*t* ≤ 75
+C) 25*t* ≤ 75
+D) 25 + 10*t* ≤ 75
+
+##### 4\ I
+
+##### I,I
+
+~ \ j \ *I* *X* 6-4 -2 IU, 2 4 6 8 10
+
+#### \.) f ~
+
+~ I k
+
+The graph shown will be translated up 4 units. Which of the following will be the resulting graph?
+
+A) B)
+\ *I* ~, I *\.)* i
+
+\ *I* *X X*, *I* 6-4 -2IU2 4 6 8 10 6-4 -2 L1 2 6 8 10
+
+2 2 I I \ • *I* ~ ~ \*I* I I **1** I I \. *)*
+
+#### F F $ $
+
+C) *y* D) *y*
+*I*. \ *I* \ *I*
+
+#### ,~I~I
+
+I I *I*
+
+i i \ \ j • \ *I* \ *I* *X X* 6-4 -2 µ 2 4 6 8 10 6-4 -2 *u*2 4 6 8 10 \ *)2*\. ***j*** 2 I I ~ ~ I I
+
+*6 6* I I k k
+
+...............................................................................................................................................................................................................................................................................................................
+
+- 8<u>------~</u> The table gives the distribution of votes for a new school mascot and grade level for 80 students.
+Grade level
+
+- 5------~
+*s* = 40 + 3*t*
+
+The equation gives the speed *s*, in miles per hour, of a certain car *t* seconds after it began to accelerate. What is the speed, in miles per hour, of the car
+
+|Mascot|Sixth|Seventh|Eighth|Total|
+|---|---|---|---|---|
+|Badger|4|9|9|22|
+|Lion|9|2|9|20|
+|Longhorn|4|6|4|14|
+|Tiger|6|9|9|24|
+|Total|23|26|31|80|
+
+5 seconds after it began to accelerate?
+
+A) 40
+B) 43
+C) 45
+D) 55
+If one of these students is selected at random, what is the probability of selecting a student whose vote for new mascot was for a lion?
+
+A) 9 1
+B) 5 1
+C) 4 2
+D) 3
+- 6------~ The function *f* is defined by *f* (*x*) = *x*
+2 + *x* + 71.
+
+What is the value of *f*(2) ?
+
+- 7
+
+#### ------~
+
+An event planner is planning a party. It costs the event planner a onetime fee of $35 to rent the venue and $10.25 per attendee. The event planner has a budget of $300. What is the greatest number of attendees possible without exceeding the budget?
+
+- 9------~ Triangles *ABC* and *DEF* are congruent, where *A* corresponds to *D*, and *B* and *E* are right angles. The measure of angle *A* is 18°. What is the measure of angle *F*?
+A) 18°
+B) 72°
+C) 90°
+D) 162°
+
+...............................................................................................................................................................................................................................................................................................................
+10 13
+
+If 4*x* + 2 = 12, what is the value of 16*x* +8? 3 + 6 = 4 *x y* 3 + 4 = 2 *x y*
+
+A) 40
+B) 48 The solution to the given system of equations is
+C) 56 (*x y*,). What is the value of *y*?
+D) 60
+14
+
+|11||The function f is defined by|
+|---|---|---|
+|Which expression is equivalent to (m4q4z−1)(mq5z3),||f (x)=(x − 6)(x − 2)(x + 6). In the xy-plane, the|
+|where m, q, and z are positive?||graph of y = g(x) is the result of translating the graph of y = f (x) up 4 units. What is the value|
+|A) m q|z−3|of g(0) ?|
+
+4 20
+
+5 9 2
+
+B) *m q z* 6 8 −1
+C) *m q z* 20 12 −2
+D) *m q z*
+15
+
+||The function f w|() = 6w 2 gives the area of a|
+|---|---|---|
+||rectangle, in square feet (ft ) its length is 6 times its width. Which of the following||
+|12 An airplane descends from an altitude of 9,500 feet to|is the best interpretation of f (14) = 1,176 ?||
+|5,000 feet at a constant rate of 400 feet per minute.|A) If the width of the rectangle is 14 ft, then the area||
+|What type of function best models the relationship|of the rectangle is 1,176 ft2.||
+|between the descending airplane’s altitude and time?|B) If the width of the rectangle is 14 ft, then the||
+|A) Decreasing exponential|length of the rectangle is 1,176 ft.||
+|B) Decreasing linear|C) If the width of the rectangle is 1,176 ft, then the||
+|C) Increasing exponential|length of the rectangle is 14 ft. D) If the width of the rectangle is 1,176 ft, then the||
+
+2, if its width is *w* ft and
+
+D) Increasing linear
+2 area of the rectangle is 14 ft.
+
+The number of bacteria in a liquid medium doubles every day. There are 44,000 bacteria in the liquid medium at the start of an observation. Which of the following represents the number of bacteria, *y*, in the liquid medium *t* days after the start of the observation?
+
+1*t*
+
+A) *y* = (44,000) 2
+B) *y* = 2 44,000 ()
+*t*
+
+*t* æ 1 ö
+
+C) *y* = 44,000çç ÷÷
+èç 2 ø÷
+
+D) *y* = 44,000 2( )
+*t*
+
+...............................................................................................................................................................................................................................................................................................................
+18
+
+The function *h* is defined by *h x*( ) = 4 + 28 *x*. The graph of *y* = *h x*() in the *xy*-plane has an *x*-intercept at (, 0) *a* and a *y*-intercept at (0, )*b*, where *a* and *b* are constants. What is the value of *a* + *b*?
+
+A) 21
+B) 28
+C) 32
+D) 35
+
+||||x|y|
+|---|---|---|---|---|
+|17|x|h(x)|3 5|17 27|
+||0 2|1.23 1.54|7 x|37 y|
+||4|1.94|3|17|
+||||5|35|
+|The table shows the exponential relationship between the number of years, x, since Hana started|||7|37|
+|training in pole vault, and the estimated height h x|||x|y|
+|in meters, of her best pole vault for that year. Which|||3|25|
+|of the following functions best represents this|||5|35|
+|relationship, where x ≤ 4 ?|||7|45|
+|A) h x ( ) = 1.12 0.23|()x||x|y|
+|B) h x ( ) = 1.12 1.23|()x||3|21|
+||||5|31|
+|C) h x ( ) = 1.23 0.12|()x||7|41|
+|D) h x ( ) = 1.23 1.12|()x||||
+
+( ),
+19
+
+##### y < 5 + 6 x
+
+For which of the following tables are all the values of *x* and their corresponding values of *y* solutions to the given inequality?
+
+A)
+B)
+C)
+D)
+
+...............................................................................................................................................................................................................................................................................................................
+20 23
+
+*y* = 4*x* + 1 Which of the following equations represents a circle in the *xy*-plane that intersects the *y*-axis at exactly 4*y* = 15*x* − 8 one point? The solution to the given system of equations is 2 2 (*x*, *y*). What is the value of *x* − *y*? A) (*x* − 8) + (*y* − 8) = 16
+
+B) (*x* − 8)2 + (*y* − 4)2 = 16
+C) (*x* − 4)2 + (*y* − 9)2 = 16 2
+D) *x* + (*y* − 9)2 = 16
+21
+
+A right triangle has legs with lengths of 24 centimeters and 21 centimeters. If the length of this triangle’s hypotenuse, in centimeters, can be 24 written in the form 3 *d*, where *d* is an integer, what In triangles *ABC* and *DEF*, angles *B* and *E* each is the value of *d*? have measure 27° and angles *C* and *F* each have measure 41°. Which additional piece of information is sufficient to determine whether triangle *ABC* is congruent to triangle *DEF*?
+
+A) The measure of angle *A*
+B) The length of side *AB*
+C) The lengths of sides *BC* and *EF*
+22
+
+D) No additional information is necessary.
+The floor of a ballroom has an area of 600 square
+
+meters. An architect creates a scale model of the floor
+
+of the ballroom, where the length of each side of the
+
+|model is|1 times the length of the corresponding||
+|---|---|---|
+||10|25|
+|side of the actual floor of the ballroom. What is the||The result of increasing the quantity x by 1,800% is|
+|area, in square meters, of the scale model?||684. What is the value of x ? A) 12,996|
+|A) 6||B) 12,312|
+|B) 10||C) 38|
+|C) 60||D) 36|
+
+D) 150
+
+...............................................................................................................................................................................................................................................
+26 27
+
+A window repair specialist charges $220 for the first *x x*( + 1) − 56 = 4*x x*( − 7) two hours of repair plus an hourly fee for each What is the sum of the solutions to the given additional hour. The total cost for 5 hours of repair is equation? $400. Which function *f* gives the total cost, in dollars, for *x* hours of repair, where *x* ≥2?
+
+A) *f x*() = 60 + 100 *x*
+B) *f x*() = 60 + 220 *x*
+C) *f x*() = 80*x*
+D) *f x*() = 80 + 220 *x*
+#### STOP
+
+**If you finish before time is called, you may check your work on this module only.**
+
+##### Do not turn to any other module in the test.
+
+#### No Test Material On This Page
+
+### Math
+
+##### 27 QUESTIONS
+
+The questions in this section address a number of important math skills. Use of a calculator is permitted for all questions.
+
+#### ,a-nH
+
+Unless otherwise indicated:
+
+- All variables and expressions represent real numbers.
+- Figures provided are drawn to scale.
+- All figures lie in a plane.
+- The domain of a given function fis the set of all real numbers *x* for which *f(x)* Eis a real number.
+#### li04ii1Ut31
+
+£ *x*
+
+#### CJw b~ ~ 0 '~
+
+45° G ~ *b a s* *x--../3* *A* =nr2 *A= Rw A =_!bh* c2 = a2 + b2 Special Right Triangles 2 *C=2nr*
+
+***62h*** @ £4 £ 1 *V= Rwh V= nr2h V* = i,.r3 *V=½nr2* *h V =3£wh* 3
+
+The number of degrees of arc in a circle is 360. The number of radians of arc in a circle is *2n.* The sum of the measures in degrees of the angles of a triangle is 180.
+
+**For multiple-choice questions,** solve each problem, choose the correct answer from the choices provided, and then circle your answer in this book. Circle only one answer for each question. If you change your mind, completely erase the circle. You will not get credit for questions with more than one answer circled, or for questions with no answers circled.
+
+**For student-produced response questions,** solve each problem and write your answer next to or under the question in the test book as described below.
+
+- Once you've written your answer, circle it clearly. You will not receive credit for anything written outside the circle, or for any questions with more than one circled answer.
+- If you find **more than one correct answer,** write and circle only one answer.
+- Your answer can be up to 5 characters for a **positive** answer and up to 6 characters (including the negative sign) for a **negative** answer, but no more.
+- If your answer is a **fraction** that is too long (over 5 characters for positive, 6 characters for negative), write the decimal equivalent.
+- If your answer is a **decimal** that is too long (over 5 characters for positive, 6 characters for negative), truncate it or round at the fourth digit.
+- If your answer is a **mixed number** (such as 3.!. ), write it as an improper fraction (7/2) or its decimal equivalent (3.5). 2
+- Don't include **symbols** such as a percent sign, comma, or dollar sign in your circled answer.
+
+#### ---------~
+
+An object’s speed is 64 yards per second. What is the object’s speed, in <u>feet</u> per second? (1 yard = 3 feet)
+
+A) 61
+B) 67
+C) 94
+D) 192
+2
+
+#### ---------~
+
+The scatterplot shows the relationship between two variables, *x* and *y*. A line of best fit is also shown.
+
+|x|y|
+|---|---|
+|0|0|
+|1|–7|
+|2|–9|
+|x|y|
+|0|0|
+|1|–3|
+|2|–1|
+|x|y|
+|0|–5|
+|1|–7|
+|2|–9|
+|x|y|
+|0|–5|
+|1|–3|
+|2|–1|
+
+*y* 20 18 ~ 16 ~ **a/'** 14I / ***V*** 12 *('* .,,,; 10 ./, 8 ./, 6 /' 4, 2
+
+*u* *X* 2 4 6 8 10 12 14
+
+Which of the following equations best represents the line of best fit shown?
+
+A) *y* = *x* + 3.4
+B) *y* = *x* − 3.4
+C) *y* = −*x* + 3.4
+D) *y* = −*x* − 3.4
+...............................................................................................................................................................................................................................................................................................................
+3 ----- *y*
+
+1p, *I*
+
+8 ~ I *I* 6, I ' ~ 4 I *I* ***J*** I 2, I ~ *X*, 4 _ _ 6_ _8_ 8_.=6-.=4-.=2 *IU* 2 I, ***J***
+
+4 *I* ' I I, "' The graph shows the linear relationship between *x* and *y*. Which table gives three values of *x* and their corresponding values of *y* for this relationship?
+
+A)
+B)
+C)
+D)
+
+...............................................................................................................................................................................................................................................................................................................
+
+- 4------~
+- 7------~
+What is the perimeter, in inches, of a rectangle with a The function *f* is defined by *f* (*x*)=4*x*. For what length of 4 inches and a width of 9 inches? value of *x* does *f* (*x*)=8?
+
+A) 13
+B) 17
+C) 22
+D) 26
+8 -------~ Of 300,000 paper clips, 234,000 are size large. What percentage of the paper clips are size large?
+
+A) 22%
+B) 33%
+C) 66%
+D) 78%
+5 -------~ 7*m* = 2(*n* + *p*)
+
+The given equation relates the positive numbers *m*, *n*, and *p*. Which equation correctly gives *m* in terms of *n* and *p*?
+
+2(*n* + )*p*
+
+A) *m* =
+7
+
+B) *m* = 2(*n* + )*p*
+C) *m* = 2(*n* + *p*) − 7
+D) *m* = 2 − *n* − *p* − 7
+9
+
+*f x*( ) = 8 + 4 *x*
+
+The function *f* gives the estimated height, in feet, of a willow tree *x* years after its height was first measured. Which statement is the best interpretation of 4 in this context?
+
+A) The tree will be measured each year for 4 years.
+B) The tree is estimated to grow to a maximum height of 4 feet.
+C) The estimated height of the tree increased by 4 feet each year.
+D) The estimated height of the tree was 4 feet when it was first measured.
+- 6------~
+73, 74, 75, 77, 79, 82, 84, 85, 91
+
+What is the median of the data shown?
+
+...............................................................................................................................................................................................................................................................................................................
+-10------~-12------~ *y* = 76 66*x* = 66*x* 2 *y* = *x* − 5 How many solutions does the given equation have?
+
+The graphs of the given equations in the *xy*-plane A) Exactly one intersect at the point (*x*, *y*). What is a possible value B) Exactly two of *x*?
+
+C) Infinitely many
+76 D) Zero
+
+A) − 5
+B) −9
+C) 5
+13
+
+D) 76-------~
+Vivian bought party hats and cupcakes for $71. Each package of party hats cost $3, and each cupcake cost $1. If Vivian bought 10 packages of party hats, how many cupcakes did she buy?
+
+11 -------~ Each side of equilateral triangle S is multiplied by a scale factor of *k* to create equilateral triangle T. The
+
+|length of each side of triangle T is greater than the|14|
+|---|---|
+|length of each side of triangle S. Which of the||
+|following could be the value of k ?|The exponential function g is defined by|
+|29|g(x) = 19 · ax, where a is a positive constant. If|
+|A)|g(3) = 2,375, what is the value of g(4) ?|
+
+-------~
+
+B) 1 28
+C) 29
+D) 0
+
+...............................................................................................................................................................................................................................................................................................................
+16 15
+
+In right triangle *RST*, the sum of the measures of
+
+angle *R* and angle *S* is 90 degrees. The value of
+
+15 sin(*R*) is. What is the value of cos(*S*) ? 4
+
+A) 15 15
+B) 4 4 15
+C) 15
+D) 15
+~ \
+
+0.. s
+\ u o 20 \
+
+10 \ I\ '~ *u* *X* 10 20 30 40 50 6 ) 70 80 90 100 Company A
+
+The graph shows the relationship between the number of shares of stock from Company A, *x*, and the number of shares of stock from Company B, *y*, that Simone can purchase. Which equation could represent this relationship?
+
+A) *y* = 8 + 12 *x*
+B) 8 + 12 *x y* = 480
+C) *y* = 12 + 8 *x*
+D) 12 + 8 *x y* = 480
+
+...............................................................................................................................................................................................................................................................................................................
+-17------~-19------~ Keenan made 32 cups of vegetable broth. Keenan Which expression is equivalent to then filled *x* small jars and *y* large jars with all the 8*x x*( − 7) − 3(*x* − 7) vegetable broth he made. The equation 3*x* + 5*y* = 32, where *x* > 7 ? 2*x* − 14 represents this situation. Which is the best interpretation of 5*y* in this context? *x* − 7
+
+A)
+A) The number of large jars Keenan filled
+5
+
+B) The number of small jars Keenan filled
+8*x* − 3
+
+B) C) The total number of cups of vegetable broth in 2
+the large jars 2D) The total number of cups of vegetable broth in 8*x* − 3*x* − 14
+
+C)
+the small jars 2*x* − 14
+
+2 8*x* − 3*x* − 77
+
+D) 2*x* − 14
+20 -------~
+
+A circle in the *xy*-plane has a diameter with
+
+|18||endpoints (2, 4) and (2, 14). An equation of this|
+|---|---|---|
+|The function f is defined by f x|()=(−8)(2)x + 22.|circle is (x − 2)2 + (y − 9)2 = r 2, where r is a positive|
+|What is the y-intercept of the graph of y = f (x) in||constant. What is the value of r ?|
+
+-------~
+
+the *xy*-plane?
+
+A) (0, 14)
+B) (0, 2)
+C) (0, 22)
+D) (0, −8)
+21 -------~ Line ℓ is defined by 3 + 12 *y x* = 5. Line *n* is perpendicular to line ℓ in the *xy*-plane. What is the slope of line *n*?
+
+...............................................................................................................................................................................................................................................................................................................
+22 24
+
+2 –5*x* + 13 = 73 −9*x* + 30*x* + *c* = 0
+
+What is the sum of the solutions to the given In the given equation, *c* is a constant. The equation equation? has exactly one solution. What is the value of *c*?
+
+146 A) 3
+
+A) − 5
+B) 0
+C) −25
+B) −12
+D) −53
+C) 0 26
+D) 5
+25
+
+Which of the following expressions has a factor of *x* + 2*b*, where *b* is a positive integer constant?
+
+|A) 3x2 + 7 + 14|x b|
+|---|---|
+|B) 3x2 + 28 + 14|x b|
+|C) 3x2 + 42 + 14|x b|
+|D) 3x2 + 49 + 14|x b|
+
+For the exponential function *f*, the value of *f*(1) is *k*, where *k* is a constant. Which of the following equivalent forms of the function *f* shows the value of *k* as the coefficient or the base?
+
+*x*+1
+
+A) *f x*( ) = 50(1.6)
+*x*
+
+B) *f x*( ) = 80(1.6)
+*x*−1
+
+C) *f x*() = 128(1.6)
+*x*−2
+
+D) *f x*() = 204.8(1.6)
+
+##### Module
+
+.................................................................................................................................................................................................................................................
+26 27
+
+#### ---------~
+
+##### Data Set A Data Set B
+
+The perimeter of an equilateral triangle is
+
+#### 12~----- 10-+------
+
+624 centimeters. The height of this triangle is
+
+##### ~ 8~ 8+------i
+
+*k* 3 centimeters, where *k* is a constant. What is the
+
+#### g. 6 g. 6+---l value of k?
+
+4-+-~--t
+
+|µ. ~ 4|µ. ~|
+|---|---|
+|2|0-+--+---+---+---+---+|
+|10 20 30 40 50 60|10 20 30 40 50 60|
+
+2 ~ I 0
+
+##### Integer Integer
+
+Two data sets of 23 integers each are summarized in the histograms shown. For each of the histograms, the first interval represents the frequency of integers greater than or equal to 10, but less than 20. The second interval represents the frequency of integers greater than or equal to 20, but less than 30, and so on. What is the smallest possible difference between the mean of data set A and the mean of data set B?
+
+A) 0
+B) 1
+C) 10
+D) 23
+#### STOP
+
+**If you finish before time is called, you may check your work on this module only.**
+
+##### Do not turn to any other module in the test.
+
+#### No Test Material On This Page
+
+#### NoTest Material OnThis Page
+
+#### NoTest Material OnThis Page
+
+You may work on only one module at a time.
+
+- If you finish a module before time is called, check your work on that module only. You may NOT turn to any other module.
+### TIMING
+
+Reading and Writing, Module 1 : 39 minutes Reading and Writing, Module 2: 39 minutes *10-minute break* Math, Module 1: 43 minutes Math, Module 2: 43 minutes The above are standard times. If you are approved for accommodations involving additional time, you should give yourself that time when you practice.
+
+### MARKING YOUR ANSWERS
+
+- Be sure to answer your questions properly in this book.
+- Circle only one answer to each question. If you change your mind, completely erase the circle. You will not get credit for questions with more than one answer circled, or for questions with no answers circled.
+### USING YOUR TEST BOOK
+
+- You may use the test book for scratch work.
+- You may not fold or remove pages or portions of a page from this book, or take the book from the testing room.
+© 2025 College Board. College Board, SAT, and the acorn logo are registered trademarks of College Board.
