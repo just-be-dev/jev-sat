@@ -20,12 +20,7 @@ export const Worker = Cloudflare.Worker("JevSatWorker", {
     directory: "./public",
     runWorkerFirst: ["/api/*"],
   },
-  env: {
-    AI: Cloudflare.Workers.AI(),
-  },
 })
-
-export type WorkerEnv = Cloudflare.InferEnv<typeof Worker>
 
 export default Alchemy.Stack(
   "jev-sat",

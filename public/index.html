@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Watch TypeSafe Jev work through an official SAT practice test in real time." />
+    <meta name="description" content="Replay TypeSafe Jev working through official SAT practice tests." />
     <title>Jev takes the SAT</title>
     <link rel="stylesheet" href="/styles.css" />
     <script type="module" src="/app.js"></script>
@@ -23,7 +23,7 @@
     <main>
       <section class="hero">
         <div class="hero-copy">
-          <p class="eyebrow">A live System One benchmark</p>
+          <p class="eyebrow">A System One benchmark</p>
           <h1>Can common sense<br /><em>pass the SAT?</em></h1>
           <p class="hero-description">
             Jev reads each question, makes one typed choice, and returns its full probability distribution.
@@ -33,23 +33,26 @@
 
         <div class="run-console">
           <div class="console-label">Test configuration</div>
-          <label for="scope">Section</label>
+          <label for="practice-test">Practice exam</label>
           <div class="select-wrap">
-            <select id="scope">
-              <option value="all">Full test · 106 questions</option>
-              <option value="rw-1">Reading &amp; Writing · Module 1</option>
-              <option value="rw-2">Reading &amp; Writing · Module 2</option>
-              <option value="math-1">Math · Module 1</option>
-              <option value="math-2">Math · Module 2</option>
+            <select id="practice-test">
+              <option value="4">Practice Test 4</option>
+              <option value="5">Practice Test 5</option>
+              <option value="6">Practice Test 6</option>
+              <option value="7">Practice Test 7</option>
+              <option value="8">Practice Test 8</option>
+              <option value="9">Practice Test 9</option>
+              <option value="10">Practice Test 10</option>
+              <option value="11">Practice Test 11</option>
             </select>
           </div>
           <button class="run-button" id="run" type="button">
-            <span class="button-label">Start Jev</span>
+            <span class="button-label">See a run</span>
             <span class="button-arrow" aria-hidden="true">↗</span>
           </button>
           <p class="console-note">
             The 14 student-produced responses are excluded because Jev selects from defined choices.
-            Requests run through Cloudflare AI Gateway.
+            Each replay is chosen randomly from five prerecorded runs, with no live model request.
           </p>
         </div>
       </section>
@@ -89,7 +92,7 @@
 
           <div class="question-empty" id="question-empty">
             <div class="empty-orbit"><span>J</span></div>
-            <p>Select a section and start the test to see Jev’s decisions arrive.</p>
+            <p>Select a practice exam and replay a run to see Jev’s decisions arrive.</p>
           </div>
 
           <div class="question-content" id="question-content" hidden>
@@ -105,7 +108,7 @@
         <aside class="progress-panel">
           <div class="panel-heading compact">
             <div>
-              <p class="eyebrow">Live queue</p>
+              <p class="eyebrow">Replay queue</p>
               <h2>Test progress</h2>
             </div>
             <span class="model-chip">typesafe/jev</span>
@@ -119,8 +122,8 @@
     </main>
 
     <footer class="site-footer">
-      <span>Official SAT Practice Test 4</span>
-      <span>Effect 4 · Alchemy · Cloudflare Workers AI</span>
+      <span id="test-label">Official SAT Practice Test 4</span>
+      <span>Effect 4 · Alchemy · TypeSafe Jev</span>
     </footer>
 
     <div class="toast" id="toast" role="alert" hidden></div>

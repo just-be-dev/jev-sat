@@ -15,7 +15,8 @@ const elements = {
   run: document.querySelector("#run"),
   score: document.querySelector("#score"),
   scoreDetail: document.querySelector("#score-detail"),
-  scope: document.querySelector("#scope"),
+  practiceTest: document.querySelector("#practice-test"),
+  testLabel: document.querySelector("#test-label"),
   toast: document.querySelector("#toast"),
   tokens: document.querySelector("#tokens"),
   total: document.querySelector("#total"),
@@ -42,15 +43,6 @@ function setConnection(text, state = "") {
 function questionName(question) {
   const subject = question.subject === "Reading and Writing" ? "Reading & Writing" : "Math"
   return `${subject} · Module ${question.module} · Q${question.number}`
-}
-
-function questionsForScope(scope) {
-  if (scope === "all") return test.questions
-  const [subject, module] = scope.split("-")
-  return test.questions.filter((question) =>
-    question.module === Number(module) &&
-    (subject === "rw" ? question.subject === "Reading and Writing" : question.subject === "Math")
-  )
 }
 
 function renderQueue() {
@@ -203,7 +195,7 @@ function handleEvent(event) {
     stats.outputTokens = event.outputTokens
     updateStats()
     setConnection("Complete", "done")
-    stopRunning("Run again")
+    stopRunning("See another run")
     return
   }
   if (event._tag === "failed") {
@@ -212,21 +204,26 @@ function handleEvent(event) {
   }
 }
 
-async function consumeNdjson(response) {
-  if (!response.ok || !response.body) throw new Error(`Run request failed (${response.status})`)
-  const reader = response.body.pipeThrough(new TextDecoderStream()).getReader()
-  let buffer = ""
-  while (true) {
-    const { value, done } = await reader.read()
-    if (done) break
-    buffer += value
-    const lines = buffer.split("\n")
-    buffer = lines.pop() ?? ""
-    for (const line of lines) {
-      if (line.trim()) handleEvent(JSON.parse(line))
+function delay(milliseconds, signal) {
+  return new Promise((resolve, reject) => {
+    const abort = () => {
+      window.clearTimeout(timeout)
+      reject(new DOMException("Replay stopped", "AbortError"))
     }
+    const timeout = window.setTimeout(() => {
+      signal.removeEventListener("abort", abort)
+      resolve()
+    }, milliseconds)
+    signal.addEventListener("abort", abort, { once: true })
+  })
+}
+
+async function replay(events, signal) {
+  for (const event of events) {
+    if (event._tag === "thinking") await delay(260, signal)
+    if (event._tag === "answer") await delay(65, signal)
+    handleEvent(event)
   }
-  if (buffer.trim()) handleEvent(JSON.parse(buffer))
 }
 
 function stopRunning(label) {
@@ -234,7 +231,7 @@ function stopRunning(label) {
   elements.run.classList.remove("running")
   elements.run.querySelector(".button-label").textContent = label
   elements.run.querySelector(".button-arrow").textContent = "↗"
-  elements.scope.disabled = false
+  elements.practiceTest.disabled = false
 }
 
 function showError(message) {
@@ -247,12 +244,12 @@ function showError(message) {
 async function startRun() {
   if (controller) {
     controller.abort()
-    stopRunning("Start Jev")
+    stopRunning("See a run")
     setConnection("Stopped")
     return
   }
 
-  selected = questionsForScope(elements.scope.value)
+  selected = test.questions
   questionById = new Map(selected.map((question) => [question.id, question]))
   stats = freshStats()
   stats.total = selected.length
@@ -264,44 +261,68 @@ async function startRun() {
   elements.tokens.textContent = "0"
   elements.questionContent.hidden = true
   elements.questionEmpty.hidden = false
-  elements.questionEmpty.querySelector("p").textContent = "Connecting to Jev through Cloudflare Workers AI…"
+  elements.questionEmpty.querySelector("p").textContent = "Loading a randomly selected prerecorded run…"
 
   controller = new AbortController()
   elements.run.classList.add("running")
-  elements.run.querySelector(".button-label").textContent = "Stop run"
+  elements.run.querySelector(".button-label").textContent = "Stop replay"
   elements.run.querySelector(".button-arrow").textContent = "×"
-  elements.scope.disabled = true
-  setConnection("Jev is working", "live")
+  elements.practiceTest.disabled = true
+  setConnection("Replaying", "live")
 
   try {
     const response = await fetch("/api/run", {
       method: "POST",
       headers: { "content-type": "application/json" },
-      body: JSON.stringify({ scope: elements.scope.value }),
+      body: JSON.stringify({ practiceTest: Number(elements.practiceTest.value) }),
       signal: controller.signal,
     })
-    await consumeNdjson(response)
+    if (!response.ok) throw new Error(`Run request failed (${response.status})`)
+    await replay(await response.json(), controller.signal)
   } catch (error) {
     if (error.name !== "AbortError") showError(error.message || String(error))
     if (controller) stopRunning("Try again")
   }
 }
 
-async function initialize() {
+async function loadTest() {
+  elements.run.disabled = true
   try {
-    const response = await fetch("/api/test")
+    const practiceTest = Number(elements.practiceTest.value)
+    const response = await fetch(`/api/test?practiceTest=${practiceTest}`)
     if (!response.ok) throw new Error(`Could not load test (${response.status})`)
     test = await response.json()
+    selected = []
+    stats = freshStats()
+    elements.answered.textContent = "0"
     elements.total.textContent = ` / ${test.multipleChoiceQuestions}`
-    elements.scope.addEventListener("change", () => {
-      const count = questionsForScope(elements.scope.value).length
-      elements.total.textContent = ` / ${count}`
-    })
-    elements.run.addEventListener("click", startRun)
+    elements.progressDetail.textContent = "0% complete"
+    elements.progressBar.style.width = "0"
+    elements.score.textContent = "—"
+    elements.scoreDetail.textContent = "Not started"
+    elements.confidence.textContent = "—"
+    elements.tokens.textContent = "0"
+    elements.questionTitle.textContent = "Waiting for a run"
+    elements.questionStatus.className = "question-status"
+    elements.questionStatus.textContent = "Idle"
+    elements.questionContent.hidden = true
+    elements.questionEmpty.hidden = false
+    elements.questionEmpty.querySelector("p").textContent = "Select a practice exam and replay a run to see Jev’s decisions arrive."
+    elements.queue.innerHTML = '<p class="queue-empty">Questions will appear here when the run begins.</p>'
+    elements.testLabel.textContent = `Official SAT Practice Test ${test.practiceTest}`
+    elements.run.querySelector(".button-label").textContent = "See a run"
+    elements.run.querySelector(".button-arrow").textContent = "↗"
+    setConnection("Ready")
+    elements.run.disabled = false
   } catch (error) {
     showError(error.message || String(error))
-    elements.run.disabled = true
   }
+}
+
+async function initialize() {
+  elements.practiceTest.addEventListener("change", loadTest)
+  elements.run.addEventListener("click", startRun)
+  await loadTest()
 }
 
 initialize()

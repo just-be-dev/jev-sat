@@ -2,11 +2,12 @@ import { describe, expect, it } from "@effect/vitest"
 import { Effect, Layer } from "effect"
 import { DecisionModel } from "effect/unstable/ai"
 import type { RunEvent } from "../src/domain.ts"
-import { questions } from "../src/questions.ts"
+import { questionsForPracticeTest } from "../src/questions.ts"
 import { runTest } from "../src/sat-runner.ts"
 
 describe("SAT runner", () => {
   it.effect("streams batch activity, every answer, and an independently scored completion", () => {
+    const questions = questionsForPracticeTest(4)
     const selected = questions.slice(0, 5)
     const expected = new Map(selected.map((question) => [question.id, question.answer]))
     const model = Layer.effect(

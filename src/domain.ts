@@ -1,4 +1,4 @@
-import { Effect, Schema } from "effect"
+import { Schema } from "effect"
 
 export const AnswerLabel = Schema.Literals(["A", "B", "C", "D"])
 export type AnswerLabel = typeof AnswerLabel.Type
@@ -6,8 +6,8 @@ export type AnswerLabel = typeof AnswerLabel.Type
 export const Subject = Schema.Literals(["Reading and Writing", "Math"])
 export type Subject = typeof Subject.Type
 
-export const TestScope = Schema.Literals(["all", "rw-1", "rw-2", "math-1", "math-2"])
-export type TestScope = typeof TestScope.Type
+export const PracticeTest = Schema.Literals([4, 5, 6, 7, 8, 9, 10, 11])
+export type PracticeTest = typeof PracticeTest.Type
 
 export class SatQuestion extends Schema.Class<SatQuestion>("SatQuestion")({
   id: Schema.String,
@@ -26,7 +26,7 @@ export class SatQuestion extends Schema.Class<SatQuestion>("SatQuestion")({
 }) {}
 
 export const RunRequest = Schema.Struct({
-  scope: TestScope.pipe(Schema.withDecodingDefaultKey(Effect.succeed("all" as const))),
+  practiceTest: PracticeTest,
 })
 
 export class StartedEvent extends Schema.TaggedClass<StartedEvent>()("started", {

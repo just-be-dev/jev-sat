@@ -1,8 +1,6 @@
 import { Effect, Schema } from "effect"
 
-const sourcePdf = "resources/sat-practice-test-4-digital.pdf"
-const answerMarkdown = "resources/sat-practice-test-4-answers-digital.md"
-const outputFile = "src/generated/sat.json"
+const practiceTests = [4, 5, 6, 7, 8, 9, 10, 11] as const
 
 const Label = Schema.Literals(["A", "B", "C", "D"])
 
@@ -13,15 +11,14 @@ class ExtractError extends Schema.TaggedError<ExtractError>()("ExtractError", {
 interface SectionSpec {
   readonly subject: "Reading and Writing" | "Math"
   readonly module: 1 | 2
-  readonly pageIndexes: ReadonlyArray<number>
   readonly questionCount: number
 }
 
-const sections: ReadonlyArray<SectionSpec> = [
-  { subject: "Reading and Writing", module: 1, pageIndexes: range(3, 17), questionCount: 33 },
-  { subject: "Reading and Writing", module: 2, pageIndexes: range(17, 30), questionCount: 33 },
-  { subject: "Math", module: 1, pageIndexes: range(33, 39), questionCount: 27 },
-  { subject: "Math", module: 2, pageIndexes: range(41, 48), questionCount: 27 },
+const sectionSpecs: ReadonlyArray<SectionSpec> = [
+  { subject: "Reading and Writing", module: 1, questionCount: 33 },
+  { subject: "Reading and Writing", module: 2, questionCount: 33 },
+  { subject: "Math", module: 1, questionCount: 27 },
+  { subject: "Math", module: 2, questionCount: 27 },
 ]
 
 function range(start: number, end: number): ReadonlyArray<number> {
@@ -42,22 +39,22 @@ function cleanText(lines: ReadonlyArray<string>): string {
     .trim()
 }
 
-function answerKeys(markdown: string): ReadonlyArray<ReadonlyMap<number, typeof Label.Type>> {
-  const matches = [...markdown.matchAll(/^#### QUESTION (\d+)\s*$/gm)]
+function answerKeys(answerText: string): ReadonlyArray<ReadonlyMap<number, typeof Label.Type>> {
+  const matches = [...answerText.matchAll(/^QUESTION\s+(\d+)\s*$/gm)]
   if (matches.length !== 120) {
     throw new ExtractError({ message: `Expected 120 answer explanations, found ${matches.length}` })
   }
 
   const keys: Array<ReadonlyMap<number, typeof Label.Type>> = []
   let offset = 0
-  for (const section of sections) {
+  for (const section of sectionSpecs) {
     const entries = new Map<number, typeof Label.Type>()
     for (let index = 0; index < section.questionCount; index++) {
       const match = matches[offset + index]!
       const start = match.index + match[0].length
-      const end = matches[offset + index + 1]?.index ?? markdown.length
-      const block = markdown.slice(start, end)
-      const answer = block.match(/\*\*Choice ([A-D])\*\* is (?:the best answer|correct)/)?.[1]
+      const end = matches[offset + index + 1]?.index ?? answerText.length
+      const block = answerText.slice(start, end)
+      const answer = block.match(/Choice\s*([A-D])\s*is\s*(?:the\s*best\s*answer|correct)/)?.[1]
       if (answer !== undefined) {
         entries.set(Number(match[1]), Schema.decodeUnknownSync(Label)(answer))
       }
@@ -75,10 +72,29 @@ interface ChoiceGroup {
   readonly previousChoiceEnd: number
 }
 
+function normalizeVisualChoices(lines: ReadonlyArray<string>): ReadonlyArray<string> {
+  const normalized = [...lines]
+  for (let a = 0; a < normalized.length; a++) {
+    if (!/^A\)\s+B\)\s*$/.test(normalized[a]!)) continue
+    const c = normalized.findIndex((line, index) => index > a && /^C\)\s+D\)\s*$/.test(line))
+    if (c < 0) continue
+    normalized.splice(
+      a,
+      c - a + 1,
+      "A) Visual option A",
+      "B) Visual option B",
+      "C) Visual option C",
+      "D) Visual option D",
+      ...normalized.slice(a + 1, c),
+    )
+  }
+  return normalized
+}
+
 function choiceGroups(pages: ReadonlyArray<string>, pageIndexes: ReadonlyArray<number>): ReadonlyArray<ChoiceGroup> {
   const groups: Array<ChoiceGroup> = []
   for (const page of pageIndexes) {
-    const lines = pages[page]!.split("\n").map((line) => line.trim()).filter(Boolean)
+    const lines = normalizeVisualChoices(pages[page]!.split("\n").map((line) => line.trim()).filter(Boolean))
     let cursor = 0
     let previousChoiceEnd = 0
     while (cursor < lines.length) {
@@ -130,31 +146,42 @@ function optionText(lines: ReadonlyArray<string>, start: number, end: number): s
   return cleanText([first, ...lines.slice(start + 1, end)])
 }
 
-const extract = Effect.fn("extractSat")(function*() {
-  const answers = yield* Effect.tryPromise({
-    try: () => Bun.file(answerMarkdown).text(),
-    catch: (cause) => new ExtractError({ message: `Could not read answer explanations: ${String(cause)}` }),
-  })
-
-  const process = Bun.spawn(["pdftotext", "-raw", sourcePdf, "-"], { stdout: "pipe", stderr: "pipe" })
-  const [rawPdf, stderr, exitCode] = yield* Effect.all([
-    Effect.promise(() => new Response(process.stdout).text()),
-    Effect.promise(() => new Response(process.stderr).text()),
-    Effect.promise(() => process.exited),
+const pdfText = Effect.fn("pdfText")(function*(file: string) {
+  const child = Bun.spawn(["pdftotext", "-raw", file, "-"], { stdout: "pipe", stderr: "pipe" })
+  const [stdout, stderr, exitCode] = yield* Effect.all([
+    Effect.promise(() => new Response(child.stdout).text()),
+    Effect.promise(() => new Response(child.stderr).text()),
+    Effect.promise(() => child.exited),
   ])
-  if (exitCode !== 0) {
-    return yield* new ExtractError({ message: `pdftotext failed: ${stderr.trim()}` })
-  }
+  if (exitCode !== 0) return yield* new ExtractError({ message: `pdftotext failed for ${file}: ${stderr.trim()}` })
+  return stdout
+})
+
+const extractTest = Effect.fn("extractTest")(function*(practiceTest: number) {
+  const sourcePdf = `resources/sat-practice-test-${practiceTest}-digital.pdf`
+  const answerPdf = `resources/sat-practice-test-${practiceTest}-answers-digital.pdf`
+  const outputFile = `src/generated/sat-${practiceTest}.json`
+  const [rawPdf, answers] = yield* Effect.all([pdfText(sourcePdf), pdfText(answerPdf)])
 
   const pages = rawPdf.split("\f")
   const keys = answerKeys(answers)
   const questions: Array<unknown> = []
+  const starts = [
+    ...pages.flatMap((page, index) => page.includes("33 QUESTIONS") ? [index] : []),
+    ...pages.flatMap((page, index) => page.includes("27 QUESTIONS") ? [index] : []),
+  ]
+  const stops = pages.flatMap((page, index) => /\bSTOP\b/.test(page) ? [index] : [])
+  if (starts.length !== 4 || stops.length !== 4) {
+    return yield* new ExtractError({
+      message: `Practice Test ${practiceTest}: expected four section boundaries, found ${starts.length} starts and ${stops.length} stops`,
+    })
+  }
 
-  for (let sectionIndex = 0; sectionIndex < sections.length; sectionIndex++) {
-    const section = sections[sectionIndex]!
+  for (let sectionIndex = 0; sectionIndex < sectionSpecs.length; sectionIndex++) {
+    const section = sectionSpecs[sectionIndex]!
     const key = keys[sectionIndex]!
     const multipleChoiceNumbers = [...key.keys()]
-    const groups = choiceGroups(pages, section.pageIndexes)
+    const groups = choiceGroups(pages, range(starts[sectionIndex]!, stops[sectionIndex]! + 1))
     if (groups.length !== multipleChoiceNumbers.length) {
       return yield* new ExtractError({
         message: `${section.subject} module ${section.module}: expected ${multipleChoiceNumbers.length} choice groups, found ${groups.length}`,
@@ -166,11 +193,7 @@ const extract = Effect.fn("extractSat")(function*() {
       const number = multipleChoiceNumbers[index]!
       const [a, b, c, d] = group.indexes
       const marker = lastIndex(group.lines, String(number), group.previousChoiceEnd, a)
-      if (marker < 0) {
-        return yield* new ExtractError({
-          message: `${section.subject} module ${section.module}, question ${number}: question marker not found on PDF page ${group.page + 1}`,
-        })
-      }
+      const promptStart = marker < 0 ? group.previousChoiceEnd : marker + 1
 
       const nextQuestion = firstIndex(group.lines, String(number + 1), d + 1, group.lines.length)
       const footer = group.lines.findIndex((line, lineIndex) =>
@@ -180,15 +203,33 @@ const extract = Effect.fn("extractSat")(function*() {
         .filter((position) => position >= 0)
         .reduce((smallest, position) => Math.min(smallest, position), group.lines.length)
 
+      const optionD = optionText(group.lines, d, end)
+      const continuation = optionD.length === 0 && footer >= 0
+        ? group.lines.findIndex((line, lineIndex) => lineIndex > footer && line.startsWith("CONTINUE"))
+        : -1
       const options = {
         A: optionText(group.lines, a, b),
         B: optionText(group.lines, b, c),
         C: optionText(group.lines, c, d),
-        D: optionText(group.lines, d, end),
+        D: optionD.length > 0
+          ? optionD
+          : cleanText(group.lines.slice(footer + 1, continuation < 0 ? group.lines.length : continuation)),
       }
-      const prefix = group.previousChoiceEnd === 0 ? pagePrefix(group.lines, marker, section.module) : []
-      const prompt = cleanText([...prefix, ...group.lines.slice(marker + 1, a)])
-      const id = `${section.subject === "Math" ? "math" : "rw"}-${section.module}-${String(number).padStart(2, "0")}`
+      const prefix = group.previousChoiceEnd === 0 ? pagePrefix(group.lines, Math.max(marker, 0), section.module) : []
+      let prompt = cleanText([...prefix, ...group.lines.slice(promptStart, a)])
+      if (prompt.length <= 20) {
+        const previousLines = pages[group.page - 1]?.split("\n").map((line) => line.trim()).filter(Boolean) ?? []
+        const previousMarker = lastIndex(previousLines, String(number), 0, previousLines.length)
+        const previousFooter = previousLines.findIndex((line, lineIndex) =>
+          lineIndex > previousMarker && /^Unauthorized copying/.test(line)
+        )
+        const previousPrompt = previousMarker < 0
+          ? ""
+          : cleanText(previousLines.slice(previousMarker + 1, previousFooter < 0 ? previousLines.length : previousFooter))
+        const trailingPrompt = footer < 0 ? "" : cleanText(group.lines.slice(footer + 1))
+        prompt = previousPrompt.length > 20 ? previousPrompt : trailingPrompt
+      }
+      const id = `${practiceTest}-${section.subject === "Math" ? "math" : "rw"}-${section.module}-${String(number).padStart(2, "0")}`
       questions.push({
         id,
         subject: section.subject,
@@ -206,10 +247,12 @@ const extract = Effect.fn("extractSat")(function*() {
     try: () => Bun.write(outputFile, `${JSON.stringify(questions, null, 2)}\n`),
     catch: (cause) => new ExtractError({ message: `Could not write ${outputFile}: ${String(cause)}` }),
   })
-  yield* Effect.log(`Extracted ${questions.length} multiple-choice questions to ${outputFile}`)
+  yield* Effect.log(`Extracted ${questions.length} questions from Practice Test ${practiceTest} to ${outputFile}`)
 })
 
-Effect.runPromise(extract()).catch((error) => {
+const extract = Effect.forEach(practiceTests, extractTest, { concurrency: 1, discard: true })
+
+Effect.runPromise(extract).catch((error) => {
   console.error(error)
   process.exitCode = 1
 })

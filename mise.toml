@@ -14,3 +14,7 @@ _.path = "node_modules/.bin"
 [tasks.typecheck]
 description = "Type-check the project"
 run = "bun run typecheck"
+
+[tasks.generate-runs]
+description = "Generate five Jev runs for each SAT practice test"
+run = "bun run scripts/generate-runs.ts"
