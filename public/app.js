@@ -1,0 +1,307 @@
+const elements = {
+  answered: document.querySelector("#answered"),
+  choices: document.querySelector("#choices"),
+  confidence: document.querySelector("#confidence"),
+  connection: document.querySelector("#connection"),
+  decisionMeta: document.querySelector("#decision-meta"),
+  progressBar: document.querySelector("#progress-bar"),
+  progressDetail: document.querySelector("#progress-detail"),
+  prompt: document.querySelector("#prompt"),
+  questionContent: document.querySelector("#question-content"),
+  questionEmpty: document.querySelector("#question-empty"),
+  questionStatus: document.querySelector("#question-status"),
+  questionTitle: document.querySelector("#question-title"),
+  queue: document.querySelector("#queue"),
+  run: document.querySelector("#run"),
+  score: document.querySelector("#score"),
+  scoreDetail: document.querySelector("#score-detail"),
+  scope: document.querySelector("#scope"),
+  toast: document.querySelector("#toast"),
+  tokens: document.querySelector("#tokens"),
+  total: document.querySelector("#total"),
+  visualWarning: document.querySelector("#visual-warning"),
+}
+
+const labels = ["A", "B", "C", "D"]
+let test = null
+let selected = []
+let questionById = new Map()
+let queueById = new Map()
+let controller = null
+let stats = freshStats()
+
+function freshStats() {
+  return { answered: 0, correct: 0, confidence: 0, inputTokens: 0, outputTokens: 0, total: 0 }
+}
+
+function setConnection(text, state = "") {
+  elements.connection.className = `connection ${state}`.trim()
+  elements.connection.lastElementChild.textContent = text
+}
+
+function questionName(question) {
+  const subject = question.subject === "Reading and Writing" ? "Reading & Writing" : "Math"
+  return `${subject} · Module ${question.module} · Q${question.number}`
+}
+
+function questionsForScope(scope) {
+  if (scope === "all") return test.questions
+  const [subject, module] = scope.split("-")
+  return test.questions.filter((question) =>
+    question.module === Number(module) &&
+    (subject === "rw" ? question.subject === "Reading and Writing" : question.subject === "Math")
+  )
+}
+
+function renderQueue() {
+  elements.queue.replaceChildren()
+  queueById = new Map()
+  selected.forEach((question, index) => {
+    const row = document.createElement("div")
+    row.className = "queue-item"
+    row.dataset.id = question.id
+
+    const count = document.createElement("span")
+    count.className = "queue-index"
+    count.textContent = String(index + 1).padStart(2, "0")
+
+    const copy = document.createElement("span")
+    copy.className = "queue-copy"
+    const title = document.createElement("span")
+    title.className = "queue-title"
+    title.textContent = `Question ${question.number}`
+    const subtitle = document.createElement("span")
+    subtitle.className = "queue-subtitle"
+    subtitle.textContent = `${question.subject === "Math" ? "Math" : "Reading & Writing"} · M${question.module}`
+    copy.append(title, subtitle)
+
+    const result = document.createElement("span")
+    result.className = "queue-result"
+    result.textContent = "Queued"
+    row.append(count, copy, result)
+    elements.queue.append(row)
+    queueById.set(question.id, row)
+  })
+}
+
+function renderQuestion(question, event = null) {
+  elements.questionEmpty.hidden = true
+  elements.questionContent.hidden = false
+  elements.questionTitle.textContent = questionName(question)
+  elements.prompt.textContent = question.prompt
+  elements.visualWarning.hidden = !question.hasVisual
+  elements.choices.replaceChildren()
+
+  const maxProbability = event ? Math.max(...Object.values(event.probabilities), 0.01) : 1
+  for (const label of labels) {
+    const choice = document.createElement("div")
+    const probability = event?.probabilities[label] ?? 0
+    choice.className = "choice"
+    if (event?.label === label) choice.classList.add("selected")
+    if (event?.expected === label) choice.classList.add("expected")
+    if (event?.correct && event.label === label) choice.classList.add("correct")
+
+    const fill = document.createElement("span")
+    fill.className = "choice-fill"
+    fill.style.width = event ? `${(probability / maxProbability) * 100}%` : "0"
+    const badge = document.createElement("span")
+    badge.className = "choice-label"
+    badge.textContent = label
+    const text = document.createElement("span")
+    text.className = "choice-text"
+    text.textContent = question.options[label]
+    const percent = document.createElement("span")
+    percent.className = "choice-probability"
+    percent.textContent = event ? `${Math.round(probability * 100)}%` : "—"
+    choice.append(fill, badge, text, percent)
+    elements.choices.append(choice)
+  }
+
+  if (!event) {
+    elements.questionStatus.className = "question-status thinking"
+    elements.questionStatus.textContent = "Evaluating"
+    elements.decisionMeta.textContent = "Jev is comparing four defined criteria…"
+    return
+  }
+
+  elements.questionStatus.className = `question-status ${event.correct ? "correct" : "wrong"}`
+  elements.questionStatus.textContent = event.correct ? "Correct" : "Incorrect"
+  elements.decisionMeta.replaceChildren(
+    meta(`Jev chose ${event.label}`),
+    meta(`Answer ${event.expected}`),
+    meta(`${Math.round(event.confidence * 100)}% confidence`),
+    meta(`${(event.batchDurationMs / 1000).toFixed(1)}s batch`),
+  )
+}
+
+function meta(text) {
+  const span = document.createElement("span")
+  span.textContent = text
+  return span
+}
+
+function updateStats() {
+  const progress = stats.total ? stats.answered / stats.total : 0
+  elements.answered.textContent = String(stats.answered)
+  elements.total.textContent = ` / ${stats.total || selected.length || 106}`
+  elements.progressDetail.textContent = `${Math.round(progress * 100)}% complete`
+  elements.progressBar.style.width = `${progress * 100}%`
+  elements.tokens.textContent = (stats.inputTokens + stats.outputTokens).toLocaleString()
+  if (stats.answered > 0) {
+    elements.score.textContent = `${Math.round((stats.correct / stats.answered) * 100)}%`
+    elements.scoreDetail.textContent = `${stats.correct} correct · ${stats.answered - stats.correct} missed`
+    elements.confidence.textContent = `${Math.round((stats.confidence / stats.answered) * 100)}%`
+  }
+}
+
+function updateQueueThinking(ids) {
+  for (const row of queueById.values()) {
+    row.classList.remove("thinking")
+  }
+  ids.forEach((id) => {
+    const row = queueById.get(id)
+    if (row) {
+      row.classList.add("thinking")
+      row.querySelector(".queue-result").textContent = "Thinking"
+    }
+  })
+  const question = questionById.get(ids[0])
+  if (question) renderQuestion(question)
+}
+
+function handleEvent(event) {
+  if (event._tag === "started") {
+    stats.total = event.total
+    updateStats()
+    return
+  }
+  if (event._tag === "thinking") {
+    updateQueueThinking(event.ids)
+    return
+  }
+  if (event._tag === "answer") {
+    stats.answered++
+    if (event.correct) stats.correct++
+    stats.confidence += event.confidence
+    stats.inputTokens += event.inputTokens ?? 0
+    stats.outputTokens += event.outputTokens ?? 0
+    updateStats()
+
+    const row = queueById.get(event.id)
+    if (row) {
+      row.classList.remove("thinking")
+      row.classList.add(event.correct ? "correct" : "wrong")
+      row.querySelector(".queue-result").textContent = event.correct ? `${event.label} ✓` : `${event.label} · ${event.expected}`
+      row.scrollIntoView({ block: "nearest", behavior: "smooth" })
+    }
+    const question = questionById.get(event.id)
+    if (question) renderQuestion(question, event)
+    return
+  }
+  if (event._tag === "completed") {
+    stats.inputTokens = event.inputTokens
+    stats.outputTokens = event.outputTokens
+    updateStats()
+    setConnection("Complete", "done")
+    stopRunning("Run again")
+    return
+  }
+  if (event._tag === "failed") {
+    showError(event.message)
+    stopRunning("Try again")
+  }
+}
+
+async function consumeNdjson(response) {
+  if (!response.ok || !response.body) throw new Error(`Run request failed (${response.status})`)
+  const reader = response.body.pipeThrough(new TextDecoderStream()).getReader()
+  let buffer = ""
+  while (true) {
+    const { value, done } = await reader.read()
+    if (done) break
+    buffer += value
+    const lines = buffer.split("\n")
+    buffer = lines.pop() ?? ""
+    for (const line of lines) {
+      if (line.trim()) handleEvent(JSON.parse(line))
+    }
+  }
+  if (buffer.trim()) handleEvent(JSON.parse(buffer))
+}
+
+function stopRunning(label) {
+  controller = null
+  elements.run.classList.remove("running")
+  elements.run.querySelector(".button-label").textContent = label
+  elements.run.querySelector(".button-arrow").textContent = "↗"
+  elements.scope.disabled = false
+}
+
+function showError(message) {
+  setConnection("Error")
+  elements.toast.textContent = message
+  elements.toast.hidden = false
+  window.setTimeout(() => { elements.toast.hidden = true }, 7000)
+}
+
+async function startRun() {
+  if (controller) {
+    controller.abort()
+    stopRunning("Start Jev")
+    setConnection("Stopped")
+    return
+  }
+
+  selected = questionsForScope(elements.scope.value)
+  questionById = new Map(selected.map((question) => [question.id, question]))
+  stats = freshStats()
+  stats.total = selected.length
+  renderQueue()
+  updateStats()
+  elements.score.textContent = "—"
+  elements.scoreDetail.textContent = "Run in progress"
+  elements.confidence.textContent = "—"
+  elements.tokens.textContent = "0"
+  elements.questionContent.hidden = true
+  elements.questionEmpty.hidden = false
+  elements.questionEmpty.querySelector("p").textContent = "Connecting to Jev through Cloudflare Workers AI…"
+
+  controller = new AbortController()
+  elements.run.classList.add("running")
+  elements.run.querySelector(".button-label").textContent = "Stop run"
+  elements.run.querySelector(".button-arrow").textContent = "×"
+  elements.scope.disabled = true
+  setConnection("Jev is working", "live")
+
+  try {
+    const response = await fetch("/api/run", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ scope: elements.scope.value }),
+      signal: controller.signal,
+    })
+    await consumeNdjson(response)
+  } catch (error) {
+    if (error.name !== "AbortError") showError(error.message || String(error))
+    if (controller) stopRunning("Try again")
+  }
+}
+
+async function initialize() {
+  try {
+    const response = await fetch("/api/test")
+    if (!response.ok) throw new Error(`Could not load test (${response.status})`)
+    test = await response.json()
+    elements.total.textContent = ` / ${test.multipleChoiceQuestions}`
+    elements.scope.addEventListener("change", () => {
+      const count = questionsForScope(elements.scope.value).length
+      elements.total.textContent = ` / ${count}`
+    })
+    elements.run.addEventListener("click", startRun)
+  } catch (error) {
+    showError(error.message || String(error))
+    elements.run.disabled = true
+  }
+}
+
+initialize()

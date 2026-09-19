@@ -3,16 +3,29 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "dev": "alchemy dev",
+    "deploy": "alchemy deploy",
+    "destroy": "alchemy destroy",
+    "extract:sat": "bun run scripts/extract-sat.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "typecheck": "tsc --noEmit",
     "prepare": "effect-tsgo patch"
   },
   "devDependencies": {
+    "@cloudflare/workers-types": "5.20260919.1",
     "@effect/language-service": "^0.87.2",
+    "@effect/platform-bun": "^4.0.0-rc.116",
+    "@effect/platform-node": "^4.0.0-rc.116",
     "@effect/tsgo": "^0.19.0",
+    "@effect/vitest": "^4.0.0-rc.116",
     "@types/bun": "^1.4.2",
-    "typescript": "7.0.2"
+    "typescript": "7.0.2",
+    "vitest": "^5.0.1"
   },
   "dependencies": {
+    "@effect/ai-typesafe": "^4.0.0-rc.116",
+    "alchemy": "2.0.0-beta.79",
     "effect": "^4.0.0-rc.116"
   }
 }
