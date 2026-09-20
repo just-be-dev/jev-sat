@@ -1,0 +1,65 @@
+{
+  "11-rw-1-22": {
+    "prompt": "According to the original text of the US Constitution, written in 1787, the presidential candidate receiving the second-most Electoral College votes becomes vice president. The 12th amendment, ratified in _______ separated the elections for the two offices. Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": {
+      "A": "1804—",
+      "B": "1804,",
+      "C": "1804:",
+      "D": "1804"
+    }
+  },
+  "11-rw-1-25": {
+    "prompt": "Helical _______ widely understood to confer stability and efficiency in the locomotion of a variety of microscopic organisms—including bacteria, eukaryotic algae, and ciliates—bestows similar advantages, albeit via different propulsive modes, to larger oceanic macroplanktons, such as salps. Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": {
+      "A": "swimming, is",
+      "B": "swimming is",
+      "C": "swimming has been",
+      "D": "swimming,"
+    }
+  },
+  "11-rw-2-18": {
+    "prompt": "The ratio of methane to other atmospheric constituents—represented by a measure called the methane mole fraction—influences a variety of meteorological phenomena, notably precipitation and humidity. For Titan, Saturn’s largest moon, the observational data that exist are too sparse and discrepant to fully constrain the range of the methane mole fraction at various atmospheric levels. Juan Lora and colleagues point out that outputs of the IPSL atmospheric model of Titan, which track closely to observations in some respects, reflect how the model’s developers responded to this challenge: by prescribing a uniform methane mole fraction for the lowest level of the atmosphere. It is therefore important to note that _______ Which choice most logically completes the text?",
+    "options": {
+      "A": "some disagreements between the model’s simulations of Titan’s precipitation and humidity and the moon’s actual precipitation and humidity are to be expected.",
+      "B": "further observations of Titan may clarify the moon’s methane mole fraction sufficiently for the model to employ a single value rather than a range.",
+      "C": "even though the model’s outputs sometimes agree with observational data, Titan’s real methane mole fraction is likely higher than the methane mole fraction used in the model.",
+      "D": "inconsistencies across the model’s simulations of Titan’s precipitation and humidity could be attributable to variations in the moon’s methane mole fraction."
+    }
+  },
+  "11-rw-2-20": {
+    "prompt": "A popular suite of mapping and spatial analysis software, ArcGIS enables cartographers like Karachi Cartography founder Namra Khalid _______ maps by analyzing and arranging raw geospatial data. Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": {
+      "A": "create",
+      "B": "to create",
+      "C": "creating",
+      "D": "created"
+    }
+  },
+  "11-rw-2-24": {
+    "prompt": "Most of the ice found on Earth is ice Ih, distinguished by a crystalline structure in which molecules form a hexagonal pattern. Amorphous ice, on the other hand, constitutes most of the ice in the ultrafrigid environment of outer space. Defined by a disorganized molecular structure, _______ Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": {
+      "A": "ice Ih contains crystals, whereas amorphous ice, which lacks the thermal energy to form them, does not.",
+      "B": "amorphous ice lacks the thermal energy to form the crystals found in ice Ih.",
+      "C": "the lack of thermal energy in amorphous ice explains its inability to form the crystals found in ice Ih.",
+      "D": "ice Ih differs from amorphous ice in that it possesses the thermal energy to form crystals."
+    }
+  },
+  "11-rw-2-26": {
+    "prompt": "If an animal can recognize itself in a reflective surface (“the mirror test”), it is considered to have self-awareness. In a recent study, scientists _______ for evidence of self-awareness in snakes, species that rely primarily on olfactory rather than visual processing, adapted the test to foreground smell, modifying the scent trails of North American eastern garter snakes and African ball pythons. Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": {
+      "A": "searched",
+      "B": "searching",
+      "C": "were searching",
+      "D": "have searched"
+    }
+  },
+  "11-rw-2-29": {
+    "prompt": "Upper-atmospheric jets—phenomena whereby electrical discharges cause narrow cones of blue light to briefly burst upward from the tops of thunderclouds—have been observed reaching the ionosphere. The extreme altitudes involved (the ionosphere begins about 80 km above Earth) mark these gigantic jets as outliers; _______ the majority of jets reach heights of only 20 to 50 km. Which choice completes the text with the most logical transition?",
+    "options": {
+      "A": "nevertheless,",
+      "B": "consequently,",
+      "C": "indeed,",
+      "D": "in addition,"
+    }
+  }
+}

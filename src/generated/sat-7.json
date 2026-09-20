@@ -177,7 +177,13 @@
       "D": "50%"
     },
     "answer": "D",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 8,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "7-rw-1-13",
@@ -222,7 +228,13 @@
       "D": "national governments of countries in Region 1 and in Region 2 generally became more efficient in the period from 2000 to 2014 than they had been in the period from 1970 to 2000, but at different rates."
     },
     "answer": "A",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 11,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "7-rw-1-16",
@@ -237,7 +249,13 @@
       "D": "Processing imports with assembly were greater in 2006 than processing imports with inputs in 2000."
     },
     "answer": "B",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 12,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "7-rw-1-17",
@@ -672,7 +690,13 @@
       "D": "29%."
     },
     "answer": "D",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 24,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "7-rw-2-13",
@@ -687,7 +711,13 @@
       "D": "6,880 square miles"
     },
     "answer": "C",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 25,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "7-rw-2-14",
@@ -1002,7 +1032,13 @@
       "D": "0"
     },
     "answer": "B",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 34,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "7-math-1-02",
@@ -1017,7 +1053,13 @@
       "D": "52"
     },
     "answer": "D",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 34,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "7-math-1-03",
@@ -1062,7 +1104,13 @@
       "D": "6"
     },
     "answer": "D",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 35,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "7-math-1-08",
@@ -1077,7 +1125,13 @@
       "D": "The estimated value of the tablet decreased by approximately 2.25% each year after it was purchased."
     },
     "answer": "A",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 35,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "7-math-1-09",
@@ -1122,7 +1176,13 @@
       "D": "(−3, 4)"
     },
     "answer": "C",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 36,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "7-math-1-12",
@@ -1257,7 +1317,13 @@
       "D": "sx y + 3 = 18"
     },
     "answer": "B",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 39,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "7-math-1-25",
@@ -1332,7 +1398,13 @@
       "D": "0, 3 ( )"
     },
     "answer": "C",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 44,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "7-math-2-04",
@@ -1362,7 +1434,13 @@
       "D": "1"
     },
     "answer": "B",
-    "hasVisual": false
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 45,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "7-math-2-08",
@@ -1437,7 +1515,13 @@
       "D": "2"
     },
     "answer": "D",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 46,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "7-math-2-15",
@@ -1527,7 +1611,13 @@
       "D": "h x x = 5 + 20 ( )"
     },
     "answer": "B",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 49,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "7-math-2-23",
@@ -1572,7 +1662,13 @@
       "D": "341"
     },
     "answer": "C",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 49,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "7-math-2-26",

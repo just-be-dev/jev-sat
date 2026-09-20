@@ -1,0 +1,162 @@
+{
+  "8-math-1-01": {
+    "prompt": "A bus is traveling at a constant speed along a straight portion of road. The equation d = 30t gives the distance d, in feet from a road marker, that the bus will be t seconds after passing the marker. How many feet from the marker will the bus be 2 seconds after passing the marker?",
+    "options": { "A": "30", "B": "32", "C": "60", "D": "90" }
+  },
+  "8-math-1-02": {
+    "prompt": "For a particular machine that produces beads, 29 out of every 100 beads it produces have a defect. A bead produced by the machine will be selected at random. What is the probability of selecting a bead that has a defect?",
+    "options": { "A": "(1)/(2,900)", "B": "(1)/(29)", "C": "(29)/(100)", "D": "(29)/(10)" }
+  },
+  "8-math-1-03": {
+    "prompt": "What is the y-intercept of the graph shown?",
+    "options": { "A": "(−8, 0)", "B": "(−6, 0)", "C": "(0, 6)", "D": "(0, 8)" }
+  },
+  "8-math-1-04": {
+    "prompt": "Which expression is equivalent to (2x² + x − 9) + (x² + 6x + 1)?",
+    "options": { "A": "2x² + 7x + 10", "B": "2x² + 6x − 8", "C": "3x² + 7x − 10", "D": "3x² + 7x − 8" }
+  },
+  "8-math-1-05": {
+    "prompt": "An analyst collected data on the price of a carton of grape tomatoes at 30 locations selected at random in Utah. The mean price of a carton of grape tomatoes in Utah was estimated to be $4.23, with an associated margin of error of $0.08. Which of the following is a plausible statement about the mean price of a carton of grape tomatoes for all locations that sell this product in Utah?",
+    "options": { "A": "It is between $4.15 and $4.31.", "B": "It is either less than $4.15 or greater than $4.31.", "C": "It is less than $4.15.", "D": "It is greater than $4.31." }
+  },
+  "8-math-1-08": {
+    "prompt": "f(x) = 4x + b\n\nFor the linear function f, b is a constant and f(7) = 28. What is the value of b?",
+    "options": { "A": "0", "B": "1", "C": "4", "D": "7" }
+  },
+  "8-math-1-09": {
+    "prompt": "Right triangles LMN and PQR are similar, where L and M correspond to P and Q, respectively. Angle M has a measure of 53°. What is the measure of angle Q?",
+    "options": { "A": "37°", "B": "53°", "C": "127°", "D": "143°" }
+  },
+  "8-math-1-10": {
+    "prompt": "What is the equation of the line that passes through the point (0, 5) and is parallel to the graph of y = 7x + 4 in the xy-plane?",
+    "options": { "A": "y = 5x", "B": "y = 7x + 5", "C": "y = 7x", "D": "y = 5x + 7" }
+  },
+  "8-math-1-11": {
+    "prompt": "Which of the following equations is the most appropriate linear model for the data shown in the scatterplot?",
+    "options": { "A": "y = −1.9x − 10.1", "B": "y = −1.9x + 10.1", "C": "y = 1.9x − 10.1", "D": "y = 1.9x + 10.1" }
+  },
+  "8-math-1-12": {
+    "prompt": "A model predicts that the population of Bergen was 15,000 in 2005. The model also predicts that each year for the next 5 years, the population p increased by 4% of the previous year’s population. Which equation best represents this model, where x is the number of years after 2005, for x ≤ 5?",
+    "options": { "A": "p = 0.96(15,000)ˣ", "B": "p = 1.04(15,000)ˣ", "C": "p = 15,000(0.96)ˣ", "D": "p = 15,000(1.04)ˣ" }
+  },
+  "8-math-1-15": {
+    "prompt": "The graph of y = f(x) is shown, where the function f is defined by f(x) = ax³ + bx² + cx + d and a, b, c, and d are constants. For how many values of x does f(x) = 0?",
+    "options": { "A": "One", "B": "Two", "C": "Three", "D": "Four" }
+  },
+  "8-math-1-16": {
+    "prompt": "The area A, in square centimeters, of a rectangular cutting board can be represented by the expression w(w + 9), where w is the width, in centimeters, of the cutting board. Which expression represents the length, in centimeters, of the cutting board?",
+    "options": { "A": "w(w + 9)", "B": "w", "C": "9", "D": "w + 9" }
+  },
+  "8-math-1-17": {
+    "prompt": "p = (k)/(4j + 9)\n\nThe given equation relates the distinct positive numbers p, k, and j. Which equation correctly expresses 4j + 9 in terms of p and k?",
+    "options": { "A": "4j + 9 = (k)/(p)", "B": "4j + 9 = kp", "C": "4j + 9 = k − p", "D": "4j + 9 = (p)/(k)" }
+  },
+  "8-math-1-18": {
+    "prompt": "Circle A has a radius of 3n and circle B has a radius of 129n, where n is a positive constant. The area of circle B is how many times the area of circle A?",
+    "options": { "A": "43", "B": "86", "C": "129", "D": "1,849" }
+  },
+  "8-math-1-19": {
+    "prompt": "The measure of angle R is (2π)/(3) radians. The measure of angle T is (5π)/(12) radians greater than the measure of angle R. What is the measure of angle T, in degrees?",
+    "options": { "A": "75", "B": "120", "C": "195", "D": "390" }
+  },
+  "8-math-1-22": {
+    "prompt": "y ≤ x + 7\ny ≥ −2x − 1\n\nWhich point (x, y) is a solution to the given system of inequalities in the xy-plane?",
+    "options": { "A": "(−14, 0)", "B": "(0, −14)", "C": "(0, 14)", "D": "(14, 0)" }
+  },
+  "8-math-1-23": {
+    "prompt": "Weight (pounds) | Frequency\n13 | 12\n14 | 8\n15 | 5\n16 | 7\n17 | 9\n18 | 10\n19 | 13\n20 | 7\n\nThe frequency table summarizes a data set of the weights, rounded to the nearest pound, of 71 tortoises. A weight of 39 pounds is added to the original data set, creating a new data set of the weights, rounded to the nearest pound, of 72 tortoises. Which statement best compares the mean and median of the new data set to the mean and median of the original data set?",
+    "options": { "A": "The mean of the new data set is greater than the mean of the original data set, and the median of the new data set is greater than the median of the original data set.", "B": "The mean of the new data set is greater than the mean of the original data set, and the medians of the two data sets are equal.", "C": "The mean of the new data set is less than the mean of the original data set, and the median of the new data set is less than the median of the original data set.", "D": "The mean of the new data set is less than the mean of the original data set, and the medians of the two data sets are equal." }
+  },
+  "8-math-1-24": {
+    "prompt": "x − 29 = (x − a)(x − 29)\n\nWhich of the following are solutions to the given equation, where a is a constant and a > 30?\n\nI. a\nII. a + 1\nIII. 29",
+    "options": { "A": "I and II only", "B": "I and III only", "C": "II and III only", "D": "I, II, and III" }
+  },
+  "8-math-1-25": {
+    "prompt": "In the xy-plane, the graph of the equation y = −x² + 9x − 100 intersects the line y = c at exactly one point. What is the value of c?",
+    "options": { "A": "−(481)/(4)", "B": "−100", "C": "−(319)/(4)", "D": "−(9)/(2)" }
+  },
+  "8-math-1-26": {
+    "prompt": "The functions f and g are defined by the given equations, where x ≥ 0. Which of the following equations displays, as a constant or coefficient, the maximum value of the function it defines, where x ≥ 0?\n\nI. f(x) = 18(1.25)ˣ + 41\nII. g(x) = 9(0.73)ˣ",
+    "options": { "A": "I only", "B": "II only", "C": "I and II", "D": "Neither I nor II" }
+  },
+  "8-math-2-01": {
+    "prompt": "What is the y-intercept of the line graphed?",
+    "options": { "A": "(−5, 0)", "B": "(0, 0)", "C": "(0, 5)", "D": "(0, 9)" }
+  },
+  "8-math-2-02": {
+    "prompt": "Type of store | Average number of employees\nWarehouse store | 365\nDepartment store | 213\nSupermarket | 130\n\nFor a certain region, the table shows the average number of store employees in 2016 by type of store. Based on the table, how much greater was the average number of store employees in warehouse stores than in supermarkets?",
+    "options": { "A": "83", "B": "152", "C": "235", "D": "495" }
+  },
+  "8-math-2-03": {
+    "prompt": "In the figure, line m is parallel to line n, and line t intersects both lines. What is the value of x?",
+    "options": { "A": "33", "B": "57", "C": "123", "D": "147" }
+  },
+  "8-math-2-04": {
+    "prompt": "Sean rents a tent at a cost of $11 per day plus a onetime insurance fee of $10. Which equation represents the total cost c, in dollars, to rent the tent with insurance for d days?",
+    "options": { "A": "c = 11(d + 10)", "B": "c = 10(d + 11)", "C": "c = 11d + 10", "D": "c = 10d + 11" }
+  },
+  "8-math-2-05": {
+    "prompt": "For the right triangle shown, a = 4 and b = 5. Which expression represents the value of c?",
+    "options": { "A": "4 + 5", "B": "√((4)(5))", "C": "√(4 + 5)", "D": "√(4² + 5²)" }
+  },
+  "8-math-2-08": {
+    "prompt": "The function f is defined by f(x) = (1)/(10)x − 2. What is the y-intercept of the graph of y = f(x) in the xy-plane?",
+    "options": { "A": "(−2, 0)", "B": "(0, −2)", "C": "(0, (1)/(10))", "D": "((1)/(10), 0)" }
+  },
+  "8-math-2-09": {
+    "prompt": "A producer is creating a video with a length of 70 minutes. The video will consist of segments that are 1 minute long and segments that are 3 minutes long. Which equation represents this situation, where x represents the number of 1-minute segments and y represents the number of 3-minute segments?",
+    "options": { "A": "4xy = 70", "B": "4(x + y) = 70", "C": "3x + y = 70", "D": "x + 3y = 70" }
+  },
+  "8-math-2-10": {
+    "prompt": "The function f is defined by f(x) = 7x³. In the xy-plane, the graph of y = g(x) is the result of shifting the graph of y = f(x) down 2 units. Which equation defines function g?",
+    "options": { "A": "g(x) = (7)/(2)x³", "B": "g(x) = 7x^(3/2)", "C": "g(x) = 7x³ + 2", "D": "g(x) = 7x³ − 2" }
+  },
+  "8-math-2-11": {
+    "prompt": "y = −3x\n4x + y = 15\n\nThe solution to the given system of equations is (x, y). What is the value of x?",
+    "options": { "A": "1", "B": "5", "C": "15", "D": "45" }
+  },
+  "8-math-2-12": {
+    "prompt": "In the right triangle shown, what is the value of sin A?",
+    "options": { "A": "(1)/(171)", "B": "(35)/(171)", "C": "(171)/(35)", "D": "171" }
+  },
+  "8-math-2-15": {
+    "prompt": "A bowl contains 20 ounces of water. When the bowl is uncovered, the amount of water in the bowl decreases by 1 ounce every 4 days. If 9 ounces of water remain in this bowl, for how many days has it been uncovered?",
+    "options": { "A": "3", "B": "7", "C": "36", "D": "44" }
+  },
+  "8-math-2-16": {
+    "prompt": "If 9(4 − 3x) + 2 = 8(4 − 3x) + 18, what is the value of 4 − 3x?",
+    "options": { "A": "−16", "B": "−4", "C": "4", "D": "16" }
+  },
+  "8-math-2-17": {
+    "prompt": "A certain township consists of a 5-hectare industrial park and a 24-hectare neighborhood. The total number of trees in the township is 4,529. The equation 5x + 24y = 4,529 represents this situation. Which of the following is the best interpretation of x in this context?",
+    "options": { "A": "The average number of trees per hectare in the industrial park", "B": "The average number of trees per hectare in the neighborhood", "C": "The total number of trees in the industrial park", "D": "The total number of trees in the neighborhood" }
+  },
+  "8-math-2-18": {
+    "prompt": "Which expression is equivalent to a^(11/12), where a > 0?",
+    "options": { "A": "√[12](a¹³²)", "B": "√[144](a¹³²)", "C": "√[121](a¹³²)", "D": "√[11](a¹³²)" }
+  },
+  "8-math-2-19": {
+    "prompt": "The dot plots represent the distributions of values in data sets A and B. Which of the following statements must be true?\n\nI. The median of data set A is equal to the median of data set B.\nII. The standard deviation of data set A is equal to the standard deviation of data set B.",
+    "options": { "A": "I only", "B": "II only", "C": "I and II", "D": "Neither I nor II" }
+  },
+  "8-math-2-22": {
+    "prompt": "A cube has an edge length of 68 inches. A solid sphere with a radius of 34 inches is inside the cube, such that the sphere touches the center of each face of the cube. To the nearest cubic inch, what is the volume of the space in the cube not taken up by the sphere?",
+    "options": { "A": "149,796", "B": "164,500", "C": "190,955", "D": "310,800" }
+  },
+  "8-math-2-23": {
+    "prompt": "y = 6x + 18\n\nOne of the equations in a system of two linear equations is given. The system has no solution. Which equation could be the second equation in the system?",
+    "options": { "A": "−6x + y = 18", "B": "−6x + y = 22", "C": "−12x + y = 36", "D": "−12x + y = 18" }
+  },
+  "8-math-2-24": {
+    "prompt": "Triangles PQR and LMN are graphed in the xy-plane. Triangle PQR has vertices P, Q, and R at (4, 5), (4, 7), and (6, 5), respectively. Triangle LMN has vertices L, M, and N at (4, 5), (4, 7 + k), and (6 + k, 5), respectively, where k is a positive constant. If the measure of ∠Q is t°, what is the measure of ∠N?",
+    "options": { "A": "(90 − (t − k))°", "B": "(90 − (t + k))°", "C": "(90 − t)°", "D": "(90 + k)°" }
+  },
+  "8-math-2-25": {
+    "prompt": "2x + 3y = 7\n10x + 15y = 35\n\nFor each real number r, which of the following points lies on the graph of each equation in the xy-plane for the given system?",
+    "options": { "A": "((r)/(5) + 7, −(r)/(5) + 35)", "B": "(−(3r)/(2) + (7)/(2), r)", "C": "(r, (2r)/(3) + (7)/(3))", "D": "(r, −(3r)/(2) + (7)/(2))" }
+  },
+  "8-math-2-26": {
+    "prompt": "(x²)/(√(x² − c²)) = (c²)/(√(x² − c²)) + 39\n\nIn the given equation, c is a positive constant. Which of the following is one of the solutions to the given equation?",
+    "options": { "A": "−c", "B": "−c² − 39²", "C": "−√(39² − c²)", "D": "−√(c² + 39²)" }
+  }
+}

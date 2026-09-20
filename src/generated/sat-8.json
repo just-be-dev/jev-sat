@@ -162,7 +162,13 @@
       "D": "1985–1989."
     },
     "answer": "B",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 8,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "8-rw-1-12",
@@ -177,7 +183,13 @@
       "D": "250 to 500 meters below the surface"
     },
     "answer": "C",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 8,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "8-rw-1-13",
@@ -192,7 +204,13 @@
       "D": "February."
     },
     "answer": "A",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 8,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "8-rw-1-14",
@@ -702,7 +720,13 @@
       "D": "Serbian and Spanish are spoken at approximately the same rate, but Serbian conveys information faster than Spanish does."
     },
     "answer": "B",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 23,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "8-rw-2-15",
@@ -717,7 +741,13 @@
       "D": "The estimated maximum bite force produced by Cost et al. exceeded the estimated maximum produced by Bates and Falkingham, even though both groups of researchers used the same method to generate their estimates."
     },
     "answer": "C",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 24,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "8-rw-2-16",
@@ -1032,7 +1062,13 @@
       "D": "(0, 8)"
     },
     "answer": "D",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 34,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "8-math-1-04",
@@ -1107,7 +1143,13 @@
       "D": "y x = 5 + 7"
     },
     "answer": "B",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 35,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "8-math-1-11",
@@ -1122,7 +1164,13 @@
       "D": "y x = 1.9 + 10.1"
     },
     "answer": "B",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 36,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "8-math-1-12",
@@ -1152,7 +1200,13 @@
       "D": "Four"
     },
     "answer": "C",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 37,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "8-math-1-16",
@@ -1242,7 +1296,13 @@
       "D": "The mean of the new data set is less than the mean of the original data set, and the medians of the two data sets are equal."
     },
     "answer": "B",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 39,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "8-math-1-24",
@@ -1272,7 +1332,13 @@
       "D": "− 9 2"
     },
     "answer": "C",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 39,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "8-math-1-26",
@@ -1302,7 +1368,13 @@
       "D": "(0, 9)"
     },
     "answer": "C",
-    "hasVisual": false
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 44,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "8-math-2-02",
@@ -1317,7 +1389,13 @@
       "D": "495"
     },
     "answer": "C",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 44,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "8-math-2-03",
@@ -1332,7 +1410,13 @@
       "D": "147"
     },
     "answer": "D",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 44,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "8-math-2-04",
@@ -1362,7 +1446,13 @@
       "D": "4 + 5 2 2"
     },
     "answer": "D",
-    "hasVisual": false
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 45,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "8-math-2-08",
@@ -1377,7 +1467,13 @@
       "D": "1 10 , 0          "
     },
     "answer": "B",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 45,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "8-math-2-09",
@@ -1407,7 +1503,13 @@
       "D": "g x x ( ) = 7 − 2 3"
     },
     "answer": "D",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 46,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "8-math-2-11",
@@ -1437,7 +1539,13 @@
       "D": "171"
     },
     "answer": "B",
-    "hasVisual": false
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 46,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "8-math-2-15",
@@ -1512,7 +1620,13 @@
       "D": "Neither I nor II"
     },
     "answer": "A",
-    "hasVisual": false
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 48,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "8-math-2-22",
@@ -1557,7 +1671,13 @@
       "D": "k (90 + )°"
     },
     "answer": "C",
-    "hasVisual": false
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 49,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "8-math-2-25",
@@ -1572,7 +1692,13 @@
       "D": "r r , − 3 2 + 7 2          "
     },
     "answer": "B",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 49,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "8-math-2-26",

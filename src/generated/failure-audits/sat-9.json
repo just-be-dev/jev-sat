@@ -1,0 +1,98 @@
+{
+  "9-math-1-19": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [37],
+    "finding": "The effective corrected prompt exactly preserves both equations, 4x − 9y = 9y + 5 and hy = 2 + 4x, and all four PDF choices. The official explanation confirms D (18): the lines must have equal x- and y-coefficients but different constants, so the five failures were answer errors."
+  },
+  "9-math-1-22": {
+    "failedRuns": 1,
+    "classification": "legitimate",
+    "pdfPages": [38],
+    "finding": "The effective corrected prompt and A–D choices match the PDF, and the factual visual description accurately states that there is no graph and preserves the displayed definitions of f and g and the intercept notation. The official explanation confirms B (−9) from g(x) = (x + 5)(x + 4)x, so the failure was an answer error."
+  },
+  "9-math-1-24": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [38],
+    "finding": "The effective corrected prompt exactly matches the displayed f(x) = 4x² + 64x + 262, g(x) = f(x + 5), and all four choices in the PDF. The official explanation confirms A (−13), since f is minimized at input −8 and x + 5 = −8; all five failures were answer errors."
+  },
+  "9-math-2-04": {
+    "failedRuns": 3,
+    "classification": "legitimate",
+    "pdfPages": [42],
+    "finding": "The effective corrected prompt and choices exactly match the PDF system 3x = 12 and −3x + y = −6. The official explanation confirms B (6) by substituting x = 4, so the three failures were answer errors."
+  },
+  "9-math-2-09": {
+    "failedRuns": 2,
+    "classification": "legitimate",
+    "pdfPages": [44],
+    "finding": "The effective corrected prompt exactly preserves x + 7 = 10, (x + 7)² = y, and the four ordered-pair choices shown in the PDF. The official explanation confirms A, (3, 100), so both failures were answer errors."
+  },
+  "9-math-2-26": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [48],
+    "finding": "The effective corrected prompt and choices match every displayed formula in the PDF. The visual was also inspected: it contains only those typeset formulas, and the current visual description reproduces f, statements I and II, and the constraints without omitting answer-relevant information. The official explanation confirms D (neither), so all five failures were answer errors."
+  },
+  "9-rw-1-22": {
+    "failedRuns": 5,
+    "classification": "malformed-text",
+    "pdfPages": [13],
+    "finding": "The PDF and official explanation print the name consistently as “Scott-Heron,” but the effective prompt contains the extraction artifact “Scott- Heron.” The blank and all four punctuation choices otherwise match, and the official key is C; a complete exact transcription is supplied in the corrections file."
+  },
+  "9-rw-1-25": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [13],
+    "finding": "The effective prompt, the blank after “hypothesis,” and all four verb-form choices match the PDF. The official explanation confirms A (“suggesting”) as the nonfinite participle introducing the restrictive phrase, so all five failures were answer errors."
+  },
+  "9-rw-1-30": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [15],
+    "finding": "The effective firefly passage, transition blank, and A–D choices match the PDF exactly. The official explanation confirms B (“By contrast,”) because stopping oxygen reverses the glow-producing process, so all five failures were answer errors."
+  },
+  "9-rw-2-02": {
+    "failedRuns": 5,
+    "classification": "malformed-text",
+    "pdfPages": [18],
+    "finding": "The effective ID contains Module 2 question 1 about completing a manuscript plus section directions, and its D option spills into question 2. PDF question 2 is instead the predatory-animals passage with provide as official choice C. The complete question 2 transcription is supplied in the corrections file."
+  },
+  "9-rw-2-03": {
+    "failedRuns": 5,
+    "classification": "malformed-text",
+    "pdfPages": [18],
+    "finding": "The effective ID incorrectly contains PDF question 2 about predatory animals, while the key B belongs to PDF question 3 about Teju Cole combining photography and writing. The PDF and official explanation confirm question 3 choice B (“enthusiasm for”); its complete transcription is supplied in the corrections file."
+  },
+  "9-rw-2-21": {
+    "failedRuns": 2,
+    "classification": "legitimate",
+    "pdfPages": [26],
+    "finding": "The effective mechanotransduction sentence and all four choices match the PDF. The official explanation confirms C (“study”) because the relative-clause subject “many” is plural, so both failures were answer errors."
+  },
+  "9-rw-2-23": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [27],
+    "finding": "The effective Gitlin passage and every punctuation choice match the PDF. The official explanation confirms B, using a semicolon between main clauses and a comma after the introductory phrase “in that era,” so all five failures were answer errors."
+  },
+  "9-rw-2-24": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [27],
+    "finding": "The effective glass passage and the four comma-placement choices match the PDF. The official explanation confirms D because “aluminum oxide” is a restrictive appositive requiring no commas, so all five failures were answer errors."
+  },
+  "9-rw-2-25": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [27],
+    "finding": "The effective Brass Era passage and all four verb-form choices match the PDF. The official explanation confirms C (“highly prized”) as the nonfinite past-participle phrase modifying the main clause, so all five failures were answer errors."
+  },
+  "9-rw-2-26": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [27],
+    "finding": "The effective resource-efficiency passage and every punctuation choice match the PDF. The official explanation confirms C, with a comma around “though” and a semicolon before the next main clause, so all five failures were answer errors."
+  }
+}

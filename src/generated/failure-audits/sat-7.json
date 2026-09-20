@@ -1,0 +1,80 @@
+{
+  "7-math-1-25": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [39],
+    "finding": "The effective prompt and all four options match question 25 on PDF page 39, including the squared cosine terms in choices C and D. The official explanation keys C because the complementary-angle identities reduce the expression to (cos 66°)² + (cos 24°)²; Jev chose incorrectly."
+  },
+  "7-math-2-18": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [48],
+    "finding": "The effective two-equation system, request for 39x, and choices −18, −6, 6, and 18 exactly match PDF page 48. The official explanation keys D: adding the equations gives 13x = 6, hence 39x = 18; Jev chose incorrectly."
+  },
+  "7-math-2-22": {
+    "failedRuns": 1,
+    "classification": "legitimate",
+    "pdfPages": [49],
+    "finding": "The prompt, table values (−4, 0), (−19/5, 1), and (−18/5, 2), and all four equations match PDF page 49; the current visual description faithfully supplies the table. The official explanation keys B by deriving f(x) = 5x + 20 and h(x) = 5x + 7; Jev chose incorrectly."
+  },
+  "7-math-2-24": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [49],
+    "finding": "The effective prompt accurately gives right angle Z, YZ = 24, tan X = 12/35, and the PDF's four options 188, 168, 84, and 71. The official explanation keys B using the scaled 12-35-37 triangle, whose perimeter is 168; Jev chose incorrectly."
+  },
+  "7-math-2-25": {
+    "failedRuns": 5,
+    "classification": "missing-visual",
+    "pdfPages": [49],
+    "finding": "The rendered PDF page shows x² + 14x + y² = 6y + 109 and radical signs over every option, matching the corrected effective prompt/options, but the current visual description incorrectly says the display lacks an equals sign and right-hand side. The official explanation confirms choice C by completing the square to obtain radius √167; the factual visual description is corrected without identifying an answer."
+  },
+  "7-rw-1-07": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [6],
+    "finding": "The plastics passage, parenthetical definition of surfactant, and all options match PDF page 6. The official explanation keys A because the underlined parenthetical defines the scientific term; Jev chose incorrectly."
+  },
+  "7-rw-1-15": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [11],
+    "finding": "The passage and all options match PDF page 11, and inspection of the rendered graph confirms that the visual description includes both series, both regions and periods, and faithful approximate bar heights. The official explanation keys A because Region 1's GDP attribution falls while population attribution rises; Jev chose incorrectly."
+  },
+  "7-rw-1-32": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [18],
+    "finding": "All six research notes, the requested quotation-based challenge, and all four options match PDF page 18. The official explanation keys C because Stewart's quoted “clash of cultures” directly challenges Thucydides's rise-of-Athens explanation; Jev chose incorrectly."
+  },
+  "7-rw-2-18": {
+    "failedRuns": 5,
+    "classification": "malformed-text",
+    "pdfPages": [27],
+    "finding": "The PDF passage on page 27 places 98% silver and 1% copper in the circa-450 coin, 74.2% silver and 24.7% copper in the 367 BCE coin, and the 80% threshold in their sentences. The effective prompt instead drops those figures at the end in scrambled order and even joins “than80%” in option A. The official explanation confirms B; the complete prompt and options are transcribed in the corrections file."
+  },
+  "7-rw-2-21": {
+    "failedRuns": 3,
+    "classification": "legitimate",
+    "pdfPages": [27],
+    "finding": "The Toyin Ojih Odutola sentence and punctuation options exactly match PDF page 27. The official explanation keys C because no punctuation belongs between the subject ending in “Smith” and the verb “is displayed”; Jev chose incorrectly."
+  },
+  "7-rw-2-22": {
+    "failedRuns": 2,
+    "classification": "malformed-text",
+    "pdfPages": [28],
+    "finding": "Although the natural-monopoly prompt and choices A–C match PDF page 28, effective choice D is contaminated with the complete text of questions 23–25 and their choices. The official explanation keys C based on singular pronoun-antecedent agreement. The correction restores the complete question and clean four options."
+  },
+  "7-rw-2-24": {
+    "failedRuns": 2,
+    "classification": "legitimate",
+    "pdfPages": [28],
+    "finding": "The Jung (Lulu) Chen passage and all four punctuation options exactly match PDF page 28. The official explanation keys A because paired commas set off supplementary “though”; Jev chose incorrectly."
+  },
+  "7-rw-2-25": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [28],
+    "finding": "The chondrites passage and all four punctuation options exactly match PDF page 28. The official explanation keys B because the semicolon separates two main clauses while the comma after “though” marks the supplementary adverb; Jev chose incorrectly."
+  }
+}

@@ -12,7 +12,13 @@
       "D": "Discussed A) accidental B) confident C) expensive D) consistent 3 Due to their often strange images, highly experimental syntax, and opaque subject matter, many of John Ashbery’s poems can be quite difficult to ______ and thus are the object of heated debate among scholars. Which choice completes the text with the most logical and precise word or phrase? A) delegate B) compose C) interpret D) renounce"
     },
     "answer": "A",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 4,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "9-rw-1-02",
@@ -162,7 +168,13 @@
       "D": "1992"
     },
     "answer": "D",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 7,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "9-rw-1-12",
@@ -177,7 +189,13 @@
       "D": "Norway maple."
     },
     "answer": "C",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 7,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "9-rw-1-13",
@@ -192,7 +210,13 @@
       "D": "The plants exposed to kanamycin showed lower levels of iron and zinc than the control plants did. ..............................................................................................................................................................................................................................................................................................................."
     },
     "answer": "D",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 8,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "9-rw-1-14",
@@ -207,7 +231,13 @@
       "D": "The Alaska marmots had more torpor bouts than arousal episodes, but their arousal episodes were much shorter than their torpor bouts."
     },
     "answer": "C",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 9,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "9-rw-1-15",
@@ -222,7 +252,13 @@
       "D": "the percentage of hexagonal cells is probably slightly lower in the hives of the western honeybee than in the hives of the dwarf honeybee and the black dwarf honeybee. s"
     },
     "answer": "A",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 10,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "9-rw-1-16",
@@ -522,7 +558,13 @@
       "D": "Rejecting . 2 ,____________, Predatory animals differ widely in how they _______ food for their young. Some leave dead prey nearby for their young to consume, some bring live prey to their young, and some feed their young directly from their own mouths. Which choice completes the text with the most logical and precise word or phrase? A) avoid B) guess C) provide D) describe"
     },
     "answer": "C",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 18,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "9-rw-2-03",
@@ -1137,7 +1179,13 @@
       "D": "π 96"
     },
     "answer": "B",
-    "hasVisual": false
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 36,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "9-math-1-15",
@@ -1182,7 +1230,13 @@
       "D": "x y −6 3 −5 3 4 3"
     },
     "answer": "B",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 37,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "9-math-1-18",
@@ -1227,7 +1281,13 @@
       "D": "15"
     },
     "answer": "B",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 38,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "9-math-1-23",
@@ -1287,7 +1347,13 @@
       "D": "5,621"
     },
     "answer": "B",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 39,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "9-math-2-01",
@@ -1332,7 +1398,13 @@
       "D": "107 135"
     },
     "answer": "D",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 42,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "9-math-2-04",
@@ -1377,7 +1449,13 @@
       "D": "y x = −5 + 18"
     },
     "answer": "D",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 43,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "9-math-2-09",
@@ -1407,7 +1485,13 @@
       "D": "(12, 0)"
     },
     "answer": "D",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 44,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "9-math-2-11",
@@ -1422,7 +1506,13 @@
       "D": "n = 0.004(1 + 604)t"
     },
     "answer": "C",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 44,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "9-math-2-12",
@@ -1482,7 +1572,13 @@
       "D": "There is not enough information to compare these standard deviations."
     },
     "answer": "B",
-    "hasVisual": false
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 45,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "9-math-2-18",
@@ -1587,6 +1683,12 @@
       "D": "Neither I nor II"
     },
     "answer": "D",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 48,
+        "column": "left"
+      }
+    ]
   }
 ]

@@ -6,6 +6,7 @@
     "dev": "alchemy dev",
     "deploy": "alchemy deploy",
     "destroy": "alchemy destroy",
+    "download:sat": "bash scripts/download-sat.sh",
     "extract:sat": "bun run scripts/extract-sat.ts",
     "test": "vitest run",
     "test:watch": "vitest",

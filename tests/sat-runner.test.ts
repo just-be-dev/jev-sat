@@ -43,4 +43,37 @@ describe("SAT runner", () => {
       })
     }).pipe(Effect.provide(model))
   })
+
+  it.effect("sends visual descriptions to Jev as part of the question state", () => {
+    const question = questionsForPracticeTest(4).find((candidate) => candidate.hasVisual)!
+    let receivedInput: unknown
+    const model = Layer.effect(
+      DecisionModel.DecisionModel,
+      DecisionModel.make({
+        decide: ({ decisions, state }) => Effect.sync(() => {
+          receivedInput = state
+          return {
+            answers: Object.fromEntries(Object.keys(decisions).map((id) => [id, {
+              _tag: "Classify" as const,
+              label: question.answer,
+              confidence: 1,
+              probabilities: { A: 1, B: 0, C: 0, D: 0 },
+            }])),
+            usage: { inputTokens: 1, outputTokens: 1 },
+          }
+        }),
+      }),
+    )
+
+    return Effect.gen(function*() {
+      yield* runTest([question], () => Effect.void)
+      expect(receivedInput).toEqual({
+        questions: [{
+          id: question.id,
+          prompt: question.prompt,
+          visualDescription: question.visualDescription,
+        }],
+      })
+    }).pipe(Effect.provide(model))
+  })
 })

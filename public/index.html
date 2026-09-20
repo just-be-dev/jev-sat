@@ -84,7 +84,7 @@
         <article class="question-panel" aria-live="polite" aria-atomic="false">
           <div class="panel-heading">
             <div>
-              <p class="eyebrow">Decision in focus</p>
+              <p class="eyebrow">Question detail</p>
               <h2 id="question-title">Waiting for a run</h2>
             </div>
             <span class="question-status" id="question-status">Idle</span>
@@ -92,13 +92,14 @@
 
           <div class="question-empty" id="question-empty">
             <div class="empty-orbit"><span>J</span></div>
-            <p>Select a practice exam and replay a run to see Jev’s decisions arrive.</p>
+            <p>Start a replay, then select a question from the queue to inspect Jev’s decision.</p>
           </div>
 
           <div class="question-content" id="question-content" hidden>
             <div class="visual-warning" id="visual-warning" hidden>
-              Source includes a graph, table, or figure. PDF text extraction may omit visual detail.
+              Jev accepts text only. For this recorded run, it received a factual description of the visual rather than the source image itself.
             </div>
+            <div class="source-pages" id="source-pages" hidden></div>
             <p class="prompt" id="prompt"></p>
             <div class="choices" id="choices"></div>
             <footer class="decision-meta" id="decision-meta"></footer>

@@ -72,6 +72,17 @@ interface ChoiceGroup {
   readonly previousChoiceEnd: number
 }
 
+interface SourcePage {
+  readonly page: number
+  readonly column: "left" | "right"
+}
+
+interface PositionedWord {
+  readonly text: string
+  readonly x: number
+  readonly y: number
+}
+
 function normalizeVisualChoices(lines: ReadonlyArray<string>): ReadonlyArray<string> {
   const normalized = [...lines]
   for (let a = 0; a < normalized.length; a++) {
@@ -146,6 +157,71 @@ function optionText(lines: ReadonlyArray<string>, start: number, end: number): s
   return cleanText([first, ...lines.slice(start + 1, end)])
 }
 
+function dependsOnVisual(
+  subject: SectionSpec["subject"],
+  prompt: string,
+  options: Readonly<Record<string, string>>,
+): boolean {
+  return /\b(graph|graphed|table|figure|scatterplot|dot plots?|histograms?|diagram)\b/i.test(prompt) ||
+    (subject === "Math" && /\bshown\b/i.test(prompt)) ||
+    Object.values(options).some((option) => /^Visual option [A-D]$/.test(option))
+}
+
+function decodeXml(value: string): string {
+  return value
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&apos;/g, "'")
+    .replace(/&#(\d+);/g, (_, code: string) => String.fromCodePoint(Number(code)))
+}
+
+function positionedWordsByPage(bbox: string): ReadonlyArray<ReadonlyArray<PositionedWord>> {
+  return [...bbox.matchAll(/<page\b[^>]*>([\s\S]*?)<\/page>/g)].map((page) =>
+    [...page[1]!.matchAll(/<word xMin="([0-9.]+)" yMin="([0-9.]+)"[^>]*>([^<]+)<\/word>/g)].map((word) => ({
+      text: decodeXml(word[3]!),
+      x: Number(word[1]),
+      y: Number(word[2]),
+    }))
+  )
+}
+
+function normalizeWord(value: string): string {
+  return value.normalize("NFKD").toLowerCase().replace(/[^a-z0-9]+/g, "")
+}
+
+function sourceColumn(
+  words: ReadonlyArray<PositionedWord>,
+  number: number,
+  anchors: ReadonlyArray<string>,
+): SourcePage["column"] {
+  const marker = words.find((word) =>
+    word.text === String(number) &&
+    word.y >= 90 &&
+    word.y <= 730 &&
+    ((word.x >= 34 && word.x <= 75) || (word.x >= 312 && word.x <= 355))
+  )
+  if (marker !== undefined) return marker.x >= 306 ? "right" : "left"
+
+  for (const anchor of anchors) {
+    const tokens = anchor.split(/\s+/).map(normalizeWord).filter(Boolean).slice(0, 30)
+    for (const column of ["left", "right"] as const) {
+      const normalizedWords = words
+        .filter((word) => column === "left" ? word.x < 306 : word.x >= 306)
+        .map((word) => normalizeWord(word.text))
+      for (let tokenStart = 0; tokenStart <= tokens.length - 4; tokenStart++) {
+        const sequence = tokens.slice(tokenStart, tokenStart + 4)
+        const match = normalizedWords.findIndex((word, index) =>
+          word === sequence[0] && sequence.every((token, offset) => normalizedWords[index + offset] === token)
+        )
+        if (match >= 0) return column
+      }
+    }
+  }
+  return "left"
+}
+
 const pdfText = Effect.fn("pdfText")(function*(file: string) {
   const child = Bun.spawn(["pdftotext", "-raw", file, "-"], { stdout: "pipe", stderr: "pipe" })
   const [stdout, stderr, exitCode] = yield* Effect.all([
@@ -157,15 +233,66 @@ const pdfText = Effect.fn("pdfText")(function*(file: string) {
   return stdout
 })
 
+const pdfBbox = Effect.fn("pdfBbox")(function*(file: string) {
+  const child = Bun.spawn(["pdftotext", "-bbox", file, "-"], { stdout: "pipe", stderr: "ignore" })
+  const [stdout, exitCode] = yield* Effect.all([
+    Effect.promise(() => new Response(child.stdout).text()),
+    Effect.promise(() => child.exited),
+  ])
+  if (exitCode !== 0) return yield* new ExtractError({ message: `Could not read PDF coordinates from ${file}` })
+  return positionedWordsByPage(stdout)
+})
+
+const runCommand = Effect.fn("runCommand")(function*(command: Array<string>) {
+  const child = Bun.spawn(command, { stdout: "pipe", stderr: "pipe" })
+  const [stderr, exitCode] = yield* Effect.all([
+    Effect.promise(() => new Response(child.stderr).text()),
+    Effect.promise(() => child.exited),
+  ])
+  if (exitCode !== 0) {
+    return yield* new ExtractError({ message: `${command[0]} failed: ${stderr.trim()}` })
+  }
+})
+
+const renderSourcePage = Effect.fn("renderSourcePage")(function*(
+  sourcePdf: string,
+  outputDirectory: string,
+  sourcePage: SourcePage,
+) {
+  const output = `${outputDirectory}/page-${String(sourcePage.page).padStart(2, "0")}-${sourcePage.column}`
+  yield* runCommand([
+    "pdftocairo",
+    "-f", String(sourcePage.page),
+    "-l", String(sourcePage.page),
+    "-r", "110",
+    "-jpeg",
+    "-gray",
+    "-jpegopt", "quality=72,optimize=y,progressive=y",
+    "-singlefile",
+    "-x", sourcePage.column === "left" ? "35" : "465",
+    "-y", "120",
+    "-W", "430",
+    "-H", "1030",
+    sourcePdf,
+    output,
+  ])
+})
+
 const extractTest = Effect.fn("extractTest")(function*(practiceTest: number) {
   const sourcePdf = `resources/sat-practice-test-${practiceTest}-digital.pdf`
   const answerPdf = `resources/sat-practice-test-${practiceTest}-answers-digital.pdf`
   const outputFile = `src/generated/sat-${practiceTest}.json`
-  const [rawPdf, answers] = yield* Effect.all([pdfText(sourcePdf), pdfText(answerPdf)])
+  const imageDirectory = `public/questions/test-${practiceTest}`
+  const [rawPdf, answers, positionedPages] = yield* Effect.all([
+    pdfText(sourcePdf),
+    pdfText(answerPdf),
+    pdfBbox(sourcePdf),
+  ])
 
   const pages = rawPdf.split("\f")
   const keys = answerKeys(answers)
   const questions: Array<unknown> = []
+  const visualPages = new Map<string, SourcePage>()
   const starts = [
     ...pages.flatMap((page, index) => page.includes("33 QUESTIONS") ? [index] : []),
     ...pages.flatMap((page, index) => page.includes("27 QUESTIONS") ? [index] : []),
@@ -217,6 +344,7 @@ const extractTest = Effect.fn("extractTest")(function*(practiceTest: number) {
       }
       const prefix = group.previousChoiceEnd === 0 ? pagePrefix(group.lines, Math.max(marker, 0), section.module) : []
       let prompt = cleanText([...prefix, ...group.lines.slice(promptStart, a)])
+      let sourcePageNumbers = [group.page + 1]
       if (prompt.length <= 20) {
         const previousLines = pages[group.page - 1]?.split("\n").map((line) => line.trim()).filter(Boolean) ?? []
         const previousMarker = lastIndex(previousLines, String(number), 0, previousLines.length)
@@ -227,9 +355,31 @@ const extractTest = Effect.fn("extractTest")(function*(practiceTest: number) {
           ? ""
           : cleanText(previousLines.slice(previousMarker + 1, previousFooter < 0 ? previousLines.length : previousFooter))
         const trailingPrompt = footer < 0 ? "" : cleanText(group.lines.slice(footer + 1))
-        prompt = previousPrompt.length > 20 ? previousPrompt : trailingPrompt
+        if (previousPrompt.length > 20) {
+          prompt = previousPrompt
+          sourcePageNumbers = [group.page, group.page + 1]
+        } else {
+          prompt = trailingPrompt
+        }
       }
       const id = `${practiceTest}-${section.subject === "Math" ? "math" : "rw"}-${section.module}-${String(number).padStart(2, "0")}`
+      const hasVisual = dependsOnVisual(section.subject, prompt, options)
+      const sourcePages = sourcePageNumbers.map((page): SourcePage => ({
+        page,
+        column: sourceColumn(positionedPages[page - 1] ?? [], number, [prompt, options.A]),
+      }))
+      if (Object.values(options).some((option) => /^Visual option [A-D]/.test(option))) {
+        const choicesPage = sourcePages.at(-1)!
+        sourcePages.push({
+          page: choicesPage.page,
+          column: choicesPage.column === "left" ? "right" : "left",
+        })
+      }
+      if (hasVisual) {
+        for (const sourcePage of sourcePages) {
+          visualPages.set(`${sourcePage.page}-${sourcePage.column}`, sourcePage)
+        }
+      }
       questions.push({
         id,
         subject: section.subject,
@@ -238,7 +388,8 @@ const extractTest = Effect.fn("extractTest")(function*(practiceTest: number) {
         prompt,
         options,
         answer: key.get(number),
-        hasVisual: /\b(graph|table|figure|scatterplot|dot plot)\b/i.test(prompt),
+        hasVisual,
+        ...(hasVisual ? { sourcePages } : {}),
       })
     }
   }
@@ -247,7 +398,18 @@ const extractTest = Effect.fn("extractTest")(function*(practiceTest: number) {
     try: () => Bun.write(outputFile, `${JSON.stringify(questions, null, 2)}\n`),
     catch: (cause) => new ExtractError({ message: `Could not write ${outputFile}: ${String(cause)}` }),
   })
-  yield* Effect.log(`Extracted ${questions.length} questions from Practice Test ${practiceTest} to ${outputFile}`)
+  yield* runCommand(["rm", "-rf", imageDirectory])
+  yield* runCommand(["mkdir", "-p", imageDirectory])
+  yield* Effect.forEach(
+    [...visualPages.values()].sort((left, right) =>
+      left.page - right.page || left.column.localeCompare(right.column)
+    ),
+    (sourcePage) => renderSourcePage(sourcePdf, imageDirectory, sourcePage),
+    { concurrency: 4, discard: true },
+  )
+  yield* Effect.log(
+    `Extracted ${questions.length} questions and ${visualPages.size} visual source crops from Practice Test ${practiceTest}`,
+  )
 })
 
 const extract = Effect.forEach(practiceTests, extractTest, { concurrency: 1, discard: true })

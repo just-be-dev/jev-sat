@@ -1,0 +1,68 @@
+{
+  "11-math-1-24": {
+    "failedRuns": 1,
+    "classification": "legitimate",
+    "pdfPages": [40],
+    "finding": "The effective prompt and all four expressions exactly match student PDF page 40. The official explanation confirms A: the possible pairwise sums are (18x − 280)°, (−18x + 640)°, and 180°, so (−18x + 280)° cannot be one."
+  },
+  "11-math-2-23": {
+    "failedRuns": 1,
+    "classification": "legitimate",
+    "pdfPages": [50],
+    "finding": "The prompt, choices, and effective visual description match PDF page 50, including crossed lines W–Q–Z and X–Q–Y, equal a° angles at W and Y, and all four given lengths. The official explanation uses similar triangles to obtain YZ/21 = 60/70, hence YZ = 18 (A)."
+  },
+  "11-math-2-25": {
+    "failedRuns": 5,
+    "classification": "missing-visual",
+    "pdfPages": [50],
+    "finding": "The prompt and choices match PDF page 50, but image inspection shows histogram frequencies 4, 7, 27, and 12 for bins 30–40 through 60–70; the effective description incorrectly stated 3 and 13 for the outer bins. The corrected description supplies the exact graph. The official explanation confirms only II must hold because 18 is below every original value while the median need not decrease (B)."
+  },
+  "11-math-2-26": {
+    "failedRuns": 1,
+    "classification": "legitimate",
+    "pdfPages": [51],
+    "finding": "The effective prompt and all four fractional choices exactly match PDF page 51; no omitted figure is needed because the geometry is fully stated in text. The official explanation confirms the similar-triangle relation tan Z = WY/WX = 572/429 = 4/3 (D)."
+  },
+  "11-rw-1-22": {
+    "failedRuns": 5,
+    "classification": "malformed-text",
+    "pdfPages": [12],
+    "finding": "PDF page 12 shows a response blank after “ratified in,” but the effective prompt contains the literal OCR artifact “b l a n k.” The corrected transcription restores the blank and preserves all four punctuation-bearing choices. The official explanation confirms B because the comma after 1804 closes the supplementary element begun after “amendment.”"
+  },
+  "11-rw-1-25": {
+    "failedRuns": 5,
+    "classification": "malformed-text",
+    "pdfPages": [13],
+    "finding": "PDF page 13 shows a response blank between “Helical” and “widely,” but the effective prompt exposes the OCR artifact “b l a n k.” The corrected prompt and all choices are transcribed in full. The official explanation confirms D because the comma after “swimming” pairs with the dash after “ciliates” around the supplementary element."
+  },
+  "11-rw-2-18": {
+    "failedRuns": 5,
+    "classification": "malformed-text",
+    "pdfPages": [25],
+    "finding": "The effective prompt replaces the student-visible response blank on PDF page 25 with the literal OCR text “b l a n k”; the passage and all options otherwise match. The official explanation confirms A: prescribing a uniform value despite sparse, discrepant observations makes some simulation-versus-reality disagreement expected."
+  },
+  "11-rw-2-20": {
+    "failedRuns": 5,
+    "classification": "malformed-text",
+    "pdfPages": [26],
+    "finding": "PDF page 26 has a response blank after “Khalid,” whereas the effective prompt contains “b l a n k.” The complete corrected prompt and choices match the page. The official explanation confirms B because “to create” is the infinitive complement required after “enables ... Khalid.”"
+  },
+  "11-rw-2-24": {
+    "failedRuns": 4,
+    "classification": "malformed-text",
+    "pdfPages": [27],
+    "finding": "PDF page 27 has a response blank after the introductory modifier, but the effective prompt contains the literal OCR artifact “b l a n k.” The rest of the prompt and all options match. The official explanation confirms B because “amorphous ice” must immediately follow and be modified by “Defined by a disorganized molecular structure.”"
+  },
+  "11-rw-2-26": {
+    "failedRuns": 5,
+    "classification": "malformed-text",
+    "pdfPages": [28],
+    "finding": "The effective prompt is corrupted both by literal page furniture (“Unauthorizedcopying... 26 CONTINUE 1 Module 2”) prepended to the question and by “b l a n k” in place of the response blank; neither appears in the student-visible question on PDF page 28. The official explanation confirms B because “searching” forms the supplementary modifier of “scientists.”"
+  },
+  "11-rw-2-29": {
+    "failedRuns": 5,
+    "classification": "malformed-text",
+    "pdfPages": [28],
+    "finding": "PDF page 28 shows a response blank after the semicolon, but the effective prompt presents the OCR artifact “b l a n k.” The corrected prompt retains the semicolon and all option punctuation. The official explanation confirms C because “indeed” emphasizes evidence that supports the preceding outlier claim."
+  }
+}

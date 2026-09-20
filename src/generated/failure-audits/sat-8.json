@@ -1,0 +1,62 @@
+{
+  "8-rw-1-20": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [11],
+    "finding": "The effective prompt and all four options exactly match the student-visible question. The official explanation confirms B because modal “would” takes the parallel plain-form verbs “increase” and “create”; no visual is required, so the five failures were incorrect choices by Jev."
+  },
+  "8-rw-1-22": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [12],
+    "finding": "The effective Grace Hopper passage and options A–D exactly match the student-visible PDF. The official explanation confirms A: the comma sets off “though” and the colon introduces the explanation in the following independent clause; no source information is missing."
+  },
+  "8-rw-1-24": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [12],
+    "finding": "The effective neoclassical-period prompt and every punctuation option exactly match the PDF. The official explanation confirms C because the comma separates “however” from its clause and the semicolon joins the two independent clauses, so Jev’s failures do not reflect malformed content."
+  },
+  "8-rw-1-25": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [13],
+    "finding": "The effective John Donne prompt and all options exactly match the student-visible PDF. The official explanation confirms C, which makes “much admired … followed” a comma-delimited supplementary element while leaving “works … had … been” as the main clause."
+  },
+  "8-rw-1-26": {
+    "failedRuns": 4,
+    "classification": "legitimate",
+    "pdfPages": [13],
+    "finding": "The effective alumina/silica-glass sentence and all four completions exactly match the PDF. The official explanation confirms D because “silica glass’s atomic arrangement” is the noun logically compared with alumina glass’s arrangement; the other choices create dangling modifiers."
+  },
+  "8-rw-2-22": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [27],
+    "finding": "The effective Emmett Ashford prompt and options A–D exactly match the student-visible PDF. The official explanation confirms A because “helped” is the finite main-clause verb required for the compound subject “gestures” and “habit”; no visual or omitted text is involved."
+  },
+  "8-math-1-26": {
+    "failedRuns": 4,
+    "classification": "legitimate",
+    "pdfPages": [40],
+    "finding": "The corrected effective prompt preserves both displayed exponential equations, the x ≥ 0 restriction, and all four options exactly as shown in the PDF. The official solution confirms B: f increases without a maximum, while g has maximum 9 at x = 0 and displays 9 as a coefficient."
+  },
+  "8-math-2-03": {
+    "failedRuns": 1,
+    "classification": "missing-visual",
+    "pdfPages": [44],
+    "finding": "The prompt and options match the PDF, but inspection of the rendered diagram found the current visual description incorrectly placed x° in the upper-left angle at line m. In the actual figure x° is the lower-left exterior angle, on the same side of transversal t as the lower-right 33° exterior angle; the official solution confirms these angles are supplementary. The visual description was corrected."
+  },
+  "8-math-2-11": {
+    "failedRuns": 4,
+    "classification": "legitimate",
+    "pdfPages": [46],
+    "finding": "The effective two-equation system, question, and options exactly match the student-visible PDF. The official solution confirms C by substituting y = −3x into 4x + y = 15, yielding x = 15; no visual or source content is missing."
+  },
+  "8-math-2-18": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [47],
+    "finding": "The effective prompt accurately expresses a^(11/12), and each radical option, including B as the 144th root of a^132, matches the rendered PDF. The official explanation confirms B since 132/144 simplifies to 11/12; the question is complete and unambiguous."
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "5-math-1-11": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [36],
+    "finding": "The effective prompt and all four options exactly match student PDF page 36. The official key's C is sound: 4x − 28 = −24 gives x = 1 and x − 7 = −6, so the failures were incorrect selections rather than a content defect."
+  },
+  "5-math-1-19": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [39],
+    "finding": "The rendered student PDF on page 39 confirms tan(92π/3), including π, the fraction, and the radicals and fractions in all four options; the effective content matches it exactly. The official key's A is sound because 92π/3 is coterminal with 2π/3 and tan(2π/3) = −√3."
+  },
+  "5-math-1-26": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [41],
+    "finding": "The effective prompt and options exactly match student PDF page 41, and the page contains no graph despite the extraction metadata; the current visual description correctly says that no diagram is present. The official key's A is sound: f(x) = a(x − 7)(x + 3), so b = −4a and a + b = −3a, which can be −6 when integer a = 2."
+  },
+  "5-math-2-12": {
+    "failedRuns": 4,
+    "classification": "legitimate",
+    "pdfPages": [47],
+    "finding": "The theater counts, probabilities, question, and all options in the effective content exactly match student PDF page 47. The official key's D is sound because theater C has probability 1 − 0.48 − 0.24 = 0.28, and 0.28 × 350 = 98."
+  },
+  "5-math-2-16": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [47],
+    "finding": "The triangle statement, 63° angle, and all four options exactly match student PDF page 47. The official key's A is sound because the other two angles must total 117°, making 116° possible while 118°, 126°, and 180° are not."
+  },
+  "5-math-2-18": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [48],
+    "finding": "Rendered student PDF page 48 confirms that the radical covers 2x and that the effective prompt and all options are exact. The official key's B is sound: 4√(2x) = 16 implies 2x = 16, x = 8, and 6x = 48."
+  },
+  "5-math-2-19": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [48],
+    "finding": "Rendered student PDF page 48 confirms the strict inequality and every x/y entry in all four tables; the effective multiline content is exact. The official key's D is sound because its three pairs each give 2x − y = 884 > 883, whereas each other table includes a non-solution."
+  },
+  "5-math-2-25": {
+    "failedRuns": 4,
+    "classification": "legitimate",
+    "pdfPages": [50],
+    "finding": "Rendered student PDF page 50 confirms P(t) = 260(1.04)^((6/4)t), with the entire (6/4)t in the exponent, and confirms all options. The official key's A is sound: one 4% growth period is 4/6 year, or 8 months."
+  },
+  "5-math-2-26": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [50],
+    "finding": "Rendered student PDF page 50 confirms the center, tangency point, and every coordinate in the four options, including A's 6/5; the effective content is exact. The official key's C is sound because the radius slope is −5/6, so the tangent slope is 6/5 and (10, 2) lies on it."
+  },
+  "5-rw-1-25": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [13],
+    "finding": "The complete passage and the punctuation in all four effective options exactly match student PDF page 13. The official explanation confirms B: no punctuation separates the title “little-known French portrait artist” from the proper name Marie-Denise Villers."
+  },
+  "5-rw-1-30": {
+    "failedRuns": 5,
+    "classification": "malformed-text",
+    "pdfPages": [15],
+    "finding": "The prompt and options A–C match student PDF page 15, but effective option D appends a long extraction artifact made of periods after “Hence,”; the PDF option is only “Hence,”. The official key is D because the shell's external appearance causes the incorrect assumption, but the student-visible option text is malformed and is corrected in the question-corrections overlay."
+  },
+  "5-rw-2-14": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [24],
+    "finding": "The prose and all options match student PDF page 24. Rendering the graph verifies the current description's legend, units, scenarios, and all six approximate bar values; it supplies the comparisons needed for official answer D, including moderate-change growth with nitrogen (~0.18) exceeding current growth without nitrogen (~0.16), which in turn exceeds extreme-change growth with nitrogen (~0.06)."
+  },
+  "5-rw-2-21": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [27],
+    "finding": "The complete sentence and all four punctuation options exactly match student PDF page 27. The official key's C is sound because the comma after “sisters” closes the supplementary appositive beginning “a fictionalized account,” allowing the subject “novel” to connect to “can serve.”"
+  },
+  "5-rw-2-22": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [28],
+    "finding": "The complete Ever Given passage and punctuation in all four options exactly match student PDF page 28. The official key's B is sound because the colon after “size” introduces the following independent clause explaining that size, while the comma after “dislodge” correctly sets off the intervening phrase."
+  },
+  "5-rw-2-24": {
+    "failedRuns": 2,
+    "classification": "legitimate",
+    "pdfPages": [28],
+    "finding": "The complete Hochschild passage and all four verb options exactly match student PDF page 28. The official key's C is sound because the plural subject “frameworks” requires the plural verb “underlie.”"
+  }
+}

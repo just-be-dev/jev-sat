@@ -207,7 +207,13 @@
       "D": "Caribbean monk seal (Monachus tropicalis), which became extinct in 1952."
     },
     "answer": "B",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 9,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "5-rw-1-15",
@@ -237,7 +243,13 @@
       "D": "oxygenation in the Alboran Sea tended to be substantially higher than oxygenation near the Mauritanian coast during the period studied."
     },
     "answer": "B",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 10,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "5-rw-1-17",
@@ -357,7 +369,13 @@
       "D": "represent"
     },
     "answer": "D",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 13,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "5-rw-1-25",
@@ -672,7 +690,13 @@
       "D": "The highest number of medicine and health topic submissions during the period shown is approximately 285 in 2019."
     },
     "answer": "D",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 23,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "5-rw-2-13",
@@ -702,7 +726,13 @@
       "D": "Growth with nitrogen under moderate change exceeded growth without nitrogen under the current climate, but the latter exceeded growth with nitrogen under extreme change."
     },
     "answer": "D",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 24,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "5-rw-2-15",
@@ -732,7 +762,13 @@
       "D": "If baseline precipitation is somewhat concentrated, water use for irrigation will decline by a small amount, whereas it will increase 11.0% for surface water and 9.0% for groundwater if baseline precipitation is evenly distributed."
     },
     "answer": "B",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 26,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "5-rw-2-17",
@@ -792,7 +828,13 @@
       "D": "it"
     },
     "answer": "A",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 27,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "5-rw-2-21",
@@ -1002,7 +1044,13 @@
       "D": "(5, 0)"
     },
     "answer": "C",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 34,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "5-math-1-02",
@@ -1032,7 +1080,13 @@
       "D": "(0, 8)"
     },
     "answer": "D",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 34,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "5-math-1-04",
@@ -1062,7 +1116,13 @@
       "D": "Increasing exponential"
     },
     "answer": "B",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 35,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "5-math-1-08",
@@ -1077,7 +1137,13 @@
       "D": "The value of x cannot be determined."
     },
     "answer": "C",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 36,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "5-math-1-09",
@@ -1167,7 +1233,17 @@
       "D": "Visual option D"
     },
     "answer": "D",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 38,
+        "column": "left"
+      },
+      {
+        "page": 38,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "5-math-1-17",
@@ -1182,7 +1258,13 @@
       "D": "26 x"
     },
     "answer": "B",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 39,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "5-math-1-18",
@@ -1227,7 +1309,13 @@
       "D": "19"
     },
     "answer": "B",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 40,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "5-math-1-23",
@@ -1287,7 +1375,13 @@
       "D": "5"
     },
     "answer": "A",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 41,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "5-math-2-01",
@@ -1317,7 +1411,13 @@
       "D": "600"
     },
     "answer": "B",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 44,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "5-math-2-03",
@@ -1392,7 +1492,13 @@
       "D": "The diver hits the water at 0.2 seconds."
     },
     "answer": "B",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 45,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "5-math-2-10",
@@ -1422,7 +1528,13 @@
       "D": "7"
     },
     "answer": "C",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 46,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "5-math-2-12",
@@ -1452,7 +1564,13 @@
       "D": "There is not enough information to compare the means."
     },
     "answer": "A",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 47,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "5-math-2-16",

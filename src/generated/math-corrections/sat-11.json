@@ -1,0 +1,167 @@
+{
+  "11-math-1-01": {
+    "prompt": "In the triangle shown, PQ = QR. What is the value of x?",
+    "options": { "A": "156", "B": "66", "C": "48", "D": "24" }
+  },
+  "11-math-1-02": {
+    "prompt": "4x + 1 = 33\n\nWhich equation has the same solution as the given equation?",
+    "options": { "A": "4x = 32", "B": "4x = 5", "C": "4x = 1", "D": "4x = −32" }
+  },
+  "11-math-1-03": {
+    "prompt": "For the linear function f, the graph of y = f(x) in the xy-plane has a slope of 7 and passes through the point (0, 5). Which equation defines f?",
+    "options": { "A": "f(x) = 5x", "B": "f(x) = 35x", "C": "f(x) = 7x + 5", "D": "f(x) = 12x + 5" }
+  },
+  "11-math-1-04": {
+    "prompt": "8x² − 40 = 32\n\nWhat is the positive solution to the given equation?",
+    "options": { "A": "3", "B": "4", "C": "9", "D": "72" }
+  },
+  "11-math-1-05": {
+    "prompt": "A total of 50 children attended a summer camp and were offered 4 types of sandwiches. The table shows the number of children who chose each type of sandwich.\n\nType of sandwich | Number of children\nTurkey | 15\nChicken | 23\nHam | 3\nVegetarian | 9\nTotal | 50\n\nIf one of these children is selected at random, what is the probability of selecting a child who chose a vegetarian sandwich?",
+    "options": { "A": "9/100", "B": "9/50", "C": "1/4", "D": "9/10" }
+  },
+  "11-math-1-08": {
+    "prompt": "In a chess tournament, each participant earns 1 point for each game the participant plays that ends in a draw and 3 points for each game the participant wins. A certain participant in this tournament has earned 41 points. Which equation represents this situation, where d represents the number of games this participant has played that ended in a draw and w represents the number of games this participant has won?",
+    "options": { "A": "d + 3w = 41", "B": "3d + w = 41", "C": "d + w/3 = 41", "D": "d/3 + w = 41" }
+  },
+  "11-math-1-09": {
+    "prompt": "The function g is defined by g(x) = √x + 300. What is the value of g(x) when x = 81?",
+    "options": { "A": "9", "B": "300", "C": "309", "D": "381" }
+  },
+  "11-math-1-10": {
+    "prompt": "A cable provider wanted to know how many of its 30,000 customers would be interested in a new service plan. The provider selected 300 customers at random and asked each customer whether the customer would be interested in the new plan. Of those surveyed, 8 said they would be interested. Which of the following is the best estimate of the total number of customers who would be interested in the new service plan?",
+    "options": { "A": "8", "B": "80", "C": "800", "D": "8,000" }
+  },
+  "11-math-1-11": {
+    "prompt": "Which expression is equivalent to 64t²s³ − 56t³s?",
+    "options": { "A": "4ts(16s² − 14ts)", "B": "4ts(16t²s² − 14t)", "C": "4t²s(16ts − 14s)", "D": "4t²s(16s² − 14t)" }
+  },
+  "11-math-1-12": {
+    "prompt": "x + 5 = 14\ny = 4x² + 4\n\nAt what point (x, y) do the graphs of the equations in the given system intersect?",
+    "options": { "A": "(9, 324)", "B": "(9, 328)", "C": "(14, 4)", "D": "(14, 788)" }
+  },
+  "11-math-1-15": {
+    "prompt": "The scatterplot shows the relationship between x and y. A line of best fit is also shown. Which of the following is closest to the slope of this line of best fit?",
+    "options": { "A": "0.60", "B": "2.50", "C": "7.80", "D": "8.00" }
+  },
+  "11-math-1-16": {
+    "prompt": "Which quadratic equation has exactly one distinct real solution?",
+    "options": { "A": "(x + 15)² = 0", "B": "(x + 15)² = −45", "C": "(x + 15)² = 45", "D": "(x + 15)² = 135" }
+  },
+  "11-math-1-17": {
+    "prompt": "The cost to rent a bus from Company X is $950 for the first 3 hours and an additional $50 per hour for each hour after the first 3 hours. If the total cost to rent the bus from Company X for t hours, where t > 3, is $1,150, which equation represents this situation?",
+    "options": { "A": "950(t − 3) + 50t = 1,150", "B": "950(3t) + 50t = 1,150", "C": "950 + 50(t − 3) = 1,150", "D": "950 + 50(3t) = 1,150" }
+  },
+  "11-math-1-18": {
+    "prompt": "x + y = 53\n11x + 18y = 730\n\nThe given equations represent the possible numbers of beach chairs, x, and umbrellas, y, rented at a park last month and the total spent, in dollars, to rent those beach chairs and umbrellas. Which of the following graphs represents this situation?",
+    "options": { "A": "Visual option A", "B": "Visual option B", "C": "Visual option C", "D": "Visual option D" }
+  },
+  "11-math-1-19": {
+    "prompt": "In triangle QRS shown, QR < RS. Which expression represents the length of QS?",
+    "options": { "A": "18 cos Q", "B": "18 sin Q", "C": "18/(cos Q)", "D": "18/(sin Q)" }
+  },
+  "11-math-1-22": {
+    "prompt": "A scientist measured the lengths of 240 gray seals from Muskeget Island and 120 gray seals from Sable Island. The scientist determined that the mean length of the 240 gray seals from Muskeget Island was 88 inches and the mean length of the 120 gray seals from Sable Island was 94 inches. What was the mean length of all 360 gray seals the scientist measured for this study?",
+    "options": { "A": "89", "B": "90", "C": "91", "D": "92" }
+  },
+  "11-math-1-23": {
+    "prompt": "The graph of y = f(x) + 4 is shown. Which equation defines function f?",
+    "options": { "A": "f(x) = −3ˣ + 1", "B": "f(x) = −3ˣ + 5", "C": "f(x) = −3ˣ + 8", "D": "f(x) = −3ˣ + 9" }
+  },
+  "11-math-1-24": {
+    "prompt": "Two lines intersect at exactly one point, forming two acute angles and two obtuse angles. The measure of one of these angles is (9x − 140)°. Which of the following could NOT be the sum of the measures of any two of these angles?",
+    "options": { "A": "(−18x + 280)°", "B": "(−18x + 640)°", "C": "(18x − 280)°", "D": "180°" }
+  },
+  "11-math-1-25": {
+    "prompt": "2x + 9y = 7\n\nThe given equation is one equation in a system of two linear equations. If the system of equations has at least one solution, which of the following equations could be the other equation in the system?\n\nI. 3x + 13.5y = 10.5\nII. 3x − 13.5y = 10.5",
+    "options": { "A": "I only", "B": "II only", "C": "I and II", "D": "Neither I nor II" }
+  },
+  "11-math-1-26": {
+    "prompt": "A right rectangular prism has a base area of 24t square centimeters (cm²). The length of the base of the rectangular prism is 8/3 cm, and the height of the rectangular prism is 15 cm. Which expression represents the surface area, in cm², of the right rectangular prism?",
+    "options": { "A": "48t + 160", "B": "318t + 80", "C": "1,968t + 80", "D": "360t" }
+  },
+  "11-math-2-01": {
+    "prompt": "Which expression is equivalent to 6x + 5x + 4y?",
+    "options": { "A": "15x", "B": "15y", "C": "11x + 4y", "D": "30x + 4y" }
+  },
+  "11-math-2-02": {
+    "prompt": "To study the characteristics of sea stars in a group of tide pools, researchers measured the diameter of the sea stars within the tide pools. The dot plot gives the diameter, to the nearest inch, of each of the sea stars in these tide pools. Based on the dot plot, how many sea stars had a diameter, to the nearest inch, of 16 inches?",
+    "options": { "A": "16", "B": "6", "C": "4", "D": "1" }
+  },
+  "11-math-2-03": {
+    "prompt": "A rectangle has a length of 56 inches and a width of 28 inches. What is the area, in square inches, of the rectangle?",
+    "options": { "A": "28", "B": "84", "C": "168", "D": "1,568" }
+  },
+  "11-math-2-04": {
+    "prompt": "10x = 110\n6x − 63 = y\n\nThe solution to the given system of equations is (x, y). What is the value of y?",
+    "options": { "A": "63", "B": "11", "C": "10", "D": "3" }
+  },
+  "11-math-2-05": {
+    "prompt": "The function f is defined by f(x) = 9(2x + 3). For what value of x does f(x) = 63?",
+    "options": { "A": "2", "B": "5", "C": "7", "D": "30" }
+  },
+  "11-math-2-08": {
+    "prompt": "Leo goes to a packing store to buy containers and tape. Leo has $15. Each container costs $1.87 and each roll of tape costs $2.40. Which inequality represents the relationship between the number of containers, c, and the number of rolls of tape, t, Leo can buy?",
+    "options": { "A": "1.87c + 2.40t ≤ 15", "B": "1.87c + 2.40t ≥ 15", "C": "2.40c + 1.87t ≤ 15", "D": "2.40c + 1.87t ≥ 15" }
+  },
+  "11-math-2-09": {
+    "prompt": "The graph of the function f is shown, where y = f(x). Which of the following best describes the function f?",
+    "options": { "A": "Decreasing exponential", "B": "Increasing exponential", "C": "Decreasing linear", "D": "Increasing linear" }
+  },
+  "11-math-2-10": {
+    "prompt": "The shaded region shown in the graph represents all the solutions to which inequality?",
+    "options": { "A": "x ≤ 36", "B": "x ≥ 36", "C": "y ≤ 36", "D": "y ≥ 36" }
+  },
+  "11-math-2-11": {
+    "prompt": "There are 240 players in a tennis competition that includes 4 rounds of matches. Each player in the competition will play a match against another player in round 1. At the end of each round, the player who loses the match is eliminated and the player who won the match advances to the next round to play a match against another winning player. Which equation gives the number of players, p, eliminated at the end of round r, where r ≤ 4?",
+    "options": { "A": "p = 15(1/2)ʳ", "B": "p = 15(2)ʳ", "C": "p = 240(1/2)ʳ", "D": "p = 240(2)ʳ" }
+  },
+  "11-math-2-12": {
+    "prompt": "Line k is defined by y = 6x + 4. Line j is parallel to line k in the xy-plane and passes through the point (0, 5). Which equation defines line j?",
+    "options": { "A": "y = 6x + 5", "B": "y = −5x + 5", "C": "y = −6x + 5", "D": "y = 5x + 5" }
+  },
+  "11-math-2-15": {
+    "prompt": "The graph shows the estimated boiling point y, in degrees Celsius, of a normal paraffin with a molecular weight of x grams per mole, where 1 ≤ x ≤ 280. Which statement is the best interpretation of the point (149.02, 186.05)?",
+    "options": {
+      "A": "A normal paraffin with a molecular weight of 186.05 grams per mole has an estimated boiling point of 149.02 degrees Celsius.",
+      "B": "A normal paraffin with a molecular weight of 149.02 grams per mole has an estimated boiling point of 186.05 degrees Celsius.",
+      "C": "The minimum estimated boiling point for normal paraffins corresponds to a paraffin with a molecular weight of 149.02 grams per mole and an estimated boiling point of 186.05 degrees Celsius.",
+      "D": "The maximum estimated boiling point for normal paraffins corresponds to a paraffin with a molecular weight of 149.02 grams per mole and an estimated boiling point of 186.05 degrees Celsius."
+    }
+  },
+  "11-math-2-16": {
+    "prompt": "For the polynomial function f, the graph of y = f(x) in the xy-plane passes through the points (−5, 0), (1, 0), and (4, 0). Which of the following must be a factor of f(x)?",
+    "options": { "A": "x + 1", "B": "x + 4", "C": "x − 1", "D": "x − 5" }
+  },
+  "11-math-2-17": {
+    "prompt": "x | g(x)\n1 | 32\n2 | 28\n3 | 24\n4 | 20\n\nFor the linear function g, the table shows four values of x and their corresponding values of g(x). The function can be written as g(x) = mx + b, where m and b are constants. What is the value of b?",
+    "options": { "A": "4", "B": "16", "C": "32", "D": "36" }
+  },
+  "11-math-2-18": {
+    "prompt": "x | f(x)\n24 | −8\n30 | −8\n32 | 8\n\nFor the quadratic function f, the table shows three values of x and their corresponding values of f(x). Which equation defines f?",
+    "options": { "A": "f(x) = (x − 24)(x − 30) + 4", "B": "f(x) = (x − 24)(x − 30) − 8", "C": "f(x) = (x − 8)(x − 32) + 32", "D": "f(x) = (x − 8)(x − 32) − 32" }
+  },
+  "11-math-2-19": {
+    "prompt": "A certain open star cluster contains M-type stars and K-type stars. The estimated total mass of M-type and K-type stars in this open star cluster is 127,882 quettagrams. The graph shown models the possible combinations of the number of M-type stars, x, and K-type stars, y, that could be in this open star cluster if all the M-type stars have the same estimated mass and all the K-type stars have the same estimated mass. Based on the graph, which of the following is closest to the estimated mass, in quettagrams, of each M-type star in this cluster?",
+    "options": { "A": "811", "B": "938", "C": "51,904", "D": "75,978" }
+  },
+  "11-math-2-22": {
+    "prompt": "f(x) = −6x² + 60x − 126\n\nThe function f is defined by the given equation. Which of the following equivalent forms of the equation displays the maximum value of the function as a constant or coefficient?",
+    "options": { "A": "f(x) = −6x² + 42x + 18x − 126", "B": "f(x) = −6x(x − 7) + 18(x − 7)", "C": "f(x) = −6(x − 5)² + 24", "D": "f(x) = −6(x − 7)(x − 3)" }
+  },
+  "11-math-2-23": {
+    "prompt": "In the figure shown, WZ and XY intersect at point Q, YQ = 21, WQ = 70, WX = 60, and XQ = 120. What is the length of YZ?",
+    "options": { "A": "18", "B": "36", "C": "120", "D": "200" }
+  },
+  "11-math-2-24": {
+    "prompt": "52(x³ + 64)(x⁴ − 81) = 0\n\nHow many distinct real solutions does the given equation have?",
+    "options": { "A": "Exactly two", "B": "Exactly three", "C": "Exactly five", "D": "Exactly seven" }
+  },
+  "11-math-2-25": {
+    "prompt": "The histogram summarizes data set A, which represents the number of points per player earned by 50 players of a game. A new player earns 18 points playing the game, and this number of points is added to data set A to create data set B with 51 values. Which of the following must be true?\n\nI. The median number of points per player for data set B is less than the median number of points per player for data set A.\nII. The mean number of points per player for data set B is less than the mean number of points per player for data set A.",
+    "options": { "A": "I only", "B": "II only", "C": "I and II", "D": "Neither I nor II" }
+  },
+  "11-math-2-26": {
+    "prompt": "In triangle XYZ, the measure of angle X is 90°. Point W lies on segment YZ, and segment WX is perpendicular to segment YZ. The length of segment WY is 572, and the length of segment WX is 429. What is the value of tan Z?",
+    "options": { "A": "3/5", "B": "3/4", "C": "4/5", "D": "4/3" }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "7-rw-2-18": {
+    "prompt": "An analysis by Alain Elayi and colleagues of coins minted in Sidon in the fifth and fourth centuries BCE reveals a change in their composition over time: while a coin from circa 450 BCE contains about 98% silver and 1% copper, a coin from 367 BCE (the end of Ba’alšillem II’s reign) contains 74.2% silver and 24.7% copper, giving it a relatively yellowish appearance that traders would have noticed. Because coins with a silver content below 80% were widely considered unsuitable for trade, Elayi et al. speculate that a crisis in confidence in the currency occurred in Sidon around 367 BCE, which was likely relieved—despite Sidon’s persistent oppressive financial obligations—as a result of Ba’alšillem II’s successor Abd’aštart I’s decision to _______ Which choice most logically completes the text?",
+    "options": {
+      "A": "proclaim that the percentage of silver in coins suitable for trade would be raised to a threshold higher than 80%.",
+      "B": "keep the amount of silver in Sidonian coins consistent with that in coins minted in 367 BCE but decrease their weight.",
+      "C": "begin minting heavier coins with a proportion of silver to copper similar to that in coins minted in 367 BCE.",
+      "D": "fund the mining of some copper deposits that were not available to Ba’alšillem II."
+    }
+  },
+  "7-rw-2-22": {
+    "prompt": "When a given industry—water and electricity are two well-known examples—carries high infrastructural start-up costs and other barriers that discourage competition, _______ of just one or two suppliers per municipality. Such industries are known as natural monopolies. Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": {
+      "A": "these often consist",
+      "B": "they often consist",
+      "C": "it often consists",
+      "D": "this often consists"
+    }
+  }
+}

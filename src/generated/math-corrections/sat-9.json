@@ -1,0 +1,162 @@
+{
+  "9-math-1-01": {
+    "prompt": "The lengths of two sides of a triangle are 4 centimeters and 6 centimeters. If the perimeter of the triangle is 18 centimeters, what is the length, in centimeters, of the third side of this triangle?",
+    "options": { "A": "2", "B": "8", "C": "10", "D": "24" }
+  },
+  "9-math-1-02": {
+    "prompt": "16x + 30 = 190\n\nWhich equation has the same solution as the given equation?",
+    "options": { "A": "16x = 30", "B": "16x = 130", "C": "16x = 160", "D": "16x = 190" }
+  },
+  "9-math-1-03": {
+    "prompt": "Ty set a goal to walk at least 24 kilometers every day to prepare for a multiday hike. On a certain day, Ty plans to walk at an average speed of 4 kilometers per hour. What is the minimum number of hours Ty must walk on that day to fulfill the daily goal?",
+    "options": { "A": "4", "B": "6", "C": "20", "D": "24" }
+  },
+  "9-math-1-04": {
+    "prompt": "The function g is defined by g(x) = x² + 9. For which value of x is g(x) = 25?",
+    "options": { "A": "4", "B": "5", "C": "9", "D": "13" }
+  },
+  "9-math-1-05": {
+    "prompt": "Which expression is equivalent to 9x² + 5x?",
+    "options": { "A": "x(9x + 5)", "B": "5x(9x + 1)", "C": "9x(x + 5)", "D": "x²(9x + 5)" }
+  },
+  "9-math-1-08": {
+    "prompt": "Jay walks at a speed of 3 miles per hour and runs at a speed of 5 miles per hour. He walks for w hours and runs for r hours for a combined total of 14 miles. Which equation represents this situation?",
+    "options": { "A": "3w + 5r = 14", "B": "(1/3)w + (1/5)r = 14", "C": "(1/3)w + (1/5)r = 112", "D": "3w + 5r = 112" }
+  },
+  "9-math-1-09": {
+    "prompt": "John paid a total of $165 for a microscope by making a down payment of $37 plus p monthly payments of $16 each. Which of the following equations represents this situation?",
+    "options": { "A": "16p − 37 = 165", "B": "37p − 16 = 165", "C": "16p + 37 = 165", "D": "37p + 16 = 165" }
+  },
+  "9-math-1-10": {
+    "prompt": "y − 57 = px\n\nThe given equation relates the positive numbers p, x, and y. Which equation correctly expresses y in terms of p and x?",
+    "options": { "A": "y = 57x + p", "B": "y = px + 57", "C": "y = 57px", "D": "y = (px)/(57)" }
+  },
+  "9-math-1-11": {
+    "prompt": "A company opens an account with an initial balance of $36,100.00. The account earns interest, and no additional deposits or withdrawals are made. The account balance is given by an exponential function A, where A(t) is the account balance, in dollars, t years after the account is opened. The account balance after 13 years is $68,071.93. Which equation could define A?",
+    "options": { "A": "A(t) = 36,100.00(1.05)ᵗ", "B": "A(t) = 31,971.93(1.05)ᵗ", "C": "A(t) = 31,971.93(0.05)ᵗ", "D": "A(t) = 36,100.00(0.05)ᵗ" }
+  },
+  "9-math-1-12": {
+    "prompt": "The circle shown has center O, circumference 144π, and diameters PR and QS. The length of arc PS is twice the length of arc PQ. What is the length of arc QR?",
+    "options": { "A": "24π", "B": "48π", "C": "72π", "D": "96π" }
+  },
+  "9-math-1-15": {
+    "prompt": "One leg of a right triangle has a length of 43.2 millimeters. The hypotenuse of the triangle has a length of 196.8 millimeters. What is the length of the other leg of the triangle, in millimeters?",
+    "options": { "A": "43.2", "B": "120", "C": "192", "D": "201.5" }
+  },
+  "9-math-1-16": {
+    "prompt": "A wire with a length of 106 inches is cut into two parts. One part has a length of x inches, and the other part has a length of y inches. The value of x is 6 more than 4 times the value of y. What is the value of x?",
+    "options": { "A": "25", "B": "28", "C": "56", "D": "86" }
+  },
+  "9-math-1-17": {
+    "prompt": "f(x) = (x + 6)(x + 5)(x − 4)\n\nThe function f is given. Which table of values represents y = f(x) − 3?",
+    "options": { "A": "x | y\n−6 | −9\n−5 | −8\n4 | 1", "B": "x | y\n−6 | −3\n−5 | −3\n4 | −3", "C": "x | y\n−6 | −3\n−5 | −2\n4 | 7", "D": "x | y\n−6 | 3\n−5 | 3\n4 | 3" }
+  },
+  "9-math-1-18": {
+    "prompt": "A landscaper uses a hose that puts 88x ounces of water in a bucket in 5y minutes. Which expression represents the number of ounces of water the hose puts in the bucket in 9y minutes at this rate?",
+    "options": { "A": "(9x)/(440)", "B": "(440x)/(9)", "C": "(5x)/(792)", "D": "(792x)/(5)" }
+  },
+  "9-math-1-19": {
+    "prompt": "4x − 9y = 9y + 5\nhy = 2 + 4x\n\nIn the given system of equations, h is a constant. If the system has no solution, what is the value of h?",
+    "options": { "A": "−9", "B": "0", "C": "9", "D": "18" }
+  },
+  "9-math-1-22": {
+    "prompt": "Function f is defined by f(x) = (x + 6)(x + 5)(x + 1). Function g is defined by g(x) = f(x − 1). The graph of y = g(x) in the xy-plane has x-intercepts at (a, 0), (b, 0), and (c, 0), where a, b, and c are distinct constants. What is the value of a + b + c?",
+    "options": { "A": "−15", "B": "−9", "C": "11", "D": "15" }
+  },
+  "9-math-1-23": {
+    "prompt": "For x > 0, the function f is defined as follows:\n\nf(x) equals 201% of x\n\nWhich of the following could describe this function?",
+    "options": { "A": "Decreasing exponential", "B": "Decreasing linear", "C": "Increasing exponential", "D": "Increasing linear" }
+  },
+  "9-math-1-24": {
+    "prompt": "f(x) = 4x² + 64x + 262\n\nThe function g is defined by g(x) = f(x + 5). For what value of x does g(x) reach its minimum?",
+    "options": { "A": "−13", "B": "−8", "C": "−5", "D": "−3" }
+  },
+  "9-math-1-25": {
+    "prompt": "One gallon of stain will cover 170 square feet of a surface. A yard has a total fence area of w square feet. Which equation represents the total amount of stain S, in gallons, needed to stain the fence in this yard twice?",
+    "options": { "A": "S = (w)/(170)", "B": "S = 170w", "C": "S = 340w", "D": "S = (w)/(85)" }
+  },
+  "9-math-1-26": {
+    "prompt": "Poll Results\nAngel Cruz | 483\nTerry Smith | 320\n\nThe table shows the results of a poll. A total of 803 voters selected at random were asked which candidate they would vote for in the upcoming election. According to the poll, if 6,424 people vote in the election, by how many votes would Angel Cruz be expected to win?",
+    "options": { "A": "163", "B": "1,304", "C": "3,864", "D": "5,621" }
+  },
+  "9-math-2-01": {
+    "prompt": "w + 7 = 357\n\nWhat value of w is the solution to the given equation?",
+    "options": { "A": "51", "B": "350", "C": "364", "D": "3,577" }
+  },
+  "9-math-2-02": {
+    "prompt": "Which expression is equivalent to 16(x + 15)?",
+    "options": { "A": "16x + 31", "B": "16x + 240", "C": "16x + 1", "D": "16x + 15" }
+  },
+  "9-math-2-03": {
+    "prompt": "| | Live east of the river | Live west of the river | Total |\n| Less than 40 years old | 17 | 11 | 28 |\n| At least 40 years old | 18 | 89 | 107 |\n| Total | 35 | 100 | 135 |\n\nThe table summarizes members of a local organization by age and whether they live east or west of the river. If a member of the organization is selected at random, what is the probability that the selected member is at least 40 years old?",
+    "options": { "A": "(28)/(135)", "B": "(35)/(135)", "C": "(100)/(135)", "D": "(107)/(135)" }
+  },
+  "9-math-2-04": {
+    "prompt": "3x = 12\n−3x + y = −6\n\nThe solution to the given system of equations is (x, y). What is the value of y?",
+    "options": { "A": "−3", "B": "6", "C": "18", "D": "30" }
+  },
+  "9-math-2-05": {
+    "prompt": "A line in the xy-plane has a slope of 1/9 and passes through the point (0, 14). Which equation represents this line?",
+    "options": { "A": "y = −(1/9)x − 14", "B": "y = −(1/9)x + 14", "C": "y = (1/9)x − 14", "D": "y = (1/9)x + 14" }
+  },
+  "9-math-2-08": {
+    "prompt": "x | y\n0 | 18\n1 | 13\n2 | 8\n\nThe table shows three values of x and their corresponding values of y. There is a linear relationship between x and y. Which of the following equations represents this relationship?",
+    "options": { "A": "y = 18x + 13", "B": "y = 18x + 18", "C": "y = −5x + 13", "D": "y = −5x + 18" }
+  },
+  "9-math-2-09": {
+    "prompt": "x + 7 = 10\n(x + 7)² = y\n\nWhich ordered pair (x, y) is a solution to the given system of equations?",
+    "options": { "A": "(3, 100)", "B": "(3, 3)", "C": "(3, 10)", "D": "(3, 70)" }
+  },
+  "9-math-2-10": {
+    "prompt": "The function f is defined by f(x) = 7x − 84. What is the x-intercept of the graph of y = f(x) in the xy-plane?",
+    "options": { "A": "(−12, 0)", "B": "(−7, 0)", "C": "(7, 0)", "D": "(12, 0)" }
+  },
+  "9-math-2-11": {
+    "prompt": "Time (years) | Total amount (dollars)\n0 | 604.00\n1 | 606.42\n2 | 608.84\n\nRosa opened a savings account at a bank. The table shows the exponential relationship between the time t, in years, since Rosa opened the account and the total amount n, in dollars, in the account. If Rosa made no additional deposits or withdrawals, which of the following equations best represents the relationship between t and n?",
+    "options": { "A": "n = (1 + 604)ᵗ", "B": "n = (1 + 0.004)ᵗ", "C": "n = 604(1 + 0.004)ᵗ", "D": "n = 0.004(1 + 604)ᵗ" }
+  },
+  "9-math-2-12": {
+    "prompt": "w(t) = 300 − 4t\n\nThe function w models the volume of liquid, in milliliters, in a container t seconds after it begins draining from a hole at the bottom. According to the model, what is the predicted volume, in milliliters, draining from the container each second?",
+    "options": { "A": "300", "B": "296", "C": "75", "D": "4" }
+  },
+  "9-math-2-15": {
+    "prompt": "Triangle FGH is similar to triangle JKL, where angle F corresponds to angle J and angles G and K are right angles. If sin(F) = (308)/(317), what is the value of sin(J)?",
+    "options": { "A": "(75)/(317)", "B": "(308)/(317)", "C": "(317)/(308)", "D": "(317)/(75)" }
+  },
+  "9-math-2-16": {
+    "prompt": "The population of Greenville increased by 7% from 2015 to 2016. If the 2016 population is k times the 2015 population, what is the value of k?",
+    "options": { "A": "0.07", "B": "0.7", "C": "1.07", "D": "1.7" }
+  },
+  "9-math-2-17": {
+    "prompt": "Each of the dot plots shown represents the number of glue sticks brought in by each student for two classes, class A and class B. Which statement best compares the standard deviations of the numbers of glue sticks brought in by each student for these two classes?",
+    "options": { "A": "The standard deviation of the number of glue sticks brought in by each student for class A is less than the standard deviation of the number of glue sticks brought in by each student for class B.", "B": "The standard deviation of the number of glue sticks brought in by each student for class A is equal to the standard deviation of the number of glue sticks brought in by each student for class B.", "C": "The standard deviation of the number of glue sticks brought in by each student for class A is greater than the standard deviation of the number of glue sticks brought in by each student for class B.", "D": "There is not enough information to compare these standard deviations." }
+  },
+  "9-math-2-18": {
+    "prompt": "m(t) = −0.0274(t/7)² + 7.3873(t/7) + 75.032\n\nThe function m gives the predicted body mass m(t), in kilograms (kg), of a certain animal t days after it was born in a wildlife reserve, where t ≤ 390. Which of the following is the best interpretation of the statement “m(330) is approximately equal to 362” in this context?",
+    "options": { "A": "The predicted body mass of the animal was approximately 330 kg 362 days after it was born.", "B": "The predicted body mass of the animal was approximately 362 kg 330 days after it was born.", "C": "The predicted body mass of the animal was approximately 362 kg (330)/(7) days after it was born.", "D": "The predicted body mass of the animal was approximately (330)/(7) kg 362 days after it was born." }
+  },
+  "9-math-2-19": {
+    "prompt": "Triangle XYZ is similar to triangle RST such that X, Y, and Z correspond to R, S, and T, respectively. The measure of ∠Z is 20° and 2XY = RS. What is the measure of ∠T?",
+    "options": { "A": "2°", "B": "10°", "C": "20°", "D": "40°" }
+  },
+  "9-math-2-22": {
+    "prompt": "y > 13x − 18\n\nFor which of the following tables are all the values of x and their corresponding values of y solutions to the given inequality?",
+    "options": { "A": "x | y\n3 | 21\n5 | 47\n8 | 86", "B": "x | y\n3 | 26\n5 | 42\n8 | 86", "C": "x | y\n3 | 16\n5 | 42\n8 | 81", "D": "x | y\n3 | 26\n5 | 52\n8 | 91" }
+  },
+  "9-math-2-23": {
+    "prompt": "A certain town has an area of 4.36 square miles. What is the area, in square yards, of this town? (1 mile = 1,760 yards)",
+    "options": { "A": "404", "B": "7,674", "C": "710,459", "D": "13,505,536" }
+  },
+  "9-math-2-24": {
+    "prompt": "A square is inscribed in a circle. The radius of the circle is (20√2)/(2) inches. What is the side length, in inches, of the square?",
+    "options": { "A": "20", "B": "(20√2)/(2)", "C": "20√2", "D": "40" }
+  },
+  "9-math-2-25": {
+    "prompt": "Which expression is equivalent to (y + 12)/(x − 8) + (y(x − 8))/(x²y − 8xy)?",
+    "options": { "A": "(xy + y + 4)/(x³y − 16x²y + 64xy)", "B": "(xy + 9y + 12)/(x²y − 8xy + x − 8)", "C": "(xy² + 13xy − 8y)/(x²y − 8xy)", "D": "(xy² + 13xy − 8y)/(x³y − 16x²y + 64xy)" }
+  },
+  "9-math-2-26": {
+    "prompt": "The function f is defined by f(x) = a(2.2ˣ + 2.2ᵇ), where a and b are integer constants and 0 < a < b. The functions g and h are equivalent to function f, where k and m are constants. Which of the following equations displays the y-coordinate of the y-intercept of the graph of y = f(x) in the xy-plane as a constant or coefficient?\n\nI. g(x) = a(2.2ˣ + k)\nII. h(x) = a(2.2)ˣ + m",
+    "options": { "A": "I only", "B": "II only", "C": "I and II", "D": "Neither I nor II" }
+  }
+}

@@ -16,6 +16,7 @@ const BatchInput = Schema.Struct({
   questions: Schema.Array(Schema.Struct({
     id: Schema.String,
     prompt: Schema.String,
+    visualDescription: Schema.optional(Schema.String),
   })),
 })
 
@@ -31,7 +32,7 @@ export const makeDefinition = (batch: ReadonlyArray<SatQuestion>) => {
   const decisions: Record<string, Decision.Classify<AnswerLabel>> = Object.create(null)
   for (const question of batch) {
     decisions[question.id] = Decision.classify({
-      instructions: `Choose the best answer to the SAT question in state.questions whose id is "${question.id}". Read its prompt carefully. Return exactly one answer label.`,
+      instructions: `Choose the best answer to the SAT question in state.questions whose id is "${question.id}". Read its prompt carefully. If the question has a visualDescription, treat it as a factual text description of the visual material from the official PDF. Return exactly one answer label.`,
       criteria: question.options,
     })
   }
@@ -57,7 +58,13 @@ export const runTest = Effect.fn("runTest")(function*(
     const startedAt = yield* Clock.currentTimeMillis
     const definition = makeDefinition(batch)
     const result = yield* DecisionModel.decide(definition, {
-      input: { questions: batch.map(({ id, prompt }) => ({ id, prompt })) },
+      input: {
+        questions: batch.map(({ id, prompt, visualDescription }) => ({
+          id,
+          prompt,
+          ...(visualDescription === undefined ? {} : { visualDescription }),
+        })),
+      },
     })
     const duration = (yield* Clock.currentTimeMillis) - startedAt
     inputTokens += result.usage.inputTokens ?? 0

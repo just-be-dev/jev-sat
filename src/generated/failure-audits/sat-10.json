@@ -1,0 +1,74 @@
+{
+  "10-math-1-10": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [39],
+    "finding": "The effective corrected prompt and all four options exactly match the student PDF, including 4x + 2 = 12 and the requested value 16x + 8. The official explanation multiplies the given equation by 4 to obtain 48 (choice B), so the keyed answer is sound and the failures were incorrect selections."
+  },
+  "10-math-1-23": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [41],
+    "finding": "The effective prompt and all four corrected circle equations exactly match the student PDF. The official explanation confirms that choice C has center (4, 9) and radius 4, making it tangent to the y-axis at exactly one point; the keyed answer is sound and no information is missing."
+  },
+  "10-math-2-16": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [49],
+    "finding": "The prompt and all corrected equations match the student PDF, and the rendered graph was inspected: Company A is x, Company B is y, and the decreasing line has intercepts (0, 40) and (60, 0). The current visual description supplies those axes and intercepts, which identify 8x + 12y = 480 (choice B), consistent with the official answer."
+  },
+  "10-math-2-25": {
+    "failedRuns": 3,
+    "classification": "legitimate",
+    "pdfPages": [51],
+    "finding": "The effective corrected prompt and every quadratic option exactly match the student PDF, including the factor x + 2b and the positive-integer condition on b. The official explanation verifies that only 3x² + 49x + 14b can have that factor for a positive integer b (choice D), so the failures reflect incorrect choices rather than malformed content."
+  },
+  "10-math-2-26": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [52],
+    "finding": "The prompt and options match the student PDF, and both rendered histograms were checked. The current description accurately gives bin frequencies A = 0, 3, 4, 7, 9 and B = 3, 4, 7, 9, 0 for the five stated intervals, fully preserving the data needed to minimize the mean difference. The official solution obtains 1 (choice B), so the keyed answer is sound."
+  },
+  "10-rw-1-09": {
+    "failedRuns": 4,
+    "classification": "legitimate",
+    "pdfPages": [7],
+    "finding": "The Betelgeuse passage, question, and all four options exactly match the student PDF. The official explanation says the second sentence introduces the uncertain-timing problem that Nance and colleagues attempted but failed to solve, which directly supports choice C; the content and key are sound."
+  },
+  "10-rw-1-22": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [13],
+    "finding": "The Japanese macaque sentence and options forces, to force, forcing, and forced exactly match the student PDF. The official answer correctly uses the participial phrase “forcing the monkeys” to express the result of the preceding clause (choice C), so there is no transcription defect."
+  },
+  "10-rw-1-23": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [13],
+    "finding": "The video-game sentence and all four punctuation variants exactly match the student PDF. The introductory dependent clause beginning with “While” is correctly separated from the main clause by a comma after “lifelike” (choice C), as confirmed by the official answer; the failures are genuine wrong selections."
+  },
+  "10-rw-1-26": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [14],
+    "finding": "The Mi Mama y Yo passage and options its, they’re, their, and it’s exactly match the student PDF. The plural noun phrase “types of pop culture references” requires the plural possessive “their” (choice C), consistent with the official explanation, so the source and key are unambiguous."
+  },
+  "10-rw-2-14": {
+    "failedRuns": 2,
+    "classification": "legitimate",
+    "pdfPages": [25],
+    "finding": "The rendered table, passage, and all options were checked against the student PDF. The current visual description accurately includes every France and US agriculture, manufacturing, and services value for 1800, 1900, 1950, and 2012 plus the rounding note. The 1900-to-1950 comparison most clearly shows the countries’ different transition rates (choice A), agreeing with the official answer."
+  },
+  "10-rw-2-19": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [27],
+    "finding": "The Lucía Michel passage and all four word-order and punctuation options exactly match the student PDF. The embedded direct question requires interrogative inversion and a question mark—“could the blueberries thrive?” (choice D)—as confirmed by the official answer, so the effective content is complete and faithful."
+  },
+  "10-rw-2-24": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [28],
+    "finding": "The Grigori Perelman passage and options are exact matches to the student PDF. The parenthetical phrase does not change the singular head subject “Mathematician Grigori Perelman,” so singular “is” (choice D) is required, matching the official explanation and confirming a sound key."
+  }
+}

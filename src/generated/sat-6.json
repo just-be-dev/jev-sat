@@ -162,7 +162,13 @@
       "D": "both the number of cars produced and the number of companies producing cars increased."
     },
     "answer": "A",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 8,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "6-rw-1-12",
@@ -207,7 +213,13 @@
       "D": "In the second and third test administrations, participants who took 2–4 days of leave had higher average attentiveness scores than did those who took no leave."
     },
     "answer": "C",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 10,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "6-rw-1-15",
@@ -222,7 +234,13 @@
       "D": "at least 4 lizard species use, on average, less than 100% of their maximal speed while pursuing prey."
     },
     "answer": "B",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 11,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "6-rw-1-16",
@@ -372,7 +390,13 @@
       "D": "works: it’s because"
     },
     "answer": "B",
-    "hasVisual": false
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 14,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "6-rw-1-26",
@@ -687,7 +711,13 @@
       "D": "Grand Canyon National Park."
     },
     "answer": "C",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 23,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "6-rw-2-14",
@@ -717,7 +747,13 @@
       "D": "were higher for all three measures, indicating greater overall well-being for these participants."
     },
     "answer": "D",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 24,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "6-rw-2-16",
@@ -1017,7 +1053,17 @@
       "D": "Visual option D 33 Unauthorized copying or reuse of any part of this page is illegal. CONTINUE"
     },
     "answer": "D",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 35,
+        "column": "left"
+      },
+      {
+        "page": 35,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "6-math-1-03",
@@ -1062,7 +1108,13 @@
       "D": "From x = 3 to x = 4"
     },
     "answer": "A",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 36,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "6-math-1-08",
@@ -1122,7 +1174,13 @@
       "D": "x y 2 13 4 21 6 29"
     },
     "answer": "A",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 38,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "6-math-1-12",
@@ -1152,7 +1210,13 @@
       "D": "9"
     },
     "answer": "B",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 39,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "6-math-1-16",
@@ -1212,7 +1276,13 @@
       "D": "21"
     },
     "answer": "D",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 40,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "6-math-1-22",
@@ -1242,7 +1312,13 @@
       "D": "x y 2( + 2) + 2( − 6) = 9 2 2"
     },
     "answer": "A",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 41,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "6-math-1-24",
@@ -1257,7 +1333,13 @@
       "D": "27 3"
     },
     "answer": "C",
-    "hasVisual": false
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 41,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "6-math-1-25",
@@ -1287,7 +1369,13 @@
       "D": "0, −9 ( )"
     },
     "answer": "A",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 42,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "6-math-2-01",
@@ -1317,7 +1405,13 @@
       "D": "288°"
     },
     "answer": "A",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 46,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "6-math-2-03",
@@ -1362,7 +1456,13 @@
       "D": "(0, 4)"
     },
     "answer": "B",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 47,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "6-math-2-08",
@@ -1452,7 +1552,13 @@
       "D": "14"
     },
     "answer": "B",
-    "hasVisual": false
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 49,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "6-math-2-16",
@@ -1512,7 +1618,13 @@
       "D": "p c 55 − = 9"
     },
     "answer": "A",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 50,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "6-math-2-22",
@@ -1557,7 +1669,13 @@
       "D": "a b <"
     },
     "answer": "D",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 51,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "6-math-2-25",
@@ -1587,6 +1705,12 @@
       "D": "y x = 12 + 1.5"
     },
     "answer": "A",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 52,
+        "column": "left"
+      }
+    ]
   }
 ]

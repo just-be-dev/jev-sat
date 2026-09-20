@@ -26,6 +26,11 @@ export class SatQuestion extends Schema.Class<SatQuestion>("SatQuestion")({
   }),
   answer: AnswerLabel,
   hasVisual: Schema.Boolean,
+  visualDescription: Schema.optional(Schema.String),
+  sourcePages: Schema.optional(Schema.Array(Schema.Struct({
+    page: Schema.Int,
+    column: Schema.Literals(["left", "right"]),
+  }))),
 }) {}
 
 export const RunRequest = Schema.Struct({

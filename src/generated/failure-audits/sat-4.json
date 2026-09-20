@@ -1,0 +1,62 @@
+{
+  "4-rw-1-21": {
+    "failedRuns": 5,
+    "classification": "malformed-text",
+    "pdfPages": [13],
+    "finding": "Compared the effective prompt and all four choices with test PDF page 13 and the official explanation (choice D). The choices and tested sentence boundary are sound, but the prompt runs “the” into “4 × 100-meter relay” as “the4×100-meter relay,” so the transcription is not faithful."
+  },
+  "4-rw-1-25": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [14],
+    "finding": "The effective prompt and choices A–D match test PDF page 14, including every comma and semicolon in the complex series. The official explanation confirms choice B because the semicolon correctly separates internally punctuated list items; all information needed to answer is present."
+  },
+  "4-rw-1-26": {
+    "failedRuns": 2,
+    "classification": "legitimate",
+    "pdfPages": [15],
+    "finding": "The effective prompt and all punctuation variants match test PDF page 15. The official explanation confirms choice A: the comma sets off “however” and the semicolon joins the main clauses, so the keyed answer is sound and the failure was not caused by source content."
+  },
+  "4-math-1-22": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [38],
+    "finding": "The effective corrected prompt and choices match test PDF page 38, including side lengths 2√2, 6√2, and √80 and every radical in the options. The official solution identifies √80 as the hypotenuse and computes area 12, confirming keyed choice B."
+  },
+  "4-math-1-26": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [39],
+    "finding": "The effective corrected prompt and choices match test PDF page 39, including y = ax² + bx + c and the requested a + b + c. The official solution derives a + b + c = 64a − 14 with a > 0 and confirms −12 can occur, so keyed choice D is sound."
+  },
+  "4-math-2-11": {
+    "failedRuns": 3,
+    "classification": "legitimate",
+    "pdfPages": [44],
+    "finding": "The effective prompt and choices exactly preserve the truck limit, trailer weight, and box weight on test PDF page 44. The official solution gives 500 + 120b ≤ 4,600 and a maximum whole-number value of 34, confirming keyed choice A."
+  },
+  "4-math-2-16": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [45],
+    "finding": "Verified the effective text and all choices against test PDF page 45 and inspected the rendered diagram: m and n are parallel, t is the transversal, x and y are vertical angles, and y and z are same-side interior angles. The current visual description faithfully states those placements. The official solution obtains k = 21, y = 139, and z = 41, confirming keyed choice C."
+  },
+  "4-math-2-22": {
+    "failedRuns": 5,
+    "classification": "missing-visual",
+    "pdfPages": [46],
+    "finding": "The effective corrected prompt and choices match test PDF page 46, but inspection of the rendered graph shows two equations: a descending line and the horizontal line y = 2, intersecting at (8, 2). The current visual description incorrectly says no distinct second line is visible, omitting information needed to identify the system’s solution. The official explanation confirms keyed choice A by testing (8, 2) in x + 4y = −16."
+  },
+  "4-math-2-25": {
+    "failedRuns": 4,
+    "classification": "legitimate",
+    "pdfPages": [48],
+    "finding": "The effective corrected prompt and all four equations match test PDF page 48, including every square and sign. The official explanation shifts center (0, 1) down to (0, −1), yielding x² + (y + 1)² = 49 and confirming keyed choice D."
+  },
+  "4-math-2-26": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [48],
+    "finding": "The effective corrected prompt and choices match test PDF page 48, including K cm² and the resulting surface area (92/47)K cm². The official derivation accounts for the glued bases and solves 2x² + 360x = 47x² to obtain x = 8, confirming keyed choice B."
+  }
+}

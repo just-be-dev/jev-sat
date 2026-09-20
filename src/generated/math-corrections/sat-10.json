@@ -1,0 +1,187 @@
+{
+  "10-math-1-01": {
+    "prompt": "The line graph shows the percent of cars for sale at a used car lot on a given day by model year. For what model year is the percent of cars for sale the smallest?",
+    "options": { "A": "2012", "B": "2013", "C": "2014", "D": "2015" }
+  },
+  "10-math-1-02": {
+    "prompt": "The graph of a system of linear equations is shown. What is the solution (x, y) to the system?",
+    "options": { "A": "(4, −5)", "B": "(0, 3)", "C": "(0, −2)", "D": "(−2, 3)" }
+  },
+  "10-math-1-03": {
+    "prompt": "The total cost, in dollars, to rent a surfboard consists of a $25 service fee and a $10 per hour rental fee. A person rents a surfboard for t hours and intends to spend a maximum of $75 to rent the surfboard. Which inequality represents this situation?",
+    "options": { "A": "10t ≤ 75", "B": "10 + 25t ≤ 75", "C": "25t ≤ 75", "D": "25 + 10t ≤ 75" }
+  },
+  "10-math-1-04": {
+    "prompt": "The graph shown will be translated up 4 units. Which of the following will be the resulting graph?",
+    "options": { "A": "Visual option A", "B": "Visual option B", "C": "Visual option C", "D": "Visual option D" }
+  },
+  "10-math-1-05": {
+    "prompt": "s = 40 + 3t\n\nThe equation gives the speed s, in miles per hour, of a certain car t seconds after it began to accelerate. What is the speed, in miles per hour, of the car 5 seconds after it began to accelerate?",
+    "options": { "A": "40", "B": "43", "C": "45", "D": "55" }
+  },
+  "10-math-1-08": {
+    "prompt": "The table gives the distribution of votes for a new school mascot and grade level for 80 students.\n\nMascot | Sixth | Seventh | Eighth | Total\nBadger | 4 | 9 | 9 | 22\nLion | 9 | 2 | 9 | 20\nLonghorn | 4 | 6 | 4 | 14\nTiger | 6 | 9 | 9 | 24\nTotal | 23 | 26 | 31 | 80\n\nIf one of these students is selected at random, what is the probability of selecting a student whose vote for new mascot was for a lion?",
+    "options": { "A": "1/9", "B": "1/5", "C": "1/4", "D": "2/3" }
+  },
+  "10-math-1-09": {
+    "prompt": "Triangles ABC and DEF are congruent, where A corresponds to D, and B and E are right angles. The measure of angle A is 18°. What is the measure of angle F?",
+    "options": { "A": "18°", "B": "72°", "C": "90°", "D": "162°" }
+  },
+  "10-math-1-10": {
+    "prompt": "If 4x + 2 = 12, what is the value of 16x + 8?",
+    "options": { "A": "40", "B": "48", "C": "56", "D": "60" }
+  },
+  "10-math-1-11": {
+    "prompt": "Which expression is equivalent to (m⁴q⁴z⁻¹)(mq⁵z³), where m, q, and z are positive?",
+    "options": { "A": "m⁴q²⁰z⁻³", "B": "m⁵q⁹z²", "C": "m⁶q⁸z⁻¹", "D": "m²⁰q¹²z⁻²" }
+  },
+  "10-math-1-12": {
+    "prompt": "An airplane descends from an altitude of 9,500 feet to 5,000 feet at a constant rate of 400 feet per minute. What type of function best models the relationship between the descending airplane’s altitude and time?",
+    "options": { "A": "Decreasing exponential", "B": "Decreasing linear", "C": "Increasing exponential", "D": "Increasing linear" }
+  },
+  "10-math-1-15": {
+    "prompt": "The function f(w) = 6w² gives the area of a rectangle, in square feet (ft²), if its width is w ft and its length is 6 times its width. Which of the following is the best interpretation of f(14) = 1,176?",
+    "options": {
+      "A": "If the width of the rectangle is 14 ft, then the area of the rectangle is 1,176 ft².",
+      "B": "If the width of the rectangle is 14 ft, then the length of the rectangle is 1,176 ft.",
+      "C": "If the width of the rectangle is 1,176 ft, then the length of the rectangle is 14 ft.",
+      "D": "If the width of the rectangle is 1,176 ft, then the area of the rectangle is 14 ft²."
+    }
+  },
+  "10-math-1-16": {
+    "prompt": "The number of bacteria in a liquid medium doubles every day. There are 44,000 bacteria in the liquid medium at the start of an observation. Which of the following represents the number of bacteria, y, in the liquid medium t days after the start of the observation?",
+    "options": { "A": "y = (1/2)(44,000)ᵗ", "B": "y = 2(44,000)ᵗ", "C": "y = 44,000(1/2)ᵗ", "D": "y = 44,000(2)ᵗ" }
+  },
+  "10-math-1-17": {
+    "prompt": "x | h(x)\n0 | 1.23\n2 | 1.54\n4 | 1.94\n\nThe table shows the exponential relationship between the number of years, x, since Hana started training in pole vault, and the estimated height h(x), in meters, of her best pole vault for that year. Which of the following functions best represents this relationship, where x ≤ 4?",
+    "options": { "A": "h(x) = 1.12(0.23)ˣ", "B": "h(x) = 1.12(1.23)ˣ", "C": "h(x) = 1.23(0.12)ˣ", "D": "h(x) = 1.23(1.12)ˣ" }
+  },
+  "10-math-1-18": {
+    "prompt": "The function h is defined by h(x) = 4x + 28. The graph of y = h(x) in the xy-plane has an x-intercept at (a, 0) and a y-intercept at (0, b), where a and b are constants. What is the value of a + b?",
+    "options": { "A": "21", "B": "28", "C": "32", "D": "35" }
+  },
+  "10-math-1-19": {
+    "prompt": "y < 5x + 6\n\nFor which of the following tables are all the values of x and their corresponding values of y solutions to the given inequality?",
+    "options": {
+      "A": "x | y\n3 | 17\n5 | 27\n7 | 37",
+      "B": "x | y\n3 | 17\n5 | 35\n7 | 37",
+      "C": "x | y\n3 | 25\n5 | 35\n7 | 45",
+      "D": "x | y\n3 | 21\n5 | 31\n7 | 41"
+    }
+  },
+  "10-math-1-22": {
+    "prompt": "The floor of a ballroom has an area of 600 square meters. An architect creates a scale model of the floor of the ballroom, where the length of each side of the model is 1/10 times the length of the corresponding side of the actual floor of the ballroom. What is the area, in square meters, of the scale model?",
+    "options": { "A": "6", "B": "10", "C": "60", "D": "150" }
+  },
+  "10-math-1-23": {
+    "prompt": "Which of the following equations represents a circle in the xy-plane that intersects the y-axis at exactly one point?",
+    "options": { "A": "(x − 8)² + (y − 8)² = 16", "B": "(x − 8)² + (y − 4)² = 16", "C": "(x − 4)² + (y − 9)² = 16", "D": "x² + (y − 9)² = 16" }
+  },
+  "10-math-1-24": {
+    "prompt": "In triangles ABC and DEF, angles B and E each have measure 27° and angles C and F each have measure 41°. Which additional piece of information is sufficient to determine whether triangle ABC is congruent to triangle DEF?",
+    "options": { "A": "The measure of angle A", "B": "The length of side AB", "C": "The lengths of sides BC and EF", "D": "No additional information is necessary." }
+  },
+  "10-math-1-25": {
+    "prompt": "The result of increasing the quantity x by 1,800% is 684. What is the value of x?",
+    "options": { "A": "12,996", "B": "12,312", "C": "38", "D": "36" }
+  },
+  "10-math-1-26": {
+    "prompt": "A window repair specialist charges $220 for the first two hours of repair plus an hourly fee for each additional hour. The total cost for 5 hours of repair is $400. Which function f gives the total cost, in dollars, for x hours of repair, where x ≥ 2?",
+    "options": { "A": "f(x) = 60x + 100", "B": "f(x) = 60x + 220", "C": "f(x) = 80x", "D": "f(x) = 80x + 220" }
+  },
+  "10-math-2-01": {
+    "prompt": "An object’s speed is 64 yards per second. What is the object’s speed, in feet per second? (1 yard = 3 feet)",
+    "options": { "A": "61", "B": "67", "C": "94", "D": "192" }
+  },
+  "10-math-2-02": {
+    "prompt": "The scatterplot shows the relationship between two variables, x and y. A line of best fit is also shown. Which of the following equations best represents the line of best fit shown?",
+    "options": { "A": "y = x + 3.4", "B": "y = x − 3.4", "C": "y = −x + 3.4", "D": "y = −x − 3.4" }
+  },
+  "10-math-2-03": {
+    "prompt": "The graph shows the linear relationship between x and y. Which table gives three values of x and their corresponding values of y for this relationship?",
+    "options": {
+      "A": "x | y\n0 | 0\n1 | −7\n2 | −9",
+      "B": "x | y\n0 | 0\n1 | −3\n2 | −1",
+      "C": "x | y\n0 | −5\n1 | −7\n2 | −9",
+      "D": "x | y\n0 | −5\n1 | −3\n2 | −1"
+    }
+  },
+  "10-math-2-04": {
+    "prompt": "What is the perimeter, in inches, of a rectangle with a length of 4 inches and a width of 9 inches?",
+    "options": { "A": "13", "B": "17", "C": "22", "D": "26" }
+  },
+  "10-math-2-05": {
+    "prompt": "7m = 2(n + p)\n\nThe given equation relates the positive numbers m, n, and p. Which equation correctly gives m in terms of n and p?",
+    "options": { "A": "m = (2(n + p))/7", "B": "m = 2(n + p)", "C": "m = 2(n + p) − 7", "D": "m = 2 − n − p − 7" }
+  },
+  "10-math-2-08": {
+    "prompt": "Of 300,000 paper clips, 234,000 are size large. What percentage of the paper clips are size large?",
+    "options": { "A": "22%", "B": "33%", "C": "66%", "D": "78%" }
+  },
+  "10-math-2-09": {
+    "prompt": "f(x) = 8x + 4\n\nThe function f gives the estimated height, in feet, of a willow tree x years after its height was first measured. Which statement is the best interpretation of 4 in this context?",
+    "options": {
+      "A": "The tree will be measured each year for 4 years.",
+      "B": "The tree is estimated to grow to a maximum height of 4 feet.",
+      "C": "The estimated height of the tree increased by 4 feet each year.",
+      "D": "The estimated height of the tree was 4 feet when it was first measured."
+    }
+  },
+  "10-math-2-10": {
+    "prompt": "y = 76\ny = x² − 5\n\nThe graphs of the given equations in the xy-plane intersect at the point (x, y). What is a possible value of x?",
+    "options": { "A": "−76/5", "B": "−9", "C": "5", "D": "76" }
+  },
+  "10-math-2-11": {
+    "prompt": "Each side of equilateral triangle S is multiplied by a scale factor of k to create equilateral triangle T. The length of each side of triangle T is greater than the length of each side of triangle S. Which of the following could be the value of k?",
+    "options": { "A": "29/28", "B": "1", "C": "28/29", "D": "0" }
+  },
+  "10-math-2-12": {
+    "prompt": "66x = 66x\n\nHow many solutions does the given equation have?",
+    "options": { "A": "Exactly one", "B": "Exactly two", "C": "Infinitely many", "D": "Zero" }
+  },
+  "10-math-2-15": {
+    "prompt": "In right triangle RST, the sum of the measures of angle R and angle S is 90 degrees. The value of sin(R) is (√15)/4. What is the value of cos(S)?",
+    "options": { "A": "(√15)/15", "B": "(√15)/4", "C": "(4√15)/15", "D": "√15" }
+  },
+  "10-math-2-16": {
+    "prompt": "The graph shows the relationship between the number of shares of stock from Company A, x, and the number of shares of stock from Company B, y, that Simone can purchase. Which equation could represent this relationship?",
+    "options": { "A": "y = 8x + 12", "B": "8x + 12y = 480", "C": "y = 12x + 8", "D": "12x + 8y = 480" }
+  },
+  "10-math-2-17": {
+    "prompt": "Which expression is equivalent to (8x(x − 7) − 3(x − 7))/(2x − 14), where x > 7?",
+    "options": { "A": "(x − 7)/5", "B": "(8x − 3)/2", "C": "(8x² − 3x − 14)/(2x − 14)", "D": "(8x² − 3x − 77)/(2x − 14)" }
+  },
+  "10-math-2-18": {
+    "prompt": "The function f is defined by f(x) = (−8)(2)ˣ + 22. What is the y-intercept of the graph of y = f(x) in the xy-plane?",
+    "options": { "A": "(0, 14)", "B": "(0, 2)", "C": "(0, 22)", "D": "(0, −8)" }
+  },
+  "10-math-2-19": {
+    "prompt": "Keenan made 32 cups of vegetable broth. Keenan then filled x small jars and y large jars with all the vegetable broth he made. The equation 3x + 5y = 32 represents this situation. Which is the best interpretation of 5y in this context?",
+    "options": {
+      "A": "The number of large jars Keenan filled",
+      "B": "The number of small jars Keenan filled",
+      "C": "The total number of cups of vegetable broth in the large jars",
+      "D": "The total number of cups of vegetable broth in the small jars"
+    }
+  },
+  "10-math-2-22": {
+    "prompt": "|−5x + 13| = 73\n\nWhat is the sum of the solutions to the given equation?",
+    "options": { "A": "−146/5", "B": "−12", "C": "0", "D": "26/5" }
+  },
+  "10-math-2-23": {
+    "prompt": "For the exponential function f, the value of f(1) is k, where k is a constant. Which of the following equivalent forms of the function f shows the value of k as the coefficient or the base?",
+    "options": { "A": "f(x) = 50(1.6)ˣ⁺¹", "B": "f(x) = 80(1.6)ˣ", "C": "f(x) = 128(1.6)ˣ⁻¹", "D": "f(x) = 204.8(1.6)ˣ⁻²" }
+  },
+  "10-math-2-24": {
+    "prompt": "−9x² + 30x + c = 0\n\nIn the given equation, c is a constant. The equation has exactly one solution. What is the value of c?",
+    "options": { "A": "3", "B": "0", "C": "−25", "D": "−53" }
+  },
+  "10-math-2-25": {
+    "prompt": "Which of the following expressions has a factor of x + 2b, where b is a positive integer constant?",
+    "options": { "A": "3x² + 7x + 14b", "B": "3x² + 28x + 14b", "C": "3x² + 42x + 14b", "D": "3x² + 49x + 14b" }
+  },
+  "10-math-2-26": {
+    "prompt": "Two data sets of 23 integers each are summarized in the histograms shown. For each of the histograms, the first interval represents the frequency of integers greater than or equal to 10, but less than 20. The second interval represents the frequency of integers greater than or equal to 20, but less than 30, and so on. What is the smallest possible difference between the mean of data set A and the mean of data set B?",
+    "options": { "A": "0", "B": "1", "C": "10", "D": "23" }
+  }
+}

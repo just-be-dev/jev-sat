@@ -1,0 +1,177 @@
+{
+  "6-math-1-01": {
+    "prompt": "(p + 3) + 8 = 10\n\nWhat value of p is the solution to the given equation?",
+    "options": { "A": "−1", "B": "5", "C": "15", "D": "21" }
+  },
+  "6-math-1-02": {
+    "prompt": "The scatterplot shows the relationship between two variables, x and y. Which of the following graphs shows the most appropriate model for the data?",
+    "options": { "A": "Visual option A", "B": "Visual option B", "C": "Visual option C", "D": "Visual option D" }
+  },
+  "6-math-1-03": {
+    "prompt": "k² − 53 = 91\n\nWhat is the positive solution to the given equation?",
+    "options": { "A": "144", "B": "72", "C": "38", "D": "12" }
+  },
+  "6-math-1-04": {
+    "prompt": "During a portion of a flight, a small airplane’s cruising speed varied between 150 miles per hour and 170 miles per hour. Which inequality best represents this situation, where s is the cruising speed, in miles per hour, during this portion of the flight?",
+    "options": { "A": "s ≤ 20", "B": "s ≤ 150", "C": "s ≤ 170", "D": "150 ≤ s ≤ 170" }
+  },
+  "6-math-1-05": {
+    "prompt": "An object was launched upward from a platform. The graph shown models the height above ground, y, in meters, of the object x seconds after it was launched. For which of the following intervals of time was the height of the object increasing for the entire interval?",
+    "options": { "A": "From x = 0 to x = 2", "B": "From x = 0 to x = 4", "C": "From x = 2 to x = 3", "D": "From x = 3 to x = 4" }
+  },
+  "6-math-1-08": {
+    "prompt": "f(x) = x + b\n\nFor the linear function f, b is a constant. When x = 0, f(x) = 30. What is the value of b?",
+    "options": { "A": "−30", "B": "−(1)/(30)", "C": "(1)/(30)", "D": "30" }
+  },
+  "6-math-1-09": {
+    "prompt": "P(t) = 1,800(1.02)ᵗ\n\nThe function P gives the estimated number of marine mammals in a certain area, where t is the number of years since a study began. What is the best interpretation of P(0) = 1,800 in this context?",
+    "options": {
+      "A": "The estimated number of marine mammals in the area was 102 when the study began.",
+      "B": "The estimated number of marine mammals in the area was 1,800 when the study began.",
+      "C": "The estimated number of marine mammals in the area increased by 102 each year during the study.",
+      "D": "The estimated number of marine mammals in the area increased by 1,800 each year during the study."
+    }
+  },
+  "6-math-1-10": {
+    "prompt": "A manager is responsible for ordering supplies for a shaved ice shop. The shop’s inventory starts with 4,500 paper cups, and the manager estimates that 70 of these paper cups are used each day. Based on this estimate, in how many days will the supply of paper cups reach 1,700?",
+    "options": { "A": "20", "B": "40", "C": "60", "D": "80" }
+  },
+  "6-math-1-11": {
+    "prompt": "y > 4x + 8\n\nFor which of the following tables are all the values of x and their corresponding values of y solutions to the given inequality?",
+    "options": {
+      "A": "x | y\n2 | 19\n4 | 30\n6 | 41",
+      "B": "x | y\n2 | 8\n4 | 16\n6 | 24",
+      "C": "x | y\n2 | 13\n4 | 18\n6 | 23",
+      "D": "x | y\n2 | 13\n4 | 21\n6 | 29"
+    }
+  },
+  "6-math-1-12": {
+    "prompt": "Which expression is equivalent to (x² + 11)² + (x − 5)(x + 5)?",
+    "options": { "A": "x⁴ + 23x² − 14", "B": "x⁴ + 23x² + 96", "C": "x⁴ + 12x² + 121", "D": "x⁴ + x² + 146" }
+  },
+  "6-math-1-15": {
+    "prompt": "The graph models the number of active projects a company was working on x months after the end of November 2012, where 0 ≤ x ≤ 6. According to the model, what is the predicted number of active projects the company was working on at the end of November 2012?",
+    "options": { "A": "0", "B": "5", "C": "8", "D": "9" }
+  },
+  "6-math-1-16": {
+    "prompt": "The relationship between two variables, x and y, is linear. For every increase in the value of x by 1, the value of y increases by 8. When the value of x is 2, the value of y is 18. Which equation represents this relationship?",
+    "options": { "A": "y = 2x + 18", "B": "y = 2x + 8", "C": "y = 8x + 2", "D": "y = 3x + 26" }
+  },
+  "6-math-1-17": {
+    "prompt": "P = N(19 − C)\n\nThe given equation relates the positive numbers P, N, and C. Which equation correctly expresses C in terms of P and N?",
+    "options": { "A": "C = (19 + P)/(N)", "B": "C = (19 − P)/(N)", "C": "C = 19 + (P)/(N)", "D": "C = 19 − (P)/(N)" }
+  },
+  "6-math-1-18": {
+    "prompt": "w² + 12w − 40 = 0\n\nWhich of the following is a solution to the given equation?",
+    "options": { "A": "6 − 2√19", "B": "2√19", "C": "√19", "D": "−6 + 2√19" }
+  },
+  "6-math-1-19": {
+    "prompt": "The table shown summarizes the number of employees at each of the 17 restaurants in a town.\n\nNumber of employees | Number of restaurants\n2 to 7 | 2\n8 to 13 | 4\n14 to 19 | 2\n20 to 25 | 7\n26 to 31 | 2\n\nWhich of the following could be the median number of employees for the restaurants in this town?",
+    "options": { "A": "2", "B": "9", "C": "15", "D": "21" }
+  },
+  "6-math-1-22": {
+    "prompt": "In 2008, Zinah earned 14% more than in 2007, and in 2009 Zinah earned 4% more than in 2008. If Zinah earned y times as much in 2009 as in 2007, what is the value of y?",
+    "options": { "A": "0.5600", "B": "1.0056", "C": "1.1800", "D": "1.1856" }
+  },
+  "6-math-1-23": {
+    "prompt": "Circle A (shown) is defined by the equation (x + 2)² + y² = 9. Circle B (not shown) is the result of shifting circle A down 6 units and increasing the radius so that the radius of circle B is 2 times the radius of circle A. Which equation defines circle B?",
+    "options": { "A": "(x + 2)² + (y + 6)² = (4)(9)", "B": "2(x + 2)² + 2(y + 6)² = 9", "C": "(x + 2)² + (y − 6)² = (4)(9)", "D": "2(x + 2)² + 2(y − 6)² = 9" }
+  },
+  "6-math-1-24": {
+    "prompt": "Note: Figure not drawn to scale.\n\nRight triangle ABC is shown. What is the value of tan A?",
+    "options": { "A": "(√3)/(54)", "B": "(1)/(√3)", "C": "√3", "D": "27√3" }
+  },
+  "6-math-1-25": {
+    "prompt": "At the time that an article was first featured on the home page of a news website, there were 40 comments on the article. An exponential model estimates that at the end of each hour after the article was first featured on the home page, the number of comments on the article had increased by 190% of the number of comments on the article at the end of the previous hour. Which of the following equations best represents this model, where C is the estimated number of comments on the article t hours after the article was first featured on the home page and t ≤ 4?",
+    "options": { "A": "C = 40(1.19)ᵗ", "B": "C = 40(1.9)ᵗ", "C": "C = 40(19)ᵗ", "D": "C = 40(2.9)ᵗ" }
+  },
+  "6-math-1-26": {
+    "prompt": "x | g(x)\n−27 | 3\n−9 | 0\n21 | 5\n\nThe table shows three values of x and their corresponding values of g(x), where g(x) = (f(x))/(x + 3) and f is a linear function. What is the y-intercept of the graph of y = f(x) in the xy-plane?",
+    "options": { "A": "(0, 36)", "B": "(0, 12)", "C": "(0, 4)", "D": "(0, −9)" }
+  },
+  "6-math-2-01": {
+    "prompt": "The function f is defined by f(x) = 8x. For what value of x does f(x) = 72?",
+    "options": { "A": "8", "B": "9", "C": "64", "D": "80" }
+  },
+  "6-math-2-02": {
+    "prompt": "Note: Figure not drawn to scale.\n\nIn the figure, two lines intersect at a point. Angle 1 and angle 2 are vertical angles. The measure of angle 1 is 72°. What is the measure of angle 2?",
+    "options": { "A": "72°", "B": "108°", "C": "144°", "D": "288°" }
+  },
+  "6-math-2-03": {
+    "prompt": "On a street with 7 houses, 2 houses are blue. If a house from this street is selected at random, what is the probability of selecting a house that is blue?",
+    "options": { "A": "(1)/(7)", "B": "(2)/(7)", "C": "(5)/(7)", "D": "(7)/(7)" }
+  },
+  "6-math-2-04": {
+    "prompt": "The graph of function f is shown, where y = f(x). Which of the following describes function f?",
+    "options": { "A": "Increasing linear", "B": "Decreasing linear", "C": "Increasing exponential", "D": "Decreasing exponential" }
+  },
+  "6-math-2-05": {
+    "prompt": "The graph of the function f is shown, where y = f(x). What is the y-intercept of the graph?",
+    "options": { "A": "(0, −1)", "B": "(0, −4)", "C": "(0, 1)", "D": "(0, 4)" }
+  },
+  "6-math-2-08": {
+    "prompt": "Which expression is equivalent to 5x⁵ − 6x⁴ + 8x³?",
+    "options": { "A": "x⁴(5x − 6)", "B": "x³(5x² − 6x + 8)", "C": "8x³(5x² − 6x + 1)", "D": "6x⁵(−6x⁴ + 8x³ + 1)" }
+  },
+  "6-math-2-09": {
+    "prompt": "The ratio of the length of line segment XY to the length of line segment ZV is 6 to 1. If the length of line segment XY is 102 inches, what is the length, in inches, of line segment ZV?",
+    "options": { "A": "17", "B": "96", "C": "102", "D": "612" }
+  },
+  "6-math-2-10": {
+    "prompt": "7(2x − 3) = 63\n\nWhich equation has the same solution as the given equation?",
+    "options": { "A": "2x − 3 = 9", "B": "2x − 3 = 56", "C": "2x − 21 = 63", "D": "2x − 21 = 78" }
+  },
+  "6-math-2-11": {
+    "prompt": "The function f defined by f(t) = 14t + 9 gives the estimated length, in inches, of a vine plant t months after Tavon purchased it. Which of the following is the best interpretation of 9 in this context?",
+    "options": {
+      "A": "Tavon will keep the vine plant for 9 months.",
+      "B": "The vine plant is expected to grow 9 inches each month.",
+      "C": "The vine plant is expected to grow to a maximum length of 9 inches.",
+      "D": "The estimated length of the vine plant was 9 inches when Tavon purchased it."
+    }
+  },
+  "6-math-2-12": {
+    "prompt": "(x + 2)(x − 5)(x + 9) = 0\n\nWhat is a positive solution to the given equation?",
+    "options": { "A": "3", "B": "4", "C": "5", "D": "18" }
+  },
+  "6-math-2-15": {
+    "prompt": "4, 10, 18, 4, 4, 5, 6, 5\n\nWhat is the median of the data set shown?",
+    "options": { "A": "4", "B": "5", "C": "7", "D": "14" }
+  },
+  "6-math-2-16": {
+    "prompt": "A right circular cylinder has a volume of 432 cubic centimeters. The area of the base of the cylinder is 24 square centimeters. What is the height, in centimeters, of the cylinder?",
+    "options": { "A": "18", "B": "24", "C": "216", "D": "10,368" }
+  },
+  "6-math-2-17": {
+    "prompt": "x² = −841\n\nHow many distinct real solutions does the given equation have?",
+    "options": { "A": "Exactly one", "B": "Exactly two", "C": "Infinitely many", "D": "Zero" }
+  },
+  "6-math-2-18": {
+    "prompt": "Line k is defined by y = 7x + (1)/(8). Line j is perpendicular to line k in the xy-plane. What is the slope of line j?",
+    "options": { "A": "−8", "B": "−(1)/(7)", "C": "(1)/(8)", "D": "7" }
+  },
+  "6-math-2-19": {
+    "prompt": "Number of cars | Maximum number of passengers and crew\n3 | 174\n5 | 284\n10 | 559\n\nThe table shows the linear relationship between the number of cars, c, on a commuter train and the maximum number of passengers and crew, p, that the train can carry. Which equation represents the linear relationship between c and p?",
+    "options": { "A": "55c − p = −9", "B": "55c − p = 9", "C": "55p − c = −9", "D": "55p − c = 9" }
+  },
+  "6-math-2-22": {
+    "prompt": "In triangle ABC, angle B is a right angle. The length of side AB is 10√37 and the length of side BC is 24√37. What is the length of side AC?",
+    "options": { "A": "14√37", "B": "26√37", "C": "34√37", "D": "√(34 · 37)" }
+  },
+  "6-math-2-23": {
+    "prompt": "f(x) = (1.84)^(x/4)\n\nThe function f is defined by the given equation. The equation can be rewritten as f(x) = (1 + (p)/(100))ˣ, where p is a constant. Which of the following is closest to the value of p?",
+    "options": { "A": "16", "B": "21", "C": "46", "D": "96" }
+  },
+  "6-math-2-24": {
+    "prompt": "The function f is defined by f(x) = a√(x + b), where a and b are constants. In the xy-plane, the graph of y = f(x) passes through the point (−24, 0), and f(24) < 0. Which of the following must be true?",
+    "options": { "A": "f(0) = 24", "B": "f(0) = −24", "C": "a > b", "D": "a < b" }
+  },
+  "6-math-2-25": {
+    "prompt": "In the xy-plane, a circle has center C with coordinates (h, k). Points A and B lie on the circle. Point A has coordinates (h + 1, k + √102), and ∠ACB is a right angle. What is the length of AB?",
+    "options": { "A": "√206", "B": "2√102", "C": "103√2", "D": "103√3" }
+  },
+  "6-math-2-26": {
+    "prompt": "The scatterplot shows the relationship between two variables, x and y, for data set E. A line of best fit is shown. Data set F is created by multiplying the y-coordinate of each data point from data set E by 3.9. Which of the following could be an equation of a line of best fit for data set F?",
+    "options": { "A": "y = 46.8 + 5.9x", "B": "y = 46.8 + 1.5x", "C": "y = 12 + 5.9x", "D": "y = 12 + 1.5x" }
+  }
+}

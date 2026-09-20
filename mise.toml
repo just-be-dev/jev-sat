@@ -18,3 +18,11 @@ run = "bun run typecheck"
 [tasks.generate-runs]
 description = "Generate five Jev runs for each SAT practice test"
 run = "bun run scripts/generate-runs.ts"
+
+[tasks.regenerate-visual-runs]
+description = "Replace only visual-question answers in existing Jev runs"
+run = "bun run scripts/generate-runs.ts --visuals-only"
+
+[tasks.regenerate-math-runs]
+description = "Replace all Math answers in existing Jev runs"
+run = "bun run scripts/generate-runs.ts --math-only"

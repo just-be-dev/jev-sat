@@ -6,7 +6,7 @@ export const GeneratorWorker = Cloudflare.Worker("JevSatGeneratorWorker", {
   name: "jev-sat-generator",
   main: "./scripts/generate-worker.ts",
   dev: {
-    port: 1338,
+    port: 1339,
     strictPort: true,
   },
   env: {

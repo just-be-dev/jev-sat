@@ -1,0 +1,162 @@
+{
+  "5-math-1-01": {
+    "prompt": "The graph of a system of a linear equation and a nonlinear equation is shown. What is the solution (x, y) to this system?",
+    "options": { "A": "(0, 0)", "B": "(0, 4)", "C": "(4, 5)", "D": "(5, 0)" }
+  },
+  "5-math-1-02": {
+    "prompt": "On the first day of a semester, a film club has 90 members. Each day after the first day of the semester, 10 new members join the film club. If no members leave the film club, how many total members will the film club have 4 days after the first day of the semester?",
+    "options": { "A": "400", "B": "130", "C": "94", "D": "90" }
+  },
+  "5-math-1-03": {
+    "prompt": "The graph of the linear function f is shown, where y = f(x). What is the y-intercept of the graph of f?",
+    "options": { "A": "(0, 0)", "B": "(0, −16/11)", "C": "(0, −8)", "D": "(0, 8)" }
+  },
+  "5-math-1-04": {
+    "prompt": "s + 7r = 27\nr = 3\nWhat is the solution (r, s) to the given system of equations?",
+    "options": { "A": "(6, 3)", "B": "(3, 6)", "C": "(3, 27)", "D": "(27, 3)" }
+  },
+  "5-math-1-05": {
+    "prompt": "The table shows selected values from function f.\n\nx | f(x)\n−1 | 16\n0 | 17\n1 | 18\n2 | 19\n\nWhich of the following is the best description of function f?",
+    "options": { "A": "Decreasing linear", "B": "Increasing linear", "C": "Decreasing exponential", "D": "Increasing exponential" }
+  },
+  "5-math-1-08": {
+    "prompt": "Note: Figure not drawn to scale.\n\nIn the figure, line m is parallel to line n, and line k intersects both lines. Which of the following statements is true?",
+    "options": { "A": "The value of x is less than 145.", "B": "The value of x is greater than 145.", "C": "The value of x is equal to 145.", "D": "The value of x cannot be determined." }
+  },
+  "5-math-1-09": {
+    "prompt": "The equation x + y = 1,440 represents the number of minutes of daylight (between sunrise and sunset), x, and the number of minutes of non-daylight, y, on a particular day in Oak Park, Illinois. If this day has 670 minutes of daylight, how many minutes of non-daylight does it have?",
+    "options": { "A": "670", "B": "770", "C": "1,373", "D": "1,440" }
+  },
+  "5-math-1-10": {
+    "prompt": "Scott selected 20 employees at random from all 400 employees at a company. He found that 16 of the employees in this sample are enrolled in exactly three professional development courses this year. Based on Scott’s findings, which of the following is the best estimate of the number of employees at the company who are enrolled in exactly three professional development courses this year?",
+    "options": { "A": "4", "B": "320", "C": "380", "D": "384" }
+  },
+  "5-math-1-11": {
+    "prompt": "If 4x − 28 = −24, what is the value of x − 7?",
+    "options": { "A": "−24", "B": "−22", "C": "−6", "D": "−1" }
+  },
+  "5-math-1-12": {
+    "prompt": "For a snowstorm in a certain town, the minimum rate of snowfall recorded was 0.6 inches per hour, and the maximum rate of snowfall recorded was 1.8 inches per hour. Which inequality is true for all values of s, where s represents a rate of snowfall, in inches per hour, recorded for this snowstorm?",
+    "options": { "A": "s ≥ 2.4", "B": "s ≥ 1.8", "C": "0 ≤ s ≤ 0.6", "D": "0.6 ≤ s ≤ 1.8" }
+  },
+  "5-math-1-15": {
+    "prompt": "A right circular cylinder has a base diameter of 22 centimeters and a height of 6 centimeters. What is the volume, in cubic centimeters, of the cylinder?",
+    "options": { "A": "132π", "B": "264π", "C": "726π", "D": "2,904π" }
+  },
+  "5-math-1-16": {
+    "prompt": "The graph of the rational function f is shown, where y = f(x) and x ≥ 0. Which of the following is the graph of y = f(x) + 5, where x ≥ 0?",
+    "options": { "A": "Visual option A", "B": "Visual option B", "C": "Visual option C", "D": "Visual option D" }
+  },
+  "5-math-1-17": {
+    "prompt": "At a particular track meet, the ratio of coaches to athletes is 1 to 26. If there are x coaches at the track meet, which of the following expressions represents the number of athletes at the track meet?",
+    "options": { "A": "x/26", "B": "26x", "C": "x + 26", "D": "26/x" }
+  },
+  "5-math-1-18": {
+    "prompt": "Kaylani used fabric measuring 5 yards in length to make each suit for a men’s choir. The relationship between the number of suits that Kaylani made, x, and the total length of fabric that she purchased y, in yards, is represented by the equation y − 5x = 6. What is the best interpretation of 6 in this context?",
+    "options": { "A": "Kaylani made 6 suits.", "B": "Kaylani purchased a total of 6 yards of fabric.", "C": "Kaylani used a total of 6 yards of fabric to make the suits.", "D": "Kaylani purchased 6 yards more fabric than she used to make the suits." }
+  },
+  "5-math-1-19": {
+    "prompt": "What is the value of tan((92π)/3)?",
+    "options": { "A": "−√3", "B": "−(√3)/3", "C": "(√3)/3", "D": "√3" }
+  },
+  "5-math-1-22": {
+    "prompt": "(x + 4)² + (y − 19)² = 121\n\nThe graph of the given equation is a circle in the xy-plane. The point (a, b) lies on the circle. Which of the following is a possible value for a?",
+    "options": { "A": "−16", "B": "−14", "C": "11", "D": "19" }
+  },
+  "5-math-1-23": {
+    "prompt": "A right rectangular prism has a height of 9 inches. The length of the prism’s base is x inches, which is 7 inches more than the width of the prism’s base. Which function V gives the volume of the prism, in cubic inches, in terms of the length of the prism’s base?",
+    "options": { "A": "V(x) = x(x + 9)(x + 7)", "B": "V(x) = x(x + 9)(x − 7)", "C": "V(x) = 9x(x + 7)", "D": "V(x) = 9x(x − 7)" }
+  },
+  "5-math-1-24": {
+    "prompt": "Which of the following functions has(have) a minimum value at −3?\n\nI. f(x) = −6(3)ˣ − 3\nII. g(x) = −3(6)ˣ",
+    "options": { "A": "I only", "B": "II only", "C": "I and II", "D": "Neither I nor II" }
+  },
+  "5-math-1-25": {
+    "prompt": "The result of increasing the quantity x by 400% is 60. What is the value of x?",
+    "options": { "A": "12", "B": "15", "C": "240", "D": "340" }
+  },
+  "5-math-1-26": {
+    "prompt": "The function f is defined by f(x) = ax² + bx + c, where a, b, and c are constants. The graph of y = f(x) in the xy-plane passes through the points (7, 0) and (−3, 0). If a is an integer greater than 1, which of the following could be the value of a + b?",
+    "options": { "A": "−6", "B": "−3", "C": "4", "D": "5" }
+  },
+  "5-math-2-01": {
+    "prompt": "What is 20% of 440?",
+    "options": { "A": "44", "B": "88", "C": "880", "D": "1,760" }
+  },
+  "5-math-2-02": {
+    "prompt": "Argon is placed inside a container with a constant volume. The graph shows the estimated pressure y, in pounds per square inch (psi), of the argon when its temperature is x kelvins. What is the estimated pressure of the argon, in psi, when the temperature is 600 kelvins?",
+    "options": { "A": "6", "B": "12", "C": "300", "D": "600" }
+  },
+  "5-math-2-03": {
+    "prompt": "The function f is defined by f(x) = 4x − 3. What is the value of f(10)?",
+    "options": { "A": "−30", "B": "37", "C": "40", "D": "43" }
+  },
+  "5-math-2-04": {
+    "prompt": "Which expression is equivalent to 16x³y² + 14xy?",
+    "options": { "A": "2xy(8xy + 7)", "B": "2xy(8x²y + 7)", "C": "14xy(2x²y + 1)", "D": "14xy(8x²y + 1)" }
+  },
+  "5-math-2-05": {
+    "prompt": "A veterinarian recommends that each day a certain rabbit should eat 25 calories per pound of the rabbit’s weight, plus an additional 11 calories. Which equation represents this situation, where c is the total number of calories the veterinarian recommends the rabbit should eat each day if the rabbit’s weight is x pounds?",
+    "options": { "A": "c = 25x", "B": "c = 36x", "C": "c = 11x + 25", "D": "c = 25x + 11" }
+  },
+  "5-math-2-08": {
+    "prompt": "Line r in the xy-plane has a slope of 4 and passes through the point (0, 6). Which equation defines line r?",
+    "options": { "A": "y = −6x + 4", "B": "y = 6x + 4", "C": "y = 4x − 6", "D": "y = 4x + 6" }
+  },
+  "5-math-2-09": {
+    "prompt": "A competitive diver dives from a platform into the water. The graph shown gives the height above the water y, in meters, of the diver x seconds after diving from the platform. What is the best interpretation of the x-intercept of the graph?",
+    "options": { "A": "The diver reaches a maximum height above the water at 1.6 seconds.", "B": "The diver hits the water at 1.6 seconds.", "C": "The diver reaches a maximum height above the water at 0.2 seconds.", "D": "The diver hits the water at 0.2 seconds." }
+  },
+  "5-math-2-10": {
+    "prompt": "The kinetic energy, in joules, of an object with mass 9 kilograms traveling at a speed of v meters per second is given by the function K, where K(v) = (9/2)v². Which of the following is the best interpretation of K(34) = 5,202 in this context?",
+    "options": { "A": "The object traveling at 34 meters per second has a kinetic energy of 5,202 joules.", "B": "The object traveling at 340 meters per second has a kinetic energy of 5,202 joules.", "C": "The object traveling at 5,202 meters per second has a kinetic energy of 34 joules.", "D": "The object traveling at 23,409 meters per second has a kinetic energy of 34 joules." }
+  },
+  "5-math-2-11": {
+    "prompt": "The scatterplot shows the relationship between two variables x and y. A line of best fit for the data is also shown. For how many of the 10 data points is the actual y-value greater than the y-value predicted by the line of best fit?",
+    "options": { "A": "3", "B": "4", "C": "6", "D": "7" }
+  },
+  "5-math-2-12": {
+    "prompt": "At a movie theater, there are a total of 350 customers. Each customer is located in either theater A, theater B, or theater C. If one of these customers is selected at random, the probability of selecting a customer who is located in theater A is 0.48, and the probability of selecting a customer who is located in theater B is 0.24. How many customers are located in theater C?",
+    "options": { "A": "28", "B": "40", "C": "84", "D": "98" }
+  },
+  "5-math-2-15": {
+    "prompt": "Five Eretmochelys imbricata, a type of sea turtle, each have a nest. The table shows an original data set of the number of eggs that each turtle laid in its nest.\n\nNest | Number of eggs\nA | 149\nB | 144\nC | 148\nD | 136\nE | 139\n\nA sixth nest with 121 eggs is added to create a new data set. Which of the following correctly compares the means of the two data sets?",
+    "options": { "A": "The mean of the original data set is greater than the mean of the new data set.", "B": "The mean of the original data set is less than the mean of the new data set.", "C": "The means of both data sets are equal.", "D": "There is not enough information to compare the means." }
+  },
+  "5-math-2-16": {
+    "prompt": "In △RST, the measure of ∠R is 63°. Which of the following could be the measure, in degrees, of ∠S?",
+    "options": { "A": "116", "B": "118", "C": "126", "D": "180" }
+  },
+  "5-math-2-17": {
+    "prompt": "Which expression is equivalent to (8x³ + 8) − (x³ − 2)?",
+    "options": { "A": "8x³ + 6", "B": "7x³ + 10", "C": "8x³ + 10", "D": "7x³ + 6" }
+  },
+  "5-math-2-18": {
+    "prompt": "If 4√(2x) = 16, what is the value of 6x?",
+    "options": { "A": "24", "B": "48", "C": "72", "D": "96" }
+  },
+  "5-math-2-19": {
+    "prompt": "2x − y > 883\n\nFor which of the following tables are all the values of x and their corresponding values of y solutions to the given inequality?",
+    "options": { "A": "x | y\n440 | 0\n441 | −2\n442 | −4", "B": "x | y\n440 | 0\n442 | −2\n441 | −4", "C": "x | y\n442 | 0\n440 | −2\n441 | −4", "D": "x | y\n442 | 0\n441 | −2\n440 | −4" }
+  },
+  "5-math-2-22": {
+    "prompt": "Rectangles ABCD and EFGH are similar. The length of each side of EFGH is 6 times the length of the corresponding side of ABCD. The area of ABCD is 54 square units. What is the area, in square units, of EFGH?",
+    "options": { "A": "9", "B": "36", "C": "324", "D": "1,944" }
+  },
+  "5-math-2-23": {
+    "prompt": "Which expression is equivalent to (42a)/k + 42ak, where k > 0?",
+    "options": { "A": "(84a)/k", "B": "(84ak²)/k", "C": "(42a(k + 1))/k", "D": "(42a(k² + 1))/k" }
+  },
+  "5-math-2-24": {
+    "prompt": "Which quadratic equation has no real solutions?",
+    "options": { "A": "x² + 14x − 49 = 0", "B": "x² − 14x + 49 = 0", "C": "5x² − 14x − 49 = 0", "D": "5x² − 14x + 49 = 0" }
+  },
+  "5-math-2-25": {
+    "prompt": "P(t) = 260(1.04)^((6/4)t)\n\nThe function P models the population, in thousands, of a certain city t years after 2003. According to the model, the population is predicted to increase by 4% every n months. What is the value of n?",
+    "options": { "A": "8", "B": "12", "C": "18", "D": "72" }
+  },
+  "5-math-2-26": {
+    "prompt": "A circle in the xy-plane has its center at (−1, 1). Line t is tangent to this circle at the point (5, −4). Which of the following points also lies on line t?",
+    "options": { "A": "(0, 6/5)", "B": "(4, 7)", "C": "(10, 2)", "D": "(11, 1)" }
+  }
+}

@@ -192,7 +192,13 @@
       "D": "Pennsylvania had more than 1,200 organic farms."
     },
     "answer": "A",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 10,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "4-rw-1-14",
@@ -222,7 +228,13 @@
       "D": "sodium from AST dust is 75%."
     },
     "answer": "C",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 11,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "4-rw-1-16",
@@ -252,7 +264,13 @@
       "D": "corn had the highest average mass of all three species grown in soil that had been treated to kill fungi, while marigolds had the lowest."
     },
     "answer": "A",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 12,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "4-rw-1-18",
@@ -267,7 +285,13 @@
       "D": "would be difficult to account for if the figure is not Venus."
     },
     "answer": "A",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 13,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "4-rw-1-19",
@@ -282,7 +306,13 @@
       "D": "people’s story’s"
     },
     "answer": "A",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 13,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "4-rw-1-20",
@@ -687,7 +717,13 @@
       "D": "was substantially lower than uncertainty about trade policy in 2005 and substantially higher than uncertainty about trade policy in 2010."
     },
     "answer": "D",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 23,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "4-rw-2-14",
@@ -1002,7 +1038,13 @@
       "D": "50"
     },
     "answer": "B",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 34,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "4-math-1-02",
@@ -1077,7 +1119,13 @@
       "D": "f x ( ) = 32x + 35"
     },
     "answer": "A",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 35,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "4-math-1-09",
@@ -1107,7 +1155,13 @@
       "D": "y = 9.4 − 0.9x"
     },
     "answer": "D",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 36,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "4-math-1-11",
@@ -1137,7 +1191,13 @@
       "D": "y = 2x − 8"
     },
     "answer": "C",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 36,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "4-math-1-15",
@@ -1302,7 +1362,13 @@
       "D": "1998"
     },
     "answer": "B",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 42,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "4-math-2-02",
@@ -1377,7 +1443,13 @@
       "D": "x 1 2 3 h(x) −2 1 3"
     },
     "answer": "B",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 43,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "4-math-2-09",
@@ -1467,7 +1539,13 @@
       "D": "139"
     },
     "answer": "C",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 45,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "4-math-2-17",
@@ -1512,7 +1590,13 @@
       "D": "The metal ball’s height was 7 inches above the ground when it started moving."
     },
     "answer": "A",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 46,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "4-math-2-22",
@@ -1527,7 +1611,13 @@
       "D": "Infinitely many"
     },
     "answer": "A",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 46,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "4-math-2-23",
@@ -1557,7 +1647,13 @@
       "D": "The median of data set B is greater than the median of data set A, and the range of data set B is greater than the range of data set A."
     },
     "answer": "C",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 47,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "4-math-2-25",

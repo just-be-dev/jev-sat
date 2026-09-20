@@ -15,6 +15,7 @@ const elements = {
   run: document.querySelector("#run"),
   score: document.querySelector("#score"),
   scoreDetail: document.querySelector("#score-detail"),
+  sourcePages: document.querySelector("#source-pages"),
   practiceTest: document.querySelector("#practice-test"),
   testLabel: document.querySelector("#test-label"),
   toast: document.querySelector("#toast"),
@@ -28,6 +29,9 @@ let test = null
 let selected = []
 let questionById = new Map()
 let queueById = new Map()
+let answerById = new Map()
+let thinkingIds = new Set()
+let focusedQuestionId = null
 let controller = null
 let stats = freshStats()
 
@@ -49,9 +53,12 @@ function renderQueue() {
   elements.queue.replaceChildren()
   queueById = new Map()
   selected.forEach((question, index) => {
-    const row = document.createElement("div")
+    const row = document.createElement("button")
+    row.type = "button"
     row.className = "queue-item"
     row.dataset.id = question.id
+    row.setAttribute("aria-pressed", "false")
+    row.addEventListener("click", () => focusQuestion(question.id))
 
     const count = document.createElement("span")
     count.className = "queue-index"
@@ -76,12 +83,25 @@ function renderQueue() {
   })
 }
 
-function renderQuestion(question, event = null) {
+function focusQuestion(id) {
+  focusedQuestionId = id
+  for (const [questionId, row] of queueById) {
+    const focused = questionId === id
+    row.classList.toggle("active", focused)
+    row.setAttribute("aria-pressed", String(focused))
+  }
+
+  const question = questionById.get(id)
+  if (question) renderQuestion(question, answerById.get(id), thinkingIds.has(id))
+}
+
+function renderQuestion(question, event, isThinking) {
   elements.questionEmpty.hidden = true
   elements.questionContent.hidden = false
   elements.questionTitle.textContent = questionName(question)
   elements.prompt.textContent = question.prompt
   elements.visualWarning.hidden = !question.hasVisual
+  renderSourcePages(question)
   elements.choices.replaceChildren()
 
   const maxProbability = event ? Math.max(...Object.values(event.probabilities), 0.01) : 1
@@ -110,9 +130,11 @@ function renderQuestion(question, event = null) {
   }
 
   if (!event) {
-    elements.questionStatus.className = "question-status thinking"
-    elements.questionStatus.textContent = "Evaluating"
-    elements.decisionMeta.textContent = "Jev is comparing four defined criteria…"
+    elements.questionStatus.className = `question-status${isThinking ? " thinking" : ""}`
+    elements.questionStatus.textContent = isThinking ? "Evaluating" : "Queued"
+    elements.decisionMeta.textContent = isThinking
+      ? "Jev is comparing four defined criteria…"
+      : "Waiting for Jev to evaluate this question…"
     return
   }
 
@@ -124,6 +146,31 @@ function renderQuestion(question, event = null) {
     meta(`${Math.round(event.confidence * 100)}% confidence`),
     meta(`${(event.batchDurationMs / 1000).toFixed(1)}s batch`),
   )
+}
+
+function renderSourcePages(question) {
+  const pages = question.sourcePages ?? []
+  elements.sourcePages.hidden = pages.length === 0
+  elements.sourcePages.replaceChildren()
+  for (const { page, column } of pages) {
+    const source = `/questions/test-${test.practiceTest}/page-${String(page).padStart(2, "0")}-${column}.jpg`
+    const link = document.createElement("a")
+    link.className = "source-page"
+    link.href = source
+    link.target = "_blank"
+    link.rel = "noreferrer"
+
+    const image = document.createElement("img")
+    image.src = source
+    image.alt = `Official SAT Practice Test ${test.practiceTest}, PDF page ${page} ${column} column`
+    image.loading = "lazy"
+    image.decoding = "async"
+
+    const label = document.createElement("span")
+    label.textContent = `Official PDF page ${page} · Open to zoom`
+    link.append(image, label)
+    elements.sourcePages.append(link)
+  }
 }
 
 function meta(text) {
@@ -147,6 +194,7 @@ function updateStats() {
 }
 
 function updateQueueThinking(ids) {
+  thinkingIds = new Set(ids)
   for (const row of queueById.values()) {
     row.classList.remove("thinking")
   }
@@ -157,8 +205,17 @@ function updateQueueThinking(ids) {
       row.querySelector(".queue-result").textContent = "Thinking"
     }
   })
-  const question = questionById.get(ids[0])
-  if (question) renderQuestion(question)
+  if (focusedQuestionId) focusQuestion(focusedQuestionId)
+}
+
+function keepQueueRowVisible(row) {
+  const queueBounds = elements.queue.getBoundingClientRect()
+  const rowBounds = row.getBoundingClientRect()
+  if (rowBounds.top < queueBounds.top) {
+    elements.queue.scrollTop += rowBounds.top - queueBounds.top
+  } else if (rowBounds.bottom > queueBounds.bottom) {
+    elements.queue.scrollTop += rowBounds.bottom - queueBounds.bottom
+  }
 }
 
 function handleEvent(event) {
@@ -172,6 +229,8 @@ function handleEvent(event) {
     return
   }
   if (event._tag === "answer") {
+    answerById.set(event.id, event)
+    thinkingIds.delete(event.id)
     stats.answered++
     if (event.correct) stats.correct++
     stats.confidence += event.confidence
@@ -184,10 +243,9 @@ function handleEvent(event) {
       row.classList.remove("thinking")
       row.classList.add(event.correct ? "correct" : "wrong")
       row.querySelector(".queue-result").textContent = event.correct ? `${event.label} ✓` : `${event.label} · ${event.expected}`
-      row.scrollIntoView({ block: "nearest", behavior: "smooth" })
+      keepQueueRowVisible(row)
     }
-    const question = questionById.get(event.id)
-    if (question) renderQuestion(question, event)
+    if (focusedQuestionId === event.id) focusQuestion(event.id)
     return
   }
   if (event._tag === "completed") {
@@ -251,6 +309,9 @@ async function startRun() {
 
   selected = test.questions
   questionById = new Map(selected.map((question) => [question.id, question]))
+  answerById = new Map()
+  thinkingIds = new Set()
+  focusedQuestionId = null
   stats = freshStats()
   stats.total = selected.length
   renderQueue()
@@ -259,9 +320,12 @@ async function startRun() {
   elements.scoreDetail.textContent = "Run in progress"
   elements.confidence.textContent = "—"
   elements.tokens.textContent = "0"
+  elements.questionTitle.textContent = "Select a question"
+  elements.questionStatus.className = "question-status"
+  elements.questionStatus.textContent = "Queue"
   elements.questionContent.hidden = true
   elements.questionEmpty.hidden = false
-  elements.questionEmpty.querySelector("p").textContent = "Loading a randomly selected prerecorded run…"
+  elements.questionEmpty.querySelector("p").textContent = "Choose any question in the replay queue to inspect Jev’s decision."
 
   controller = new AbortController()
   elements.run.classList.add("running")
@@ -292,6 +356,11 @@ async function loadTest() {
     if (!response.ok) throw new Error(`Could not load test (${response.status})`)
     test = await response.json()
     selected = []
+    questionById = new Map()
+    queueById = new Map()
+    answerById = new Map()
+    thinkingIds = new Set()
+    focusedQuestionId = null
     stats = freshStats()
     elements.answered.textContent = "0"
     elements.total.textContent = ` / ${test.multipleChoiceQuestions}`
@@ -306,7 +375,7 @@ async function loadTest() {
     elements.questionStatus.textContent = "Idle"
     elements.questionContent.hidden = true
     elements.questionEmpty.hidden = false
-    elements.questionEmpty.querySelector("p").textContent = "Select a practice exam and replay a run to see Jev’s decisions arrive."
+    elements.questionEmpty.querySelector("p").textContent = "Start a replay, then select a question from the queue to inspect Jev’s decision."
     elements.queue.innerHTML = '<p class="queue-empty">Questions will appear here when the run begins.</p>'
     elements.testLabel.textContent = `Official SAT Practice Test ${test.practiceTest}`
     elements.run.querySelector(".button-label").textContent = "See a run"

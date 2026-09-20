@@ -23,7 +23,7 @@ describe("SAT replay API", () => {
     expect(response.status).toBe(200)
     expect(response.headers.get("cache-control")).toBe("public, max-age=3600, stale-while-revalidate=86400")
     expect(events[0]?._tag).toBe("started")
-    expect(events.at(-1)).toMatchObject({ _tag: "completed", correct: 86 })
+    expect(events.at(-1)).toMatchObject({ _tag: "completed", correct: 98 })
 
     const invalid = await worker.fetch(new Request("https://example.com/api/run?practiceTest=8&run=6"))
     expect(invalid.status).toBe(400)

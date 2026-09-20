@@ -1,0 +1,74 @@
+{
+  "6-math-1-12": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [38],
+    "finding": "The effective corrected prompt and all four polynomial options exactly match page 38. Expanding (x² + 11)² + (x − 5)(x + 5) gives x⁴ + 23x² + 96, confirming official choice B; all information needed to solve is present."
+  },
+  "6-math-1-26": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [42],
+    "finding": "The effective prompt, x/g(x) table, formula g(x) = f(x)/(x + 3), and all coordinate options exactly match page 42. The factual visual description reproduces every table entry; deriving linear f gives y-intercept (0, 36), confirming official choice A."
+  },
+  "6-math-2-19": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [50],
+    "finding": "The effective prompt, commuter-train table values, and all four equations exactly match page 50, and the visual description accurately supplies the table. The data have slope 55 and intercept 9, so 55c − p = −9, confirming official choice A."
+  },
+  "6-math-2-23": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [51],
+    "finding": "The effective prompt correctly preserves f(x) = (1.84)^(x/4), the equivalent-form equation, and options A–D from page 51. Since 100((1.84)^(1/4) − 1) is about 16.47, official choice A (16) is sound."
+  },
+  "6-math-2-25": {
+    "failedRuns": 1,
+    "classification": "legitimate",
+    "pdfPages": [51],
+    "finding": "The effective text exactly matches page 51, including A = (h + 1, k + √102), the right angle at C, and all four radical options. The radius is √103 and the right isosceles triangle has chord AB = √206, confirming official choice A."
+  },
+  "6-rw-1-22": {
+    "failedRuns": 4,
+    "classification": "legitimate",
+    "pdfPages": [13],
+    "finding": "The effective sentence and every punctuation/word-order option exactly match page 13. The clause is an indirect question requiring declarative order and a period, so official choice D is grammatically sound."
+  },
+  "6-rw-1-24": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [14],
+    "finding": "The effective Wigan passage and all four completions exactly match page 14. A period correctly separates the two independent sentences and “Creations” modifies the following subject, confirming official choice C."
+  },
+  "6-rw-1-25": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [14],
+    "finding": "The effective pinhole-camera passage and all options exactly match page 14. Visual inspection confirms that the source displays no ray diagram, only a textual reference to one, so the current description loses no answer-relevant information; the sentence boundary makes official choice B sound."
+  },
+  "6-rw-1-30": {
+    "failedRuns": 3,
+    "classification": "legitimate",
+    "pdfPages": [16],
+    "finding": "The effective natural-selection passage and transition choices exactly match page 16. “Then” logically marks Darwin and Wallace's parallel discovery as following from the prior circumstances, confirming official choice B."
+  },
+  "6-rw-2-21": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [26],
+    "finding": "The effective tapestry passage and all four completions exactly match page 26. Only choice A places “topological tapestries” immediately after the opening modifier and avoids a dangling modifier, matching the official key."
+  },
+  "6-rw-2-23": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [27],
+    "finding": "The effective mask-making passage and every punctuation option exactly match page 27. Choice B correctly uses semicolons between complex list items and a comma before the internal “such as” phrase, confirming the official key."
+  },
+  "6-rw-2-24": {
+    "failedRuns": 5,
+    "classification": "legitimate",
+    "pdfPages": [27],
+    "finding": "The effective ballroom-dance passage and all four punctuation options exactly match page 27. Choice A correctly sets off “however” and uses a colon to introduce the five dances, confirming the official answer."
+  }
+}

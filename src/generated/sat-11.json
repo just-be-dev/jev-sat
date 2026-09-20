@@ -222,7 +222,13 @@
       "D": "gasoline."
     },
     "answer": "B",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 10,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "11-rw-1-16",
@@ -657,7 +663,13 @@
       "D": "Halifax"
     },
     "answer": "B",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 22,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "11-rw-2-12",
@@ -672,7 +684,13 @@
       "D": "More of the drawings had an example of a mammal than either an example of a bird or an example of an insect."
     },
     "answer": "D",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 22,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "11-rw-2-13",
@@ -687,7 +705,13 @@
       "D": "the percentage of those members remained fairly consistent, regardless of house, from 1993 to 2023."
     },
     "answer": "C",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 23,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "11-rw-2-14",
@@ -1002,7 +1026,13 @@
       "D": "24"
     },
     "answer": "D",
-    "hasVisual": false
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 34,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "11-math-1-02",
@@ -1032,7 +1062,13 @@
       "D": "f x x 12 5 = + ^ h"
     },
     "answer": "C",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 34,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "11-math-1-04",
@@ -1062,7 +1098,13 @@
       "D": "10 9"
     },
     "answer": "B",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 35,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "11-math-1-08",
@@ -1152,7 +1194,13 @@
       "D": ". 8 00"
     },
     "answer": "A",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 37,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "11-math-1-16",
@@ -1197,7 +1245,17 @@
       "D": "Visual option D 10 20 30 40 50 60 70 80 x 10 20 30 40 50 60 70 80 y O 10 20 30 40 50 60 70 80 x 10 20 30 40 50 60 70 80 y O 10 20 30 40 50 60 70 80 x 10 20 30 40 50 60 70 80 y O 10 20 30 40 50 60 70 80 x 10 20 30 40 50 60 70 80 y O 18 x y 53 + = x y 11 18 730 + = The given equations represent the possible numbers of beach chairs, x, and umbrellas, y, rented at a park last month and the total spent, in dollars, to rent those beach chairs and umbrellas. Which of the following graphs represents this situation?"
     },
     "answer": "B",
-    "hasVisual": false
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 38,
+        "column": "left"
+      },
+      {
+        "page": 38,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "11-math-1-19",
@@ -1212,7 +1270,13 @@
       "D": "sinQ 18"
     },
     "answer": "D",
-    "hasVisual": false
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 39,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "11-math-1-22",
@@ -1242,7 +1306,13 @@
       "D": "f x 3 9 x = - + ^ h"
     },
     "answer": "B",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 40,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "11-math-1-24",
@@ -1317,7 +1387,13 @@
       "D": "1"
     },
     "answer": "B",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 44,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "11-math-2-03",
@@ -1392,7 +1468,13 @@
       "D": "Increasing linear"
     },
     "answer": "B",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 45,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "11-math-2-10",
@@ -1407,7 +1489,13 @@
       "D": "y 36 $"
     },
     "answer": "D",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 46,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "11-math-2-11",
@@ -1452,7 +1540,13 @@
       "D": "The maximum estimated boiling point for normal paraffins corresponds to a paraffin with a molecular weight of . 149 02 grams per mole and an estimated boiling point of . 186 05 degrees Celsius."
     },
     "answer": "B",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 47,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "11-math-2-16",
@@ -1467,7 +1561,13 @@
       "D": "x 5 -"
     },
     "answer": "C",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 48,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "11-math-2-17",
@@ -1482,7 +1582,13 @@
       "D": "36"
     },
     "answer": "D",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 48,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "11-math-2-18",
@@ -1497,7 +1603,13 @@
       "D": "f x x x 8 32 32 = - - - ^ ^ ^ h h h"
     },
     "answer": "B",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 48,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "11-math-2-19",
@@ -1512,7 +1624,13 @@
       "D": ", 75 978"
     },
     "answer": "A",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 49,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "11-math-2-22",
@@ -1542,7 +1660,13 @@
       "D": "200"
     },
     "answer": "A",
-    "hasVisual": true
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 50,
+        "column": "left"
+      }
+    ]
   },
   {
     "id": "11-math-2-24",
@@ -1572,7 +1696,13 @@
       "D": "Neither I nor II"
     },
     "answer": "B",
-    "hasVisual": false
+    "hasVisual": true,
+    "sourcePages": [
+      {
+        "page": 50,
+        "column": "right"
+      }
+    ]
   },
   {
     "id": "11-math-2-26",

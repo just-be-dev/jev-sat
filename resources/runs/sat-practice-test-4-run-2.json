@@ -230,19 +230,19 @@
   {
     "_tag": "answer",
     "id": "4-rw-1-13",
-    "label": "C",
+    "label": "A",
     "expected": "A",
-    "correct": false,
-    "confidence": 0.54,
+    "correct": true,
+    "confidence": 1,
     "probabilities": {
-      "A": 0.23,
-      "B": 0.04,
-      "C": 0.66,
-      "D": 0.07
+      "A": 1,
+      "B": 0,
+      "C": 0,
+      "D": 0
     },
     "inputTokens": 1842,
     "outputTokens": 199,
-    "batchDurationMs": 555
+    "batchDurationMs": 1066
   },
   {
     "_tag": "answer",
@@ -265,14 +265,14 @@
     "label": "C",
     "expected": "C",
     "correct": true,
-    "confidence": 0.93,
+    "confidence": 0.87,
     "probabilities": {
       "A": 0.01,
-      "B": 0.02,
-      "C": 0.95,
-      "D": 0.02
+      "B": 0.06,
+      "C": 0.9,
+      "D": 0.03
     },
-    "batchDurationMs": 555
+    "batchDurationMs": 1066
   },
   {
     "_tag": "answer",
@@ -304,16 +304,16 @@
     "label": "A",
     "expected": "A",
     "correct": true,
-    "confidence": 0.79,
+    "confidence": 0.91,
     "probabilities": {
-      "A": 0.84,
-      "B": 0.05,
-      "C": 0.05,
-      "D": 0.06
+      "A": 0.9393939393939393,
+      "B": 0.0101010101010101,
+      "C": 0.0202020202020202,
+      "D": 0.0303030303030303
     },
     "inputTokens": 1429,
     "outputTokens": 199,
-    "batchDurationMs": 283
+    "batchDurationMs": 1066
   },
   {
     "_tag": "answer",
@@ -328,7 +328,7 @@
       "C": 0,
       "D": 0
     },
-    "batchDurationMs": 283
+    "batchDurationMs": 1066
   },
   {
     "_tag": "answer",
@@ -336,14 +336,14 @@
     "label": "A",
     "expected": "A",
     "correct": true,
-    "confidence": 0.84,
+    "confidence": 0.77,
     "probabilities": {
-      "A": 0.88,
-      "B": 0.01,
-      "C": 0.1,
+      "A": 0.83,
+      "B": 0.02,
+      "C": 0.14,
       "D": 0.01
     },
-    "batchDurationMs": 283
+    "batchDurationMs": 319
   },
   {
     "_tag": "answer",
@@ -375,16 +375,16 @@
     "label": "A",
     "expected": "D",
     "correct": false,
-    "confidence": 0.5,
+    "confidence": 0.62,
     "probabilities": {
-      "A": 0.64,
-      "B": 0.03,
+      "A": 0.72,
+      "B": 0.04,
       "C": 0.04,
-      "D": 0.29
+      "D": 0.2
     },
     "inputTokens": 1245,
     "outputTokens": 199,
-    "batchDurationMs": 251
+    "batchDurationMs": 378
   },
   {
     "_tag": "answer",
@@ -815,17 +815,17 @@
   {
     "_tag": "answer",
     "id": "4-rw-2-13",
-    "label": "A",
+    "label": "D",
     "expected": "D",
-    "correct": false,
-    "confidence": 0.16,
+    "correct": true,
+    "confidence": 0.28,
     "probabilities": {
-      "A": 0.37,
-      "B": 0.32,
-      "C": 0.06,
-      "D": 0.25
+      "A": 0.09,
+      "B": 0.28,
+      "C": 0.17,
+      "D": 0.46
     },
-    "batchDurationMs": 238
+    "batchDurationMs": 319
   },
   {
     "_tag": "answer",
@@ -1185,17 +1185,17 @@
   {
     "_tag": "answer",
     "id": "4-math-1-01",
-    "label": "A",
+    "label": "B",
     "expected": "B",
-    "correct": false,
-    "confidence": 0.35,
+    "correct": true,
+    "confidence": 1,
     "probabilities": {
-      "A": 0.51,
-      "B": 0.23,
-      "C": 0.11,
-      "D": 0.15
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
     },
-    "batchDurationMs": 223
+    "batchDurationMs": 311
   },
   {
     "_tag": "answer",
@@ -1210,7 +1210,7 @@
       "C": 0,
       "D": 0
     },
-    "batchDurationMs": 223
+    "batchDurationMs": 311
   },
   {
     "_tag": "thinking",
@@ -1227,31 +1227,31 @@
     "label": "B",
     "expected": "B",
     "correct": true,
-    "confidence": 0.09,
+    "confidence": 0.93,
     "probabilities": {
-      "A": 0.3,
-      "B": 0.32,
-      "C": 0.21,
-      "D": 0.17
+      "A": 0.04,
+      "B": 0.94,
+      "C": 0.01,
+      "D": 0.01
     },
     "inputTokens": 1072,
     "outputTokens": 199,
-    "batchDurationMs": 331
+    "batchDurationMs": 311
   },
   {
     "_tag": "answer",
     "id": "4-math-1-04",
-    "label": "A",
+    "label": "D",
     "expected": "D",
-    "correct": false,
-    "confidence": 0.94,
+    "correct": true,
+    "confidence": 1,
     "probabilities": {
-      "A": 0.96,
-      "B": 0.02,
-      "C": 0.02,
-      "D": 0
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 1
     },
-    "batchDurationMs": 331
+    "batchDurationMs": 311
   },
   {
     "_tag": "answer",
@@ -1266,7 +1266,7 @@
       "C": 0,
       "D": 0
     },
-    "batchDurationMs": 331
+    "batchDurationMs": 266
   },
   {
     "_tag": "answer",
@@ -1281,7 +1281,7 @@
       "C": 0,
       "D": 0
     },
-    "batchDurationMs": 331
+    "batchDurationMs": 266
   },
   {
     "_tag": "thinking",
@@ -1298,31 +1298,31 @@
     "label": "B",
     "expected": "B",
     "correct": true,
-    "confidence": 0.68,
+    "confidence": 0.7,
     "probabilities": {
       "A": 0.07,
-      "B": 0.77,
-      "C": 0.16,
-      "D": 0
+      "B": 0.78,
+      "C": 0.14,
+      "D": 0.01
     },
     "inputTokens": 998,
     "outputTokens": 199,
-    "batchDurationMs": 386
+    "batchDurationMs": 266
   },
   {
     "_tag": "answer",
     "id": "4-math-1-10",
-    "label": "C",
+    "label": "D",
     "expected": "D",
-    "correct": false,
-    "confidence": 0.58,
+    "correct": true,
+    "confidence": 1,
     "probabilities": {
-      "A": 0.1,
-      "B": 0.03,
-      "C": 0.68,
-      "D": 0.19
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 1
     },
-    "batchDurationMs": 386
+    "batchDurationMs": 266
   },
   {
     "_tag": "answer",
@@ -1330,14 +1330,14 @@
     "label": "A",
     "expected": "A",
     "correct": true,
-    "confidence": 0.79,
+    "confidence": 0.53,
     "probabilities": {
-      "A": 0.85,
-      "B": 0.1,
-      "C": 0.04,
+      "A": 0.64,
+      "B": 0.2,
+      "C": 0.15,
       "D": 0.01
     },
-    "batchDurationMs": 386
+    "batchDurationMs": 260
   },
   {
     "_tag": "answer",
@@ -1345,14 +1345,14 @@
     "label": "C",
     "expected": "C",
     "correct": true,
-    "confidence": 0.23,
+    "confidence": 0.46,
     "probabilities": {
-      "A": 0.33,
-      "B": 0.07,
-      "C": 0.42,
-      "D": 0.18
+      "A": 0.26,
+      "B": 0.14,
+      "C": 0.6,
+      "D": 0
     },
-    "batchDurationMs": 386
+    "batchDurationMs": 260
   },
   {
     "_tag": "thinking",
@@ -1369,16 +1369,16 @@
     "label": "D",
     "expected": "D",
     "correct": true,
-    "confidence": 0.33,
+    "confidence": 1,
     "probabilities": {
-      "A": 0.11,
-      "B": 0.01,
-      "C": 0.38,
-      "D": 0.5
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 1
     },
     "inputTokens": 1220,
     "outputTokens": 199,
-    "batchDurationMs": 262
+    "batchDurationMs": 260
   },
   {
     "_tag": "answer",
@@ -1393,7 +1393,7 @@
       "C": 0,
       "D": 0
     },
-    "batchDurationMs": 262
+    "batchDurationMs": 260
   },
   {
     "_tag": "answer",
@@ -1403,12 +1403,12 @@
     "correct": true,
     "confidence": 0.98,
     "probabilities": {
-      "A": 0.01,
-      "B": 0.99,
+      "A": 0.02,
+      "B": 0.98,
       "C": 0,
       "D": 0
     },
-    "batchDurationMs": 262
+    "batchDurationMs": 318
   },
   {
     "_tag": "answer",
@@ -1416,14 +1416,14 @@
     "label": "A",
     "expected": "A",
     "correct": true,
-    "confidence": 0.99,
+    "confidence": 1,
     "probabilities": {
       "A": 1,
       "B": 0,
       "C": 0,
       "D": 0
     },
-    "batchDurationMs": 262
+    "batchDurationMs": 318
   },
   {
     "_tag": "thinking",
@@ -1437,19 +1437,19 @@
   {
     "_tag": "answer",
     "id": "4-math-1-19",
-    "label": "D",
+    "label": "C",
     "expected": "C",
-    "correct": false,
-    "confidence": 0.46,
+    "correct": true,
+    "confidence": 0.93,
     "probabilities": {
-      "A": 0.04,
-      "B": 0.08,
-      "C": 0.29,
-      "D": 0.59
+      "A": 0.01,
+      "B": 0,
+      "C": 0.95,
+      "D": 0.04
     },
     "inputTokens": 1088,
     "outputTokens": 199,
-    "batchDurationMs": 224
+    "batchDurationMs": 318
   },
   {
     "_tag": "answer",
@@ -1457,29 +1457,29 @@
     "label": "D",
     "expected": "B",
     "correct": false,
-    "confidence": 0.64,
+    "confidence": 0.77,
     "probabilities": {
-      "A": 0.01,
-      "B": 0.19,
-      "C": 0.07,
-      "D": 0.73
+      "A": 0,
+      "B": 0.17,
+      "C": 0,
+      "D": 0.83
     },
-    "batchDurationMs": 224
+    "batchDurationMs": 318
   },
   {
     "_tag": "answer",
     "id": "4-math-1-23",
-    "label": "A",
+    "label": "D",
     "expected": "D",
-    "correct": false,
-    "confidence": 0.35,
+    "correct": true,
+    "confidence": 0.3,
     "probabilities": {
-      "A": 0.5,
-      "B": 0.09,
-      "C": 0.21,
-      "D": 0.2
+      "A": 0.29,
+      "B": 0.05,
+      "C": 0.18,
+      "D": 0.48
     },
-    "batchDurationMs": 224
+    "batchDurationMs": 395
   },
   {
     "_tag": "answer",
@@ -1487,14 +1487,14 @@
     "label": "C",
     "expected": "C",
     "correct": true,
-    "confidence": 0.79,
+    "confidence": 0.63,
     "probabilities": {
-      "A": 0.03,
-      "B": 0.03,
-      "C": 0.84,
-      "D": 0.1
+      "A": 0.06,
+      "B": 0.05,
+      "C": 0.72,
+      "D": 0.17
     },
-    "batchDurationMs": 224
+    "batchDurationMs": 395
   },
   {
     "_tag": "thinking",
@@ -1508,53 +1508,38 @@
   {
     "_tag": "answer",
     "id": "4-math-1-25",
-    "label": "D",
+    "label": "C",
     "expected": "C",
-    "correct": false,
-    "confidence": 0.73,
+    "correct": true,
+    "confidence": 0.92,
     "probabilities": {
-      "A": 0.01,
-      "B": 0.01,
-      "C": 0.19,
-      "D": 0.79
+      "A": 0,
+      "B": 0,
+      "C": 0.94,
+      "D": 0.06
     },
     "inputTokens": 1020,
     "outputTokens": 199,
-    "batchDurationMs": 231
+    "batchDurationMs": 395
   },
   {
     "_tag": "answer",
     "id": "4-math-1-26",
-    "label": "A",
+    "label": "B",
     "expected": "D",
     "correct": false,
-    "confidence": 0.2,
+    "confidence": 0.12,
     "probabilities": {
-      "A": 0.39,
-      "B": 0.26,
-      "C": 0.22,
-      "D": 0.13
+      "A": 0.29,
+      "B": 0.35000000000000003,
+      "C": 0.1,
+      "D": 0.26
     },
-    "batchDurationMs": 231
+    "batchDurationMs": 395
   },
   {
     "_tag": "answer",
     "id": "4-math-2-01",
-    "label": "D",
-    "expected": "B",
-    "correct": false,
-    "confidence": 0.15,
-    "probabilities": {
-      "A": 0.08,
-      "B": 0.28,
-      "C": 0.27,
-      "D": 0.37
-    },
-    "batchDurationMs": 231
-  },
-  {
-    "_tag": "answer",
-    "id": "4-math-2-02",
     "label": "B",
     "expected": "B",
     "correct": true,
@@ -1565,7 +1550,22 @@
       "C": 0,
       "D": 0
     },
-    "batchDurationMs": 231
+    "batchDurationMs": 212
+  },
+  {
+    "_tag": "answer",
+    "id": "4-math-2-02",
+    "label": "B",
+    "expected": "B",
+    "correct": true,
+    "confidence": 0.99,
+    "probabilities": {
+      "A": 0.01,
+      "B": 0.99,
+      "C": 0,
+      "D": 0
+    },
+    "batchDurationMs": 212
   },
   {
     "_tag": "thinking",
@@ -1579,15 +1579,15 @@
   {
     "_tag": "answer",
     "id": "4-math-2-03",
-    "label": "B",
+    "label": "C",
     "expected": "C",
-    "correct": false,
-    "confidence": 0.37,
+    "correct": true,
+    "confidence": 1,
     "probabilities": {
-      "A": 0.14,
-      "B": 0.52,
-      "C": 0.26,
-      "D": 0.08
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
     },
     "inputTokens": 983,
     "outputTokens": 199,
@@ -1599,12 +1599,12 @@
     "label": "A",
     "expected": "A",
     "correct": true,
-    "confidence": 0.7,
+    "confidence": 0.99,
     "probabilities": {
-      "A": 0.77,
-      "B": 0.14,
-      "C": 0.06,
-      "D": 0.03
+      "A": 0.99,
+      "B": 0.01,
+      "C": 0,
+      "D": 0
     },
     "batchDurationMs": 212
   },
@@ -1621,7 +1621,7 @@
       "C": 0,
       "D": 0
     },
-    "batchDurationMs": 212
+    "batchDurationMs": 255
   },
   {
     "_tag": "answer",
@@ -1629,14 +1629,14 @@
     "label": "B",
     "expected": "B",
     "correct": true,
-    "confidence": 0.99,
+    "confidence": 1,
     "probabilities": {
       "A": 0,
-      "B": 0.99,
+      "B": 1,
       "C": 0,
-      "D": 0.01
+      "D": 0
     },
-    "batchDurationMs": 212
+    "batchDurationMs": 255
   },
   {
     "_tag": "thinking",
@@ -1653,16 +1653,16 @@
     "label": "D",
     "expected": "D",
     "correct": true,
-    "confidence": 0.97,
+    "confidence": 1,
     "probabilities": {
       "A": 0,
       "B": 0,
-      "C": 0.02,
-      "D": 0.98
+      "C": 0,
+      "D": 1
     },
     "inputTokens": 1041,
     "outputTokens": 199,
-    "batchDurationMs": 295
+    "batchDurationMs": 255
   },
   {
     "_tag": "answer",
@@ -1677,7 +1677,7 @@
       "C": 0,
       "D": 0
     },
-    "batchDurationMs": 295
+    "batchDurationMs": 255
   },
   {
     "_tag": "answer",
@@ -1685,29 +1685,29 @@
     "label": "B",
     "expected": "A",
     "correct": false,
-    "confidence": 0.22,
+    "confidence": 0.21,
     "probabilities": {
-      "A": 0.22,
-      "B": 0.42,
-      "C": 0.2,
-      "D": 0.16
+      "A": 0.35,
+      "B": 0.41,
+      "C": 0.14,
+      "D": 0.1
     },
-    "batchDurationMs": 295
+    "batchDurationMs": 237
   },
   {
     "_tag": "answer",
     "id": "4-math-2-12",
-    "label": "C",
+    "label": "B",
     "expected": "B",
-    "correct": false,
-    "confidence": 0.9,
+    "correct": true,
+    "confidence": 0.48,
     "probabilities": {
-      "A": 0.02,
-      "B": 0.03,
-      "C": 0.93,
+      "A": 0.03,
+      "B": 0.6,
+      "C": 0.35,
       "D": 0.02
     },
-    "batchDurationMs": 295
+    "batchDurationMs": 237
   },
   {
     "_tag": "thinking",
@@ -1733,7 +1733,7 @@
     },
     "inputTokens": 1003,
     "outputTokens": 199,
-    "batchDurationMs": 231
+    "batchDurationMs": 237
   },
   {
     "_tag": "answer",
@@ -1741,14 +1741,14 @@
     "label": "D",
     "expected": "C",
     "correct": false,
-    "confidence": 0.31,
+    "confidence": 0.37,
     "probabilities": {
       "A": 0.05,
-      "B": 0.1,
-      "C": 0.36,
-      "D": 0.49
+      "B": 0.09,
+      "C": 0.33,
+      "D": 0.53
     },
-    "batchDurationMs": 231
+    "batchDurationMs": 237
   },
   {
     "_tag": "answer",
@@ -1756,14 +1756,14 @@
     "label": "B",
     "expected": "B",
     "correct": true,
-    "confidence": 0.34,
+    "confidence": 0.81,
     "probabilities": {
-      "A": 0.23,
-      "B": 0.51,
-      "C": 0.19,
-      "D": 0.07
+      "A": 0.13,
+      "B": 0.85,
+      "C": 0.01,
+      "D": 0.01
     },
-    "batchDurationMs": 231
+    "batchDurationMs": 526
   },
   {
     "_tag": "answer",
@@ -1771,14 +1771,14 @@
     "label": "D",
     "expected": "D",
     "correct": true,
-    "confidence": 0.58,
+    "confidence": 0.87,
     "probabilities": {
-      "A": 0.01,
-      "B": 0.01,
-      "C": 0.29,
-      "D": 0.69
+      "A": 0,
+      "B": 0,
+      "C": 0.1,
+      "D": 0.9
     },
-    "batchDurationMs": 231
+    "batchDurationMs": 526
   },
   {
     "_tag": "thinking",
@@ -1795,16 +1795,16 @@
     "label": "A",
     "expected": "A",
     "correct": true,
-    "confidence": 0.83,
+    "confidence": 0.99,
     "probabilities": {
-      "A": 0.88,
-      "B": 0.1,
-      "C": 0.01,
-      "D": 0.01
+      "A": 1,
+      "B": 0,
+      "C": 0,
+      "D": 0
     },
     "inputTokens": 1316,
     "outputTokens": 199,
-    "batchDurationMs": 225
+    "batchDurationMs": 526
   },
   {
     "_tag": "answer",
@@ -1812,14 +1812,14 @@
     "label": "B",
     "expected": "A",
     "correct": false,
-    "confidence": 0.32,
+    "confidence": 0.38,
     "probabilities": {
-      "A": 0.34,
-      "B": 0.49,
+      "A": 0.41,
+      "B": 0.53,
       "C": 0.03,
-      "D": 0.14
+      "D": 0.03
     },
-    "batchDurationMs": 225
+    "batchDurationMs": 378
   },
   {
     "_tag": "answer",
@@ -1827,14 +1827,14 @@
     "label": "C",
     "expected": "C",
     "correct": true,
-    "confidence": 0.88,
+    "confidence": 0.85,
     "probabilities": {
       "A": 0.02,
-      "B": 0.03,
-      "C": 0.9,
-      "D": 0.05
+      "B": 0.02,
+      "C": 0.89,
+      "D": 0.07
     },
-    "batchDurationMs": 225
+    "batchDurationMs": 412
   },
   {
     "_tag": "answer",
@@ -1842,14 +1842,14 @@
     "label": "C",
     "expected": "C",
     "correct": true,
-    "confidence": 0.99,
+    "confidence": 1,
     "probabilities": {
       "A": 0,
       "B": 0,
       "C": 1,
       "D": 0
     },
-    "batchDurationMs": 225
+    "batchDurationMs": 412
   },
   {
     "_tag": "thinking",
@@ -1861,19 +1861,19 @@
   {
     "_tag": "answer",
     "id": "4-math-2-25",
-    "label": "D",
+    "label": "B",
     "expected": "D",
-    "correct": true,
-    "confidence": 0.89,
+    "correct": false,
+    "confidence": 0.4,
     "probabilities": {
       "A": 0,
-      "B": 0.08,
+      "B": 0.55,
       "C": 0,
-      "D": 0.92
+      "D": 0.45
     },
     "inputTokens": 713,
     "outputTokens": 101,
-    "batchDurationMs": 345
+    "batchDurationMs": 412
   },
   {
     "_tag": "answer",
@@ -1881,20 +1881,20 @@
     "label": "C",
     "expected": "B",
     "correct": false,
-    "confidence": 0.08,
+    "confidence": 0.17,
     "probabilities": {
-      "A": 0.2,
-      "B": 0.24,
-      "C": 0.31,
-      "D": 0.25
+      "A": 0.14,
+      "B": 0.2,
+      "C": 0.38,
+      "D": 0.28
     },
-    "batchDurationMs": 345
+    "batchDurationMs": 412
   },
   {
     "_tag": "completed",
     "total": 106,
-    "correct": 87,
-    "accuracy": 0.8207547169811321,
+    "correct": 97,
+    "accuracy": 0.9150943396226415,
     "inputTokens": 34532,
     "outputTokens": 5275
   }
