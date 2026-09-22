@@ -400,6 +400,17 @@ select:focus { border-color: var(--acid); }
   white-space: pre-line;
 }
 
+.choice-heading {
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
 .choices { display: grid; gap: 10px; }
 .choice {
   position: relative;
@@ -439,6 +450,12 @@ select:focus { border-color: var(--acid); }
 .choice.correct .choice-fill { background: rgba(216, 255, 82, 0.38); }
 .choice.expected:not(.correct) { border-color: var(--green); }
 .choice.expected:not(.correct) .choice-label { color: var(--green); border-color: var(--green); }
+
+.probability-note {
+  margin: 11px 0 0;
+  color: var(--muted);
+  font-size: 11px;
+}
 
 .decision-meta {
   min-height: 32px;

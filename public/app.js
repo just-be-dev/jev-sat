@@ -104,7 +104,6 @@ function renderQuestion(question, event, isThinking) {
   renderSourcePages(question)
   elements.choices.replaceChildren()
 
-  const maxProbability = event ? Math.max(...Object.values(event.probabilities), 0.01) : 1
   for (const label of labels) {
     const choice = document.createElement("div")
     const probability = event?.probabilities[label] ?? 0
@@ -115,7 +114,7 @@ function renderQuestion(question, event, isThinking) {
 
     const fill = document.createElement("span")
     fill.className = "choice-fill"
-    fill.style.width = event ? `${(probability / maxProbability) * 100}%` : "0"
+    fill.style.width = event ? `${probability * 100}%` : "0"
     const badge = document.createElement("span")
     badge.className = "choice-label"
     badge.textContent = label
@@ -143,7 +142,7 @@ function renderQuestion(question, event, isThinking) {
   elements.decisionMeta.replaceChildren(
     meta(`Jev chose ${event.label}`),
     meta(`Answer ${event.expected}`),
-    meta(`${Math.round(event.confidence * 100)}% confidence`),
+    meta(`${Math.round(event.confidence * 100)}% distribution confidence`),
     meta(`${(event.batchDurationMs / 1000).toFixed(1)}s batch`),
   )
 }

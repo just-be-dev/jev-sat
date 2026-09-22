@@ -69,9 +69,9 @@
           <span class="metric-detail" id="progress-detail">0% complete</span>
         </div>
         <div class="metric">
-          <span class="metric-label">Mean confidence</span>
+          <span class="metric-label">Replay mean confidence</span>
           <strong id="confidence">—</strong>
-          <span class="metric-detail">Distribution concentration</span>
+          <span class="metric-detail">Answered questions in this run</span>
         </div>
         <div class="metric">
           <span class="metric-label">Tokens</span>
@@ -101,7 +101,15 @@
             </div>
             <div class="source-pages" id="source-pages" hidden></div>
             <p class="prompt" id="prompt"></p>
+            <div class="choice-heading" aria-hidden="true">
+              <span>This replay’s answer probabilities</span>
+              <span>Probability</span>
+            </div>
             <div class="choices" id="choices"></div>
+            <p class="probability-note">
+              These values come from this replay, not all five runs. The four probabilities total 100%;
+              distribution confidence rescales the highest one from four-choice chance (25%) to certainty (100%).
+            </p>
             <footer class="decision-meta" id="decision-meta"></footer>
           </div>
         </article>
