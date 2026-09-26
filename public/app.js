@@ -1,3 +1,5 @@
+import { adjacentResultId, carouselFor, firstReviewResultId } from "./result-carousel.js"
+
 const elements = {
   answered: document.querySelector("#answered"),
   choices: document.querySelector("#choices"),
@@ -7,11 +9,14 @@ const elements = {
   progressBar: document.querySelector("#progress-bar"),
   progressDetail: document.querySelector("#progress-detail"),
   prompt: document.querySelector("#prompt"),
+  previousResult: document.querySelector("#previous-result"),
   questionContent: document.querySelector("#question-content"),
   questionEmpty: document.querySelector("#question-empty"),
   questionStatus: document.querySelector("#question-status"),
   questionTitle: document.querySelector("#question-title"),
   queue: document.querySelector("#queue"),
+  resultCarousel: document.querySelector("#result-carousel"),
+  resultPosition: document.querySelector("#result-position"),
   run: document.querySelector("#run"),
   score: document.querySelector("#score"),
   scoreDetail: document.querySelector("#score-detail"),
@@ -22,6 +27,7 @@ const elements = {
   tokens: document.querySelector("#tokens"),
   total: document.querySelector("#total"),
   visualWarning: document.querySelector("#visual-warning"),
+  nextResult: document.querySelector("#next-result"),
 }
 
 const labels = ["A", "B", "C", "D"]
@@ -83,7 +89,7 @@ function renderQueue() {
   })
 }
 
-function focusQuestion(id) {
+function focusQuestion(id, scrollQueue = false) {
   focusedQuestionId = id
   for (const [questionId, row] of queueById) {
     const focused = questionId === id
@@ -93,6 +99,31 @@ function focusQuestion(id) {
 
   const question = questionById.get(id)
   if (question) renderQuestion(question, answerById.get(id), thinkingIds.has(id))
+  updateResultCarousel()
+
+  const row = queueById.get(id)
+  if (scrollQueue && row) keepQueueRowVisible(row)
+}
+
+function updateResultCarousel() {
+  const carousel = carouselFor(selected, answerById, focusedQuestionId)
+  if (!carousel) {
+    elements.resultCarousel.hidden = true
+    return
+  }
+
+  const outcome = carousel.correct ? "correct" : "failed"
+  elements.resultCarousel.hidden = false
+  elements.resultPosition.textContent = `${carousel.index + 1} of ${carousel.ids.length} ${outcome}`
+  elements.previousResult.disabled = carousel.ids.length < 2
+  elements.nextResult.disabled = carousel.ids.length < 2
+  elements.previousResult.setAttribute("aria-label", `Previous ${outcome} result`)
+  elements.nextResult.setAttribute("aria-label", `Next ${outcome} result`)
+}
+
+function moveResult(offset) {
+  const id = adjacentResultId(selected, answerById, focusedQuestionId, offset)
+  if (id) focusQuestion(id, true)
 }
 
 function renderQuestion(question, event, isThinking) {
@@ -251,6 +282,8 @@ function handleEvent(event) {
     stats.inputTokens = event.inputTokens
     stats.outputTokens = event.outputTokens
     updateStats()
+    const firstResultId = firstReviewResultId(selected, answerById)
+    if (firstResultId) focusQuestion(firstResultId, true)
     setConnection("Complete", "done")
     stopRunning("See another run")
     return
@@ -322,6 +355,7 @@ async function startRun() {
   elements.questionTitle.textContent = "Select a question"
   elements.questionStatus.className = "question-status"
   elements.questionStatus.textContent = "Queue"
+  elements.resultCarousel.hidden = true
   elements.questionContent.hidden = true
   elements.questionEmpty.hidden = false
   elements.questionEmpty.querySelector("p").textContent = "Choose any question in the replay queue to inspect Jev’s decision."
@@ -372,6 +406,7 @@ async function loadTest() {
     elements.questionTitle.textContent = "Waiting for a run"
     elements.questionStatus.className = "question-status"
     elements.questionStatus.textContent = "Idle"
+    elements.resultCarousel.hidden = true
     elements.questionContent.hidden = true
     elements.questionEmpty.hidden = false
     elements.questionEmpty.querySelector("p").textContent = "Start a replay, then select a question from the queue to inspect Jev’s decision."
@@ -389,6 +424,8 @@ async function loadTest() {
 async function initialize() {
   elements.practiceTest.addEventListener("change", loadTest)
   elements.run.addEventListener("click", startRun)
+  elements.previousResult.addEventListener("click", () => moveResult(-1))
+  elements.nextResult.addEventListener("click", () => moveResult(1))
   await loadTest()
 }
 

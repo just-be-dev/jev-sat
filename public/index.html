@@ -87,7 +87,14 @@
               <p class="eyebrow">Question detail</p>
               <h2 id="question-title">Waiting for a run</h2>
             </div>
-            <span class="question-status" id="question-status">Idle</span>
+            <div class="question-actions">
+              <span class="question-status" id="question-status">Idle</span>
+              <nav class="result-carousel" id="result-carousel" aria-label="Browse results" hidden>
+                <button id="previous-result" type="button" aria-label="Previous result">←</button>
+                <span id="result-position"></span>
+                <button id="next-result" type="button" aria-label="Next result">→</button>
+              </nav>
+            </div>
           </div>
 
           <div class="question-empty" id="question-empty">
